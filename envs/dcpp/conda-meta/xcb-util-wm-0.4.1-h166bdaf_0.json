@@ -1,0 +1,134 @@
+{
+  "build": "h166bdaf_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=12",
+    "libxcb >=1.13",
+    "libxcb >=1.13,<1.14.0a0"
+  ],
+  "extracted_package_dir": "/home/acrnrpg/anaconda3/pkgs/xcb-util-wm-0.4.1-h166bdaf_0",
+  "features": "",
+  "files": [
+    "include/xcb/xcb_ewmh.h",
+    "include/xcb/xcb_icccm.h",
+    "lib/libxcb-ewmh.a",
+    "lib/libxcb-ewmh.so",
+    "lib/libxcb-ewmh.so.2",
+    "lib/libxcb-ewmh.so.2.0.0",
+    "lib/libxcb-icccm.a",
+    "lib/libxcb-icccm.so",
+    "lib/libxcb-icccm.so.4",
+    "lib/libxcb-icccm.so.4.0.0",
+    "lib/pkgconfig/xcb-ewmh.pc",
+    "lib/pkgconfig/xcb-icccm.pc"
+  ],
+  "fn": "xcb-util-wm-0.4.1-h166bdaf_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/acrnrpg/anaconda3/pkgs/xcb-util-wm-0.4.1-h166bdaf_0",
+    "type": 1
+  },
+  "md5": "0a8e20a8aef954390b9481a527421a8c",
+  "name": "xcb-util-wm",
+  "package_tarball_full_path": "/home/acrnrpg/anaconda3/pkgs/xcb-util-wm-0.4.1-h166bdaf_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/xcb/xcb_ewmh.h",
+        "path_type": "hardlink",
+        "sha256": "6491b0b42ec54db58a2206e33606016807fbed5de8ce9149678a1b6e46cf4bba",
+        "sha256_in_prefix": "6491b0b42ec54db58a2206e33606016807fbed5de8ce9149678a1b6e46cf4bba",
+        "size_in_bytes": 102214
+      },
+      {
+        "_path": "include/xcb/xcb_icccm.h",
+        "path_type": "hardlink",
+        "sha256": "5a54e8a7fb867558e00d3a60786af9f3d64ca60646fca685156f2a679024b472",
+        "sha256_in_prefix": "5a54e8a7fb867558e00d3a60786af9f3d64ca60646fca685156f2a679024b472",
+        "size_in_bytes": 40454
+      },
+      {
+        "_path": "lib/libxcb-ewmh.a",
+        "path_type": "hardlink",
+        "sha256": "52528cedd1d75515831e3469de2b7c18c06f2922f3e1f70ed4efae0112407239",
+        "sha256_in_prefix": "52528cedd1d75515831e3469de2b7c18c06f2922f3e1f70ed4efae0112407239",
+        "size_in_bytes": 100472
+      },
+      {
+        "_path": "lib/libxcb-ewmh.so",
+        "path_type": "softlink",
+        "sha256": "dd632192ea25a429a7fee21e6c68f33cdb9e58b64e5fc5a4398d7bdbc904baaf",
+        "size_in_bytes": 73112
+      },
+      {
+        "_path": "lib/libxcb-ewmh.so.2",
+        "path_type": "softlink",
+        "sha256": "dd632192ea25a429a7fee21e6c68f33cdb9e58b64e5fc5a4398d7bdbc904baaf",
+        "size_in_bytes": 73112
+      },
+      {
+        "_path": "lib/libxcb-ewmh.so.2.0.0",
+        "path_type": "hardlink",
+        "sha256": "dd632192ea25a429a7fee21e6c68f33cdb9e58b64e5fc5a4398d7bdbc904baaf",
+        "sha256_in_prefix": "dd632192ea25a429a7fee21e6c68f33cdb9e58b64e5fc5a4398d7bdbc904baaf",
+        "size_in_bytes": 73112
+      },
+      {
+        "_path": "lib/libxcb-icccm.a",
+        "path_type": "hardlink",
+        "sha256": "486fea8f9b3a359ae6ae21eb5c48ccdb21b34f4e7c63b1b00af3ffcd5efff74b",
+        "sha256_in_prefix": "486fea8f9b3a359ae6ae21eb5c48ccdb21b34f4e7c63b1b00af3ffcd5efff74b",
+        "size_in_bytes": 34172
+      },
+      {
+        "_path": "lib/libxcb-icccm.so",
+        "path_type": "softlink",
+        "sha256": "a2f8477d5a802779d52b26bf91594ba133b0dadab38c41cdd59b3b09b06fcb54",
+        "size_in_bytes": 28544
+      },
+      {
+        "_path": "lib/libxcb-icccm.so.4",
+        "path_type": "softlink",
+        "sha256": "a2f8477d5a802779d52b26bf91594ba133b0dadab38c41cdd59b3b09b06fcb54",
+        "size_in_bytes": 28544
+      },
+      {
+        "_path": "lib/libxcb-icccm.so.4.0.0",
+        "path_type": "hardlink",
+        "sha256": "a2f8477d5a802779d52b26bf91594ba133b0dadab38c41cdd59b3b09b06fcb54",
+        "sha256_in_prefix": "a2f8477d5a802779d52b26bf91594ba133b0dadab38c41cdd59b3b09b06fcb54",
+        "size_in_bytes": 28544
+      },
+      {
+        "_path": "lib/pkgconfig/xcb-ewmh.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/xcb-util-wm_1654904274109/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "24dccfde02f3b22204aec8bcc375d94b5b3ae2c517b3c248002fefcb28789b02",
+        "sha256_in_prefix": "8ca5f3f31ef7fbdf0b1c0d08795bceaea9bfab90c51b007e9f7e484a9586f7f9",
+        "size_in_bytes": 477
+      },
+      {
+        "_path": "lib/pkgconfig/xcb-icccm.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/xcb-util-wm_1654904274109/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "27fd4d959ac906a0f4277f0190d17835078ba7bd2ea56e6334b31e86d6b71b46",
+        "sha256_in_prefix": "8732e9acae2bc94be48d3dd074356749217ff1c106cbfbe0142bb3ef4fb62b58",
+        "size_in_bytes": 480
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a76af35297f233982b58de1f55f1900d8a8ae44018a55d2a94f3084ab97d6c80",
+  "size": 56732,
+  "subdir": "linux-64",
+  "timestamp": 1654904356988,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/xcb-util-wm-0.4.1-h166bdaf_0.tar.bz2",
+  "version": "0.4.1"
+}

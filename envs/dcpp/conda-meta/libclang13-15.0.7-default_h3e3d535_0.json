@@ -1,0 +1,54 @@
+{
+  "build": "default_h3e3d535_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=12",
+    "libllvm15 >=15.0.7,<15.1.0a0",
+    "libstdcxx-ng >=12",
+    "libzlib >=1.2.13,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/home/acrnrpg/anaconda3/pkgs/libclang13-15.0.7-default_h3e3d535_0",
+  "features": "",
+  "files": [
+    "lib/libclang.so.13",
+    "lib/libclang.so.15.0.7"
+  ],
+  "fn": "libclang13-15.0.7-default_h3e3d535_0.conda",
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/acrnrpg/anaconda3/pkgs/libclang13-15.0.7-default_h3e3d535_0",
+    "type": 1
+  },
+  "md5": "dcfae510179c3de2e42b3a2276d059e0",
+  "name": "libclang13",
+  "package_tarball_full_path": "/home/acrnrpg/anaconda3/pkgs/libclang13-15.0.7-default_h3e3d535_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libclang.so.13",
+        "path_type": "softlink",
+        "sha256": "05854c3afd96be359bb87711cc83e31a41cd2d1c21126ca0a3ccb441fc6719a0",
+        "size_in_bytes": 40202176
+      },
+      {
+        "_path": "lib/libclang.so.15.0.7",
+        "path_type": "hardlink",
+        "sha256": "05854c3afd96be359bb87711cc83e31a41cd2d1c21126ca0a3ccb441fc6719a0",
+        "sha256_in_prefix": "05854c3afd96be359bb87711cc83e31a41cd2d1c21126ca0a3ccb441fc6719a0",
+        "size_in_bytes": 40202176
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "71539a4d472adc39a52e3cbbf5d33c06f09fd63f0c8f718fd2fb1274e7511b57",
+  "size": 9534168,
+  "subdir": "linux-64",
+  "timestamp": 1673605664355,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libclang13-15.0.7-default_h3e3d535_0.conda",
+  "version": "15.0.7"
+}

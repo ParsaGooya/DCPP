@@ -1,0 +1,53 @@
+{
+  "build": "h166bdaf_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc-ng >=12"
+  ],
+  "extracted_package_dir": "/home/acrnrpg/anaconda3/pkgs/libudev1-252-h166bdaf_0",
+  "features": "",
+  "files": [
+    "lib/libudev.so.1",
+    "lib/libudev.so.1.7.5"
+  ],
+  "fn": "libudev1-252-h166bdaf_0.tar.bz2",
+  "license": "LGPL-2.1-or-later",
+  "link": {
+    "source": "/home/acrnrpg/anaconda3/pkgs/libudev1-252-h166bdaf_0",
+    "type": 1
+  },
+  "md5": "174243089ec111479298a5b7099b64b5",
+  "name": "libudev1",
+  "package_tarball_full_path": "/home/acrnrpg/anaconda3/pkgs/libudev1-252-h166bdaf_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libudev.so.1",
+        "path_type": "softlink",
+        "sha256": "bcf7ab52e12f8a58e03b72213c48ca44b015bfa2682f3fc8b0d58d86f919a09d",
+        "size_in_bytes": 258664
+      },
+      {
+        "_path": "lib/libudev.so.1.7.5",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/systemd-split_1667417766641/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "bcf7ab52e12f8a58e03b72213c48ca44b015bfa2682f3fc8b0d58d86f919a09d",
+        "sha256_in_prefix": "4a42e449e259405c6a3eeec942e6cfd38a2cf0530a17d46927ce1285f472a4e0",
+        "size_in_bytes": 258664
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e9ef9cb1d34a2f02f68c4778986f1f8be3015fec272523fd2dde3723c120f038",
+  "size": 120733,
+  "subdir": "linux-64",
+  "timestamp": 1667418089818,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libudev1-252-h166bdaf_0.tar.bz2",
+  "version": "252"
+}

@@ -1,0 +1,58 @@
+{
+  "build": "h2a991cd_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libcap >=2.66,<2.67.0a0",
+    "libgcc-ng >=12",
+    "libgcrypt >=1.10.1,<2.0a0",
+    "lz4-c >=1.9.3,<1.10.0a0",
+    "xz >=5.2.6,<6.0a0",
+    "zstd >=1.5.2,<1.6.0a0"
+  ],
+  "extracted_package_dir": "/home/acrnrpg/anaconda3/pkgs/libsystemd0-252-h2a991cd_0",
+  "features": "",
+  "files": [
+    "lib/libsystemd.so.0",
+    "lib/libsystemd.so.0.35.0"
+  ],
+  "fn": "libsystemd0-252-h2a991cd_0.tar.bz2",
+  "license": "LGPL-2.1-or-later",
+  "link": {
+    "source": "/home/acrnrpg/anaconda3/pkgs/libsystemd0-252-h2a991cd_0",
+    "type": 1
+  },
+  "md5": "3c5ae9f61f663b3d5e1bf7f7da0c85f5",
+  "name": "libsystemd0",
+  "package_tarball_full_path": "/home/acrnrpg/anaconda3/pkgs/libsystemd0-252-h2a991cd_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libsystemd.so.0",
+        "path_type": "softlink",
+        "sha256": "b273211d7e1e03db5e45cccc84e51ae6c196c5d1d530aec5392c64916405518f",
+        "size_in_bytes": 1009856
+      },
+      {
+        "_path": "lib/libsystemd.so.0.35.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/systemd-split_1667417766641/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "b273211d7e1e03db5e45cccc84e51ae6c196c5d1d530aec5392c64916405518f",
+        "sha256_in_prefix": "aa0840eb71204fdaa4fc0517c75b3aed2da97cdf0db6cd6063d5633e0ef04fc9",
+        "size_in_bytes": 1009856
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a181e25a04207179da598a5a89747a026642341e193dca125620f5f4e268804a",
+  "size": 393116,
+  "subdir": "linux-64",
+  "timestamp": 1667418081199,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libsystemd0-252-h2a991cd_0.tar.bz2",
+  "version": "252"
+}

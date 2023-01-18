@@ -1,0 +1,291 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "cf_xarray >=0.5.1",
+    "esmpy >=8.0.0",
+    "numba >=0.55.2",
+    "numpy >=1.16",
+    "python >=3.6",
+    "shapely <2.0",
+    "sparse >=0.8.0",
+    "xarray >=0.16.2"
+  ],
+  "extracted_package_dir": "/home/acrnrpg/anaconda3/pkgs/xesmf-0.7.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/xesmf-0.7.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/xesmf-0.7.0.dist-info/LICENSE",
+    "lib/python3.9/site-packages/xesmf-0.7.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/xesmf-0.7.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/xesmf-0.7.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/xesmf-0.7.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/xesmf-0.7.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/xesmf-0.7.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/xesmf/__init__.py",
+    "lib/python3.9/site-packages/xesmf/_version.py",
+    "lib/python3.9/site-packages/xesmf/backend.py",
+    "lib/python3.9/site-packages/xesmf/data.py",
+    "lib/python3.9/site-packages/xesmf/frontend.py",
+    "lib/python3.9/site-packages/xesmf/smm.py",
+    "lib/python3.9/site-packages/xesmf/tests/__init__.py",
+    "lib/python3.9/site-packages/xesmf/tests/conftest.py",
+    "lib/python3.9/site-packages/xesmf/tests/test_backend.py",
+    "lib/python3.9/site-packages/xesmf/tests/test_frontend.py",
+    "lib/python3.9/site-packages/xesmf/tests/test_oceanmodels.py",
+    "lib/python3.9/site-packages/xesmf/tests/test_smm.py",
+    "lib/python3.9/site-packages/xesmf/tests/test_util.py",
+    "lib/python3.9/site-packages/xesmf/util.py",
+    "lib/python3.9/site-packages/xesmf/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/xesmf/__pycache__/_version.cpython-39.pyc",
+    "lib/python3.9/site-packages/xesmf/__pycache__/backend.cpython-39.pyc",
+    "lib/python3.9/site-packages/xesmf/__pycache__/data.cpython-39.pyc",
+    "lib/python3.9/site-packages/xesmf/__pycache__/frontend.cpython-39.pyc",
+    "lib/python3.9/site-packages/xesmf/__pycache__/smm.cpython-39.pyc",
+    "lib/python3.9/site-packages/xesmf/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/xesmf/tests/__pycache__/conftest.cpython-39.pyc",
+    "lib/python3.9/site-packages/xesmf/tests/__pycache__/test_backend.cpython-39.pyc",
+    "lib/python3.9/site-packages/xesmf/tests/__pycache__/test_frontend.cpython-39.pyc",
+    "lib/python3.9/site-packages/xesmf/tests/__pycache__/test_oceanmodels.cpython-39.pyc",
+    "lib/python3.9/site-packages/xesmf/tests/__pycache__/test_smm.cpython-39.pyc",
+    "lib/python3.9/site-packages/xesmf/tests/__pycache__/test_util.cpython-39.pyc",
+    "lib/python3.9/site-packages/xesmf/__pycache__/util.cpython-39.pyc"
+  ],
+  "fn": "xesmf-0.7.0-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/acrnrpg/anaconda3/pkgs/xesmf-0.7.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "896a3c3b2ef4d3b2e4859ebb6d8263f8",
+  "name": "xesmf",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/acrnrpg/anaconda3/pkgs/xesmf-0.7.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/xesmf-0.7.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/xesmf-0.7.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "0d79196dd7a68550535692f9a8e239de88fc57f53b3668b55f9b016bddc119ef",
+        "sha256_in_prefix": "0d79196dd7a68550535692f9a8e239de88fc57f53b3668b55f9b016bddc119ef",
+        "size_in_bytes": 1070
+      },
+      {
+        "_path": "site-packages/xesmf-0.7.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "fba4aa6780f1cae6c5aceca6129720d754a5371b43a55b970ab32b496d9eb4be",
+        "sha256_in_prefix": "fba4aa6780f1cae6c5aceca6129720d754a5371b43a55b970ab32b496d9eb4be",
+        "size_in_bytes": 3663
+      },
+      {
+        "_path": "site-packages/xesmf-0.7.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "6cd097bf3ee4c115cfab47278fbfe156ee0dbe2a9f4806cb771a020253d8391e",
+        "sha256_in_prefix": "6cd097bf3ee4c115cfab47278fbfe156ee0dbe2a9f4806cb771a020253d8391e",
+        "size_in_bytes": 2429
+      },
+      {
+        "_path": "site-packages/xesmf-0.7.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/xesmf-0.7.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "sha256_in_prefix": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/xesmf-0.7.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "71217bb5a9ecf5914109ed797974d2cff7c38737da77140aecbff0793e7fce2f",
+        "sha256_in_prefix": "71217bb5a9ecf5914109ed797974d2cff7c38737da77140aecbff0793e7fce2f",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/xesmf-0.7.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "2eb6b4b4521b059eef6302995c3ab0317c19c05cb85e09f206662b13bc968873",
+        "sha256_in_prefix": "2eb6b4b4521b059eef6302995c3ab0317c19c05cb85e09f206662b13bc968873",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/xesmf/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3010ec484061a3b1b4473a57dbb71f94cac62960cf75d841adc0e795e1217a46",
+        "sha256_in_prefix": "3010ec484061a3b1b4473a57dbb71f94cac62960cf75d841adc0e795e1217a46",
+        "size_in_bytes": 182
+      },
+      {
+        "_path": "site-packages/xesmf/_version.py",
+        "path_type": "hardlink",
+        "sha256": "3f5911b995b4dad17e7a42ee06a4a357fb4828aa9c6df44f0dda69f42f1fb546",
+        "sha256_in_prefix": "3f5911b995b4dad17e7a42ee06a4a357fb4828aa9c6df44f0dda69f42f1fb546",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "site-packages/xesmf/backend.py",
+        "path_type": "hardlink",
+        "sha256": "c33388a761f2ea66fe54ab0df858e37eca1beeb0b1f56d0a11c758b160a550be",
+        "sha256_in_prefix": "c33388a761f2ea66fe54ab0df858e37eca1beeb0b1f56d0a11c758b160a550be",
+        "size_in_bytes": 20170
+      },
+      {
+        "_path": "site-packages/xesmf/data.py",
+        "path_type": "hardlink",
+        "sha256": "a2368e7065e90cc97f8cd41e44aadddd97c5c74c4a89e9a45ed8713b5542db7a",
+        "sha256_in_prefix": "a2368e7065e90cc97f8cd41e44aadddd97c5c74c4a89e9a45ed8713b5542db7a",
+        "size_in_bytes": 1113
+      },
+      {
+        "_path": "site-packages/xesmf/frontend.py",
+        "path_type": "hardlink",
+        "sha256": "53977910ace4509f78b2ca7b905d28cb9e84bcda5d6cf539524056922d91b66e",
+        "sha256_in_prefix": "53977910ace4509f78b2ca7b905d28cb9e84bcda5d6cf539524056922d91b66e",
+        "size_in_bytes": 39829
+      },
+      {
+        "_path": "site-packages/xesmf/smm.py",
+        "path_type": "hardlink",
+        "sha256": "a7968c9a4b7817d041a3b785ff2703bd18dd3230c0f548ceb8e973a734891965",
+        "sha256_in_prefix": "a7968c9a4b7817d041a3b785ff2703bd18dd3230c0f548ceb8e973a734891965",
+        "size_in_bytes": 9578
+      },
+      {
+        "_path": "site-packages/xesmf/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/xesmf/tests/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "3f9e7a5ca17d821679732d29b8fbfcdd8d033f312f9d1a823d3b29cb3309c18f",
+        "sha256_in_prefix": "3f9e7a5ca17d821679732d29b8fbfcdd8d033f312f9d1a823d3b29cb3309c18f",
+        "size_in_bytes": 1173
+      },
+      {
+        "_path": "site-packages/xesmf/tests/test_backend.py",
+        "path_type": "hardlink",
+        "sha256": "33be99d35cd55e547d4c69ffb31755fbbfb3b14b0336b95cd9a11ca71be12e7c",
+        "sha256_in_prefix": "33be99d35cd55e547d4c69ffb31755fbbfb3b14b0336b95cd9a11ca71be12e7c",
+        "size_in_bytes": 10285
+      },
+      {
+        "_path": "site-packages/xesmf/tests/test_frontend.py",
+        "path_type": "hardlink",
+        "sha256": "9b28a69e6b978fa5577322cd410443f214a001c7aa6643cb1e9c7448f2af1a2c",
+        "sha256_in_prefix": "9b28a69e6b978fa5577322cd410443f214a001c7aa6643cb1e9c7448f2af1a2c",
+        "size_in_bytes": 29848
+      },
+      {
+        "_path": "site-packages/xesmf/tests/test_oceanmodels.py",
+        "path_type": "hardlink",
+        "sha256": "820aa78e31bf241e9dab6d0b03ef5f97e741a1cf624b53755ab12c827666125b",
+        "sha256_in_prefix": "820aa78e31bf241e9dab6d0b03ef5f97e741a1cf624b53755ab12c827666125b",
+        "size_in_bytes": 3248
+      },
+      {
+        "_path": "site-packages/xesmf/tests/test_smm.py",
+        "path_type": "hardlink",
+        "sha256": "e7e67f7e2fcb01c7eb26868871cfa5221b47dd4da03a5fddbd2fc6af9ba4eeee",
+        "sha256_in_prefix": "e7e67f7e2fcb01c7eb26868871cfa5221b47dd4da03a5fddbd2fc6af9ba4eeee",
+        "size_in_bytes": 1121
+      },
+      {
+        "_path": "site-packages/xesmf/tests/test_util.py",
+        "path_type": "hardlink",
+        "sha256": "e485c2f235d259e07c207d6f02c5b25ff1a092e59856038428f71c80faf00e9f",
+        "sha256_in_prefix": "e485c2f235d259e07c207d6f02c5b25ff1a092e59856038428f71c80faf00e9f",
+        "size_in_bytes": 921
+      },
+      {
+        "_path": "site-packages/xesmf/util.py",
+        "path_type": "hardlink",
+        "sha256": "46c56283aadeeff87442889b4b6bc62811c8f0a99d07d4a3a25d01ad505ce375",
+        "sha256_in_prefix": "46c56283aadeeff87442889b4b6bc62811c8f0a99d07d4a3a25d01ad505ce375",
+        "size_in_bytes": 5311
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xesmf/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xesmf/__pycache__/_version.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xesmf/__pycache__/backend.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xesmf/__pycache__/data.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xesmf/__pycache__/frontend.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xesmf/__pycache__/smm.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xesmf/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xesmf/tests/__pycache__/conftest.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xesmf/tests/__pycache__/test_backend.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xesmf/tests/__pycache__/test_frontend.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xesmf/tests/__pycache__/test_oceanmodels.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xesmf/tests/__pycache__/test_smm.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xesmf/tests/__pycache__/test_util.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xesmf/__pycache__/util.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "xesmf",
+  "sha256": "23611754c63eaa0022643dc03915b8f6d7b16e8fd9ec5b9cecb6fde28befb6a4",
+  "size": 38468,
+  "subdir": "noarch",
+  "timestamp": 1671489381898,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/xesmf-0.7.0-pyhd8ed1ab_0.conda",
+  "version": "0.7.0"
+}

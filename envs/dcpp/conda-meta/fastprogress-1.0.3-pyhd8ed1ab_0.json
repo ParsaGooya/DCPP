@@ -1,0 +1,167 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/home/acrnrpg/anaconda3/pkgs/fastprogress-1.0.3-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/fastprogress-1.0.3.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/fastprogress-1.0.3.dist-info/LICENSE",
+    "lib/python3.9/site-packages/fastprogress-1.0.3.dist-info/METADATA",
+    "lib/python3.9/site-packages/fastprogress-1.0.3.dist-info/RECORD",
+    "lib/python3.9/site-packages/fastprogress-1.0.3.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/fastprogress-1.0.3.dist-info/WHEEL",
+    "lib/python3.9/site-packages/fastprogress-1.0.3.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/fastprogress-1.0.3.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/fastprogress/__init__.py",
+    "lib/python3.9/site-packages/fastprogress/_nbdev.py",
+    "lib/python3.9/site-packages/fastprogress/core.py",
+    "lib/python3.9/site-packages/fastprogress/fastprogress.py",
+    "lib/python3.9/site-packages/fastprogress/version.py",
+    "lib/python3.9/site-packages/fastprogress/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastprogress/__pycache__/_nbdev.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastprogress/__pycache__/core.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastprogress/__pycache__/fastprogress.cpython-39.pyc",
+    "lib/python3.9/site-packages/fastprogress/__pycache__/version.cpython-39.pyc"
+  ],
+  "fn": "fastprogress-1.0.3-pyhd8ed1ab_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/acrnrpg/anaconda3/pkgs/fastprogress-1.0.3-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "1690639d3647fde6edf4f00c8f87c263",
+  "name": "fastprogress",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/acrnrpg/anaconda3/pkgs/fastprogress-1.0.3-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/fastprogress-1.0.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/fastprogress-1.0.3.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "f586cb64edd3544ca004eddb59ad56c00e769025cdee871fb234c4282741edcc",
+        "sha256_in_prefix": "f586cb64edd3544ca004eddb59ad56c00e769025cdee871fb234c4282741edcc",
+        "size_in_bytes": 9144
+      },
+      {
+        "_path": "site-packages/fastprogress-1.0.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "df2b3df8c3e45b174322250d64d344d8832f0a173b27199d3000ce0c905ff9f0",
+        "sha256_in_prefix": "df2b3df8c3e45b174322250d64d344d8832f0a173b27199d3000ce0c905ff9f0",
+        "size_in_bytes": 5544
+      },
+      {
+        "_path": "site-packages/fastprogress-1.0.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "6ff724ba4609d0f15cbdec3504cb74c4931dc3d1f933cc8e21af7d69d6fb2083",
+        "sha256_in_prefix": "6ff724ba4609d0f15cbdec3504cb74c4931dc3d1f933cc8e21af7d69d6fb2083",
+        "size_in_bytes": 1370
+      },
+      {
+        "_path": "site-packages/fastprogress-1.0.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/fastprogress-1.0.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/fastprogress-1.0.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "2f7c2ee45fbb8219bb52da43cb123ff3db200fac0dd3dd697b26d4a139463eed",
+        "sha256_in_prefix": "2f7c2ee45fbb8219bb52da43cb123ff3db200fac0dd3dd697b26d4a139463eed",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "site-packages/fastprogress-1.0.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "6f34ad91cb056c06ea7b0a4f5710348c268a0c48cc5f2bd35970c424045cfffb",
+        "sha256_in_prefix": "6f34ad91cb056c06ea7b0a4f5710348c268a0c48cc5f2bd35970c424045cfffb",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "site-packages/fastprogress/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7525897d634ae983db24fb92d537d4383b87d38c13eec241be20a7617791fda7",
+        "sha256_in_prefix": "7525897d634ae983db24fb92d537d4383b87d38c13eec241be20a7617791fda7",
+        "size_in_bytes": 117
+      },
+      {
+        "_path": "site-packages/fastprogress/_nbdev.py",
+        "path_type": "hardlink",
+        "sha256": "26cbef1feeae06fff68e49b3fa7e2706cd66ab04a56deaf9724607aff0b83931",
+        "sha256_in_prefix": "26cbef1feeae06fff68e49b3fa7e2706cd66ab04a56deaf9724607aff0b83931",
+        "size_in_bytes": 1465
+      },
+      {
+        "_path": "site-packages/fastprogress/core.py",
+        "path_type": "hardlink",
+        "sha256": "059476f57c485fdfaec52205df8ba93c99110cf414dc83e09e077eb02deb1c7b",
+        "sha256_in_prefix": "059476f57c485fdfaec52205df8ba93c99110cf414dc83e09e077eb02deb1c7b",
+        "size_in_bytes": 3040
+      },
+      {
+        "_path": "site-packages/fastprogress/fastprogress.py",
+        "path_type": "hardlink",
+        "sha256": "7954a693d9a46a585863acce2fa2e8902c1c78d14c21a48e38dff101d3058c9d",
+        "sha256_in_prefix": "7954a693d9a46a585863acce2fa2e8902c1c78d14c21a48e38dff101d3058c9d",
+        "size_in_bytes": 12523
+      },
+      {
+        "_path": "site-packages/fastprogress/version.py",
+        "path_type": "hardlink",
+        "sha256": "dffa4f4dc2e13f61c323152f9b8a522fd9687f911c8c9cf64a0f61fb6f4806a7",
+        "sha256_in_prefix": "dffa4f4dc2e13f61c323152f9b8a522fd9687f911c8c9cf64a0f61fb6f4806a7",
+        "size_in_bytes": 90
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastprogress/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastprogress/__pycache__/_nbdev.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastprogress/__pycache__/core.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastprogress/__pycache__/fastprogress.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/fastprogress/__pycache__/version.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d344107510764a791dc2a402cc1fed5097c0013fecaf36d4c3fd13ece3324d4d",
+  "size": 17131,
+  "subdir": "noarch",
+  "timestamp": 1658690945188,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/fastprogress-1.0.3-pyhd8ed1ab_0.tar.bz2",
+  "version": "1.0.3"
+}

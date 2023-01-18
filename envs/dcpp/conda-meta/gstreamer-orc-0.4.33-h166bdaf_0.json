@@ -1,0 +1,419 @@
+{
+  "build": "h166bdaf_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=12"
+  ],
+  "extracted_package_dir": "/home/acrnrpg/anaconda3/pkgs/gstreamer-orc-0.4.33-h166bdaf_0",
+  "features": "",
+  "files": [
+    "bin/orc-bugreport",
+    "bin/orcc",
+    "include/orc-0.4/orc-test/orcarray.h",
+    "include/orc-0.4/orc-test/orcprofile.h",
+    "include/orc-0.4/orc-test/orcrandom.h",
+    "include/orc-0.4/orc-test/orctest.h",
+    "include/orc-0.4/orc/orc-stdint.h",
+    "include/orc-0.4/orc/orc.h",
+    "include/orc-0.4/orc/orcarm.h",
+    "include/orc-0.4/orc/orcbytecode.h",
+    "include/orc-0.4/orc/orcbytecodes.h",
+    "include/orc-0.4/orc/orccode.h",
+    "include/orc-0.4/orc/orccompiler.h",
+    "include/orc-0.4/orc/orcconstant.h",
+    "include/orc-0.4/orc/orccpu.h",
+    "include/orc-0.4/orc/orccpuinsn.h",
+    "include/orc-0.4/orc/orcdebug.h",
+    "include/orc-0.4/orc/orcemulateopcodes.h",
+    "include/orc-0.4/orc/orcexecutor.h",
+    "include/orc-0.4/orc/orcfunctions.h",
+    "include/orc-0.4/orc/orcinstruction.h",
+    "include/orc-0.4/orc/orcinternal.h",
+    "include/orc-0.4/orc/orclimits.h",
+    "include/orc-0.4/orc/orcmips.h",
+    "include/orc-0.4/orc/orcmmx.h",
+    "include/orc-0.4/orc/orcneon.h",
+    "include/orc-0.4/orc/orconce.h",
+    "include/orc-0.4/orc/orcopcode.h",
+    "include/orc-0.4/orc/orcparse.h",
+    "include/orc-0.4/orc/orcpowerpc.h",
+    "include/orc-0.4/orc/orcprogram.h",
+    "include/orc-0.4/orc/orcrule.h",
+    "include/orc-0.4/orc/orcsse.h",
+    "include/orc-0.4/orc/orctarget.h",
+    "include/orc-0.4/orc/orcutils.h",
+    "include/orc-0.4/orc/orcvariable.h",
+    "include/orc-0.4/orc/orcx86.h",
+    "include/orc-0.4/orc/orcx86insn.h",
+    "lib/liborc-0.4.so",
+    "lib/liborc-0.4.so.0",
+    "lib/liborc-0.4.so.0.33.0",
+    "lib/liborc-test-0.4.a",
+    "lib/liborc-test-0.4.so",
+    "lib/liborc-test-0.4.so.0",
+    "lib/liborc-test-0.4.so.0.33.0",
+    "lib/pkgconfig/orc-0.4.pc",
+    "lib/pkgconfig/orc-test-0.4.pc",
+    "share/aclocal/orc.m4"
+  ],
+  "fn": "gstreamer-orc-0.4.33-h166bdaf_0.tar.bz2",
+  "license": "BSD-2-Clause AND BSD-3-Clause",
+  "link": {
+    "source": "/home/acrnrpg/anaconda3/pkgs/gstreamer-orc-0.4.33-h166bdaf_0",
+    "type": 1
+  },
+  "md5": "879c93426c9d0b84a9de4513fbce5f4f",
+  "name": "gstreamer-orc",
+  "package_tarball_full_path": "/home/acrnrpg/anaconda3/pkgs/gstreamer-orc-0.4.33-h166bdaf_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/orc-bugreport",
+        "path_type": "hardlink",
+        "sha256": "8bae77e56299b347aadcc35310b1c84e558ac9967b64cfc12d613c3559a8c439",
+        "sha256_in_prefix": "8bae77e56299b347aadcc35310b1c84e558ac9967b64cfc12d613c3559a8c439",
+        "size_in_bytes": 26168
+      },
+      {
+        "_path": "bin/orcc",
+        "path_type": "hardlink",
+        "sha256": "855e51965f868668ac11f3b9e1eebd85c39f06fc3141c373258ec1fd8991f28b",
+        "sha256_in_prefix": "855e51965f868668ac11f3b9e1eebd85c39f06fc3141c373258ec1fd8991f28b",
+        "size_in_bytes": 48184
+      },
+      {
+        "_path": "include/orc-0.4/orc-test/orcarray.h",
+        "path_type": "hardlink",
+        "sha256": "ac9896e57b99285ec67cbca6d3bd638220d9b83e625f0a428caf1593f35cf18e",
+        "sha256_in_prefix": "ac9896e57b99285ec67cbca6d3bd638220d9b83e625f0a428caf1593f35cf18e",
+        "size_in_bytes": 1065
+      },
+      {
+        "_path": "include/orc-0.4/orc-test/orcprofile.h",
+        "path_type": "hardlink",
+        "sha256": "9843fcbf9db5e1616541b8a48a362d22c769cc978f3009b180b6cb20f0ba6e9b",
+        "sha256_in_prefix": "9843fcbf9db5e1616541b8a48a362d22c769cc978f3009b180b6cb20f0ba6e9b",
+        "size_in_bytes": 2956
+      },
+      {
+        "_path": "include/orc-0.4/orc-test/orcrandom.h",
+        "path_type": "hardlink",
+        "sha256": "695400adeb604a8d44572cc4b3a88a457cfe7b880e3992e5e5e32df3c56e4d3b",
+        "sha256_in_prefix": "695400adeb604a8d44572cc4b3a88a457cfe7b880e3992e5e5e32df3c56e4d3b",
+        "size_in_bytes": 559
+      },
+      {
+        "_path": "include/orc-0.4/orc-test/orctest.h",
+        "path_type": "hardlink",
+        "sha256": "4911680439ef4b325492172fb0fcad104ccabfecc6768a5aff2e22b17620d4aa",
+        "sha256_in_prefix": "4911680439ef4b325492172fb0fcad104ccabfecc6768a5aff2e22b17620d4aa",
+        "size_in_bytes": 1653
+      },
+      {
+        "_path": "include/orc-0.4/orc/orc-stdint.h",
+        "path_type": "hardlink",
+        "sha256": "8f1b0650684e949eefef919ed657ee47d5ea16a3532fc641c7465c996c949228",
+        "sha256_in_prefix": "8f1b0650684e949eefef919ed657ee47d5ea16a3532fc641c7465c996c949228",
+        "size_in_bytes": 46
+      },
+      {
+        "_path": "include/orc-0.4/orc/orc.h",
+        "path_type": "hardlink",
+        "sha256": "107c0bd9b5813243dd9f62ef8ada7db8f7998bcb3ace737a96ab8086723bf398",
+        "sha256_in_prefix": "107c0bd9b5813243dd9f62ef8ada7db8f7998bcb3ace737a96ab8086723bf398",
+        "size_in_bytes": 285
+      },
+      {
+        "_path": "include/orc-0.4/orc/orcarm.h",
+        "path_type": "hardlink",
+        "sha256": "be534b317328060dbb4dbeb4f2326294fab5a53e6cba0bf3989c17b8d05a40cd",
+        "sha256_in_prefix": "be534b317328060dbb4dbeb4f2326294fab5a53e6cba0bf3989c17b8d05a40cd",
+        "size_in_bytes": 50835
+      },
+      {
+        "_path": "include/orc-0.4/orc/orcbytecode.h",
+        "path_type": "hardlink",
+        "sha256": "15c078374f1827e77b38b9773af4b3012344e0ea4c29610c9e0d3811b0825a9e",
+        "sha256_in_prefix": "15c078374f1827e77b38b9773af4b3012344e0ea4c29610c9e0d3811b0825a9e",
+        "size_in_bytes": 606
+      },
+      {
+        "_path": "include/orc-0.4/orc/orcbytecodes.h",
+        "path_type": "hardlink",
+        "sha256": "5cb2df6a8184fbf8ba8897aa1839d6156026e98bc87c9a07013ee8b692ed44a0",
+        "sha256_in_prefix": "5cb2df6a8184fbf8ba8897aa1839d6156026e98bc87c9a07013ee8b692ed44a0",
+        "size_in_bytes": 4392
+      },
+      {
+        "_path": "include/orc-0.4/orc/orccode.h",
+        "path_type": "hardlink",
+        "sha256": "4ed0d598e3d83ec5e6afc5553376a5c5c60d0dfdb52899a8c51a3fdb25087244",
+        "sha256_in_prefix": "4ed0d598e3d83ec5e6afc5553376a5c5c60d0dfdb52899a8c51a3fdb25087244",
+        "size_in_bytes": 836
+      },
+      {
+        "_path": "include/orc-0.4/orc/orccompiler.h",
+        "path_type": "hardlink",
+        "sha256": "d0be94011295b74e65e32b029af658d2259cfe1b88871224d8ebad26f46fcf03",
+        "sha256_in_prefix": "d0be94011295b74e65e32b029af658d2259cfe1b88871224d8ebad26f46fcf03",
+        "size_in_bytes": 3927
+      },
+      {
+        "_path": "include/orc-0.4/orc/orcconstant.h",
+        "path_type": "hardlink",
+        "sha256": "76e4ea0671e482d76050a9431e89a33221e2ab430839e45c24295c0c3c7375ca",
+        "sha256_in_prefix": "76e4ea0671e482d76050a9431e89a33221e2ab430839e45c24295c0c3c7375ca",
+        "size_in_bytes": 505
+      },
+      {
+        "_path": "include/orc-0.4/orc/orccpu.h",
+        "path_type": "hardlink",
+        "sha256": "80d2daa37011fc805331e56e96a307d0e41befeca836c240021b1c00e51ef7e2",
+        "sha256_in_prefix": "80d2daa37011fc805331e56e96a307d0e41befeca836c240021b1c00e51ef7e2",
+        "size_in_bytes": 350
+      },
+      {
+        "_path": "include/orc-0.4/orc/orccpuinsn.h",
+        "path_type": "hardlink",
+        "sha256": "1bcc6e4121fbfa35add60c7da9fb17586b196194e936adb642cccb959f4b6748",
+        "sha256_in_prefix": "1bcc6e4121fbfa35add60c7da9fb17586b196194e936adb642cccb959f4b6748",
+        "size_in_bytes": 532
+      },
+      {
+        "_path": "include/orc-0.4/orc/orcdebug.h",
+        "path_type": "hardlink",
+        "sha256": "a82384f8cabfa18b179a6255d71840fb8f37705beb131a732e75136bd24b9b00",
+        "sha256_in_prefix": "a82384f8cabfa18b179a6255d71840fb8f37705beb131a732e75136bd24b9b00",
+        "size_in_bytes": 5148
+      },
+      {
+        "_path": "include/orc-0.4/orc/orcemulateopcodes.h",
+        "path_type": "hardlink",
+        "sha256": "b0e5144fec8bd76d600b12b9bd042f8511f8bd835475f4b0bc1d36798fc0f997",
+        "sha256_in_prefix": "b0e5144fec8bd76d600b12b9bd042f8511f8bd835475f4b0bc1d36798fc0f997",
+        "size_in_bytes": 11533
+      },
+      {
+        "_path": "include/orc-0.4/orc/orcexecutor.h",
+        "path_type": "hardlink",
+        "sha256": "921d4aebfe177a5e702330a7e57cb69efbaf1242d48f8f9b3948f1e78b7beb54",
+        "sha256_in_prefix": "921d4aebfe177a5e702330a7e57cb69efbaf1242d48f8f9b3948f1e78b7beb54",
+        "size_in_bytes": 3659
+      },
+      {
+        "_path": "include/orc-0.4/orc/orcfunctions.h",
+        "path_type": "hardlink",
+        "sha256": "3803016ae5db62f028538353f4dcd227ca5905e88808f54cc178ce704a390931",
+        "sha256_in_prefix": "3803016ae5db62f028538353f4dcd227ca5905e88808f54cc178ce704a390931",
+        "size_in_bytes": 2431
+      },
+      {
+        "_path": "include/orc-0.4/orc/orcinstruction.h",
+        "path_type": "hardlink",
+        "sha256": "abe1be2e35ae224fda573179502f7792cb9ed7512d46e34fc7bc0655b835a1a8",
+        "sha256_in_prefix": "abe1be2e35ae224fda573179502f7792cb9ed7512d46e34fc7bc0655b835a1a8",
+        "size_in_bytes": 707
+      },
+      {
+        "_path": "include/orc-0.4/orc/orcinternal.h",
+        "path_type": "hardlink",
+        "sha256": "a0e09f970b88e5726b2589cb912a2546cd6bc5bfe27f39643ca1e94db88eb86e",
+        "sha256_in_prefix": "a0e09f970b88e5726b2589cb912a2546cd6bc5bfe27f39643ca1e94db88eb86e",
+        "size_in_bytes": 1111
+      },
+      {
+        "_path": "include/orc-0.4/orc/orclimits.h",
+        "path_type": "hardlink",
+        "sha256": "5d1b55a7d9ef39b1dcee85d9cd4993a75b284c17901a25092f2dae4bcf61bf9a",
+        "sha256_in_prefix": "5d1b55a7d9ef39b1dcee85d9cd4993a75b284c17901a25092f2dae4bcf61bf9a",
+        "size_in_bytes": 1497
+      },
+      {
+        "_path": "include/orc-0.4/orc/orcmips.h",
+        "path_type": "hardlink",
+        "sha256": "9582ec9e464a360951ec49ec5f51c1f100f54de820065b5e0f16be0922963c2a",
+        "sha256_in_prefix": "9582ec9e464a360951ec49ec5f51c1f100f54de820065b5e0f16be0922963c2a",
+        "size_in_bytes": 11373
+      },
+      {
+        "_path": "include/orc-0.4/orc/orcmmx.h",
+        "path_type": "hardlink",
+        "sha256": "38897a783fa2fd99e53274e03e182ee5532caef7ea18c1917427f21be481662f",
+        "sha256_in_prefix": "38897a783fa2fd99e53274e03e182ee5532caef7ea18c1917427f21be481662f",
+        "size_in_bytes": 2567
+      },
+      {
+        "_path": "include/orc-0.4/orc/orcneon.h",
+        "path_type": "hardlink",
+        "sha256": "37ea33cab14b88b814007d53e42c80819f85ea65ccc305248b10e267cd1e6fd0",
+        "sha256_in_prefix": "37ea33cab14b88b814007d53e42c80819f85ea65ccc305248b10e267cd1e6fd0",
+        "size_in_bytes": 1863
+      },
+      {
+        "_path": "include/orc-0.4/orc/orconce.h",
+        "path_type": "hardlink",
+        "sha256": "5a7aa5bf9bf6270135e6933159d6901ce80e96903650c41abfce9517d0a5dc8c",
+        "sha256_in_prefix": "5a7aa5bf9bf6270135e6933159d6901ce80e96903650c41abfce9517d0a5dc8c",
+        "size_in_bytes": 312
+      },
+      {
+        "_path": "include/orc-0.4/orc/orcopcode.h",
+        "path_type": "hardlink",
+        "sha256": "fe336b5654baa8b0ce0a1a99bd7240126f4ef2de379a48023285972ebfbcc74c",
+        "sha256_in_prefix": "fe336b5654baa8b0ce0a1a99bd7240126f4ef2de379a48023285972ebfbcc74c",
+        "size_in_bytes": 1498
+      },
+      {
+        "_path": "include/orc-0.4/orc/orcparse.h",
+        "path_type": "hardlink",
+        "sha256": "4c6c46380a5bbbb35b1d65d5771d9c7eeab4f14c7dcea2d36db44bbcfe799fb7",
+        "sha256_in_prefix": "4c6c46380a5bbbb35b1d65d5771d9c7eeab4f14c7dcea2d36db44bbcfe799fb7",
+        "size_in_bytes": 334
+      },
+      {
+        "_path": "include/orc-0.4/orc/orcpowerpc.h",
+        "path_type": "hardlink",
+        "sha256": "c861841ec326a34b328b1bed3f7e85d22b01a0d592a745045d91670d4a016e82",
+        "sha256_in_prefix": "c861841ec326a34b328b1bed3f7e85d22b01a0d592a745045d91670d4a016e82",
+        "size_in_bytes": 9767
+      },
+      {
+        "_path": "include/orc-0.4/orc/orcprogram.h",
+        "path_type": "hardlink",
+        "sha256": "2ef923fb68342f0901bdf7154cba1e95fd8effa31d89fc31076bcfe5564cf454",
+        "sha256_in_prefix": "2ef923fb68342f0901bdf7154cba1e95fd8effa31d89fc31076bcfe5564cf454",
+        "size_in_bytes": 7296
+      },
+      {
+        "_path": "include/orc-0.4/orc/orcrule.h",
+        "path_type": "hardlink",
+        "sha256": "ffff432707622ce241fe71ca9aca8f8ee8d7b141e361932c887ac25d41f3b12c",
+        "sha256_in_prefix": "ffff432707622ce241fe71ca9aca8f8ee8d7b141e361932c887ac25d41f3b12c",
+        "size_in_bytes": 917
+      },
+      {
+        "_path": "include/orc-0.4/orc/orcsse.h",
+        "path_type": "hardlink",
+        "sha256": "34122bfdd1b4fe64d5242df1e989fd6ab06fa599c16ad71b0a94f9e3a0ef89cd",
+        "sha256_in_prefix": "34122bfdd1b4fe64d5242df1e989fd6ab06fa599c16ad71b0a94f9e3a0ef89cd",
+        "size_in_bytes": 1288
+      },
+      {
+        "_path": "include/orc-0.4/orc/orctarget.h",
+        "path_type": "hardlink",
+        "sha256": "40f2860fc3d86f7f910e7f349d3f71d35cddd4115cf4c912ee260b62c534ae57",
+        "sha256_in_prefix": "40f2860fc3d86f7f910e7f349d3f71d35cddd4115cf4c912ee260b62c534ae57",
+        "size_in_bytes": 3037
+      },
+      {
+        "_path": "include/orc-0.4/orc/orcutils.h",
+        "path_type": "hardlink",
+        "sha256": "9cffa31a9a4d343d0c2b8df150033ce9ec9384da3df8f11499b2455bc80f54d2",
+        "sha256_in_prefix": "9cffa31a9a4d343d0c2b8df150033ce9ec9384da3df8f11499b2455bc80f54d2",
+        "size_in_bytes": 7337
+      },
+      {
+        "_path": "include/orc-0.4/orc/orcvariable.h",
+        "path_type": "hardlink",
+        "sha256": "d6c38132396b5c308815eb6d3309158d5bcf90989a9903ce0096885fb4c7184d",
+        "sha256_in_prefix": "d6c38132396b5c308815eb6d3309158d5bcf90989a9903ce0096885fb4c7184d",
+        "size_in_bytes": 1268
+      },
+      {
+        "_path": "include/orc-0.4/orc/orcx86.h",
+        "path_type": "hardlink",
+        "sha256": "49c425491b3c1c45398d11f74fe0c8d595a9001f9a5fdf8fb715d2e874adec69",
+        "sha256_in_prefix": "49c425491b3c1c45398d11f74fe0c8d595a9001f9a5fdf8fb715d2e874adec69",
+        "size_in_bytes": 8647
+      },
+      {
+        "_path": "include/orc-0.4/orc/orcx86insn.h",
+        "path_type": "hardlink",
+        "sha256": "1e8a761e144d3b0086e21419cf0ac1c33b487f6245fc638300602bd2e3e0e494",
+        "sha256_in_prefix": "1e8a761e144d3b0086e21419cf0ac1c33b487f6245fc638300602bd2e3e0e494",
+        "size_in_bytes": 39013
+      },
+      {
+        "_path": "lib/liborc-0.4.so",
+        "path_type": "softlink",
+        "sha256": "8498c4bed1371cf98ea66a82c896251e5d8e530f3d1318151c847bec0148e976",
+        "size_in_bytes": 721608
+      },
+      {
+        "_path": "lib/liborc-0.4.so.0",
+        "path_type": "softlink",
+        "sha256": "8498c4bed1371cf98ea66a82c896251e5d8e530f3d1318151c847bec0148e976",
+        "size_in_bytes": 721608
+      },
+      {
+        "_path": "lib/liborc-0.4.so.0.33.0",
+        "path_type": "hardlink",
+        "sha256": "8498c4bed1371cf98ea66a82c896251e5d8e530f3d1318151c847bec0148e976",
+        "sha256_in_prefix": "8498c4bed1371cf98ea66a82c896251e5d8e530f3d1318151c847bec0148e976",
+        "size_in_bytes": 721608
+      },
+      {
+        "_path": "lib/liborc-test-0.4.a",
+        "path_type": "hardlink",
+        "sha256": "d178796835a50b0c661eb29fa3cb48e00dce50ac2c1c99a61773cddcd51a8a30",
+        "sha256_in_prefix": "d178796835a50b0c661eb29fa3cb48e00dce50ac2c1c99a61773cddcd51a8a30",
+        "size_in_bytes": 53126
+      },
+      {
+        "_path": "lib/liborc-test-0.4.so",
+        "path_type": "softlink",
+        "sha256": "9e3877ee87957283da2ee7067d74313ebf8aacea9eb0bf049a6426e364afe55e",
+        "size_in_bytes": 44568
+      },
+      {
+        "_path": "lib/liborc-test-0.4.so.0",
+        "path_type": "softlink",
+        "sha256": "9e3877ee87957283da2ee7067d74313ebf8aacea9eb0bf049a6426e364afe55e",
+        "size_in_bytes": 44568
+      },
+      {
+        "_path": "lib/liborc-test-0.4.so.0.33.0",
+        "path_type": "hardlink",
+        "sha256": "9e3877ee87957283da2ee7067d74313ebf8aacea9eb0bf049a6426e364afe55e",
+        "sha256_in_prefix": "9e3877ee87957283da2ee7067d74313ebf8aacea9eb0bf049a6426e364afe55e",
+        "size_in_bytes": 44568
+      },
+      {
+        "_path": "lib/pkgconfig/orc-0.4.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/gstreamer-orc_1667404005650/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "d38b310ceea235404a903dbe6c4000b61b8996c6136a7e9ff7d0b74360a66c1b",
+        "sha256_in_prefix": "1e36699179f82dca93b01b09112053cf3fdaac494d04b30158805bb3858173c0",
+        "size_in_bytes": 545
+      },
+      {
+        "_path": "lib/pkgconfig/orc-test-0.4.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/gstreamer-orc_1667404005650/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "db56e13691d7d943a389205cb1293b28bcf998bf282155ca2f80756e94356195",
+        "sha256_in_prefix": "9ca9ccacfe116bb9cab5481e933dc263a5afa3165a3275f25a182c586a9c0529",
+        "size_in_bytes": 520
+      },
+      {
+        "_path": "share/aclocal/orc.m4",
+        "path_type": "hardlink",
+        "sha256": "a26c1b1f5c155a35aafc64fb701eb7184e52e7797a783769deacb7af1cae61bf",
+        "sha256_in_prefix": "a26c1b1f5c155a35aafc64fb701eb7184e52e7797a783769deacb7af1cae61bf",
+        "size_in_bytes": 2152
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c4fdbaaeb66eed280ef6875c6a4b6916ed168166277e9317fbe25b15d3758897",
+  "size": 305861,
+  "subdir": "linux-64",
+  "timestamp": 1667404126279,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gstreamer-orc-0.4.33-h166bdaf_0.tar.bz2",
+  "version": "0.4.33"
+}

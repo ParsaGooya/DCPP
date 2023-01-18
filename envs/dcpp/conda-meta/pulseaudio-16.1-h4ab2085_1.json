@@ -1,0 +1,2460 @@
+{
+  "build": "h4ab2085_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "alsa-lib >=1.2.8,<1.2.9.0a0",
+    "dbus >=1.13.6,<2.0a0",
+    "fftw >=3.3.10,<4.0a0",
+    "gstreamer-orc >=0.4.33,<0.5.0a0",
+    "jack >=1.9.21,<1.10.0a0",
+    "libcap >=2.66,<2.67.0a0",
+    "libgcc-ng >=12",
+    "libglib >=2.74.1,<3.0a0",
+    "libsndfile >=1.2.0,<1.3.0a0",
+    "libsystemd0 >=252",
+    "libtool >=2.4.7,<3.0a0",
+    "libudev1 >=252",
+    "openssl >=1.1.1s,<1.1.2a"
+  ],
+  "extracted_package_dir": "/home/acrnrpg/anaconda3/pkgs/pulseaudio-16.1-h4ab2085_1",
+  "features": "",
+  "files": [
+    "bin/pa-info",
+    "bin/pacat",
+    "bin/pacmd",
+    "bin/pactl",
+    "bin/padsp",
+    "bin/pamon",
+    "bin/paplay",
+    "bin/parec",
+    "bin/parecord",
+    "bin/pasuspender",
+    "bin/pulseaudio",
+    "bin/qpaeq",
+    "etc/dbus-1/system.d/pulseaudio-system.conf",
+    "etc/pulse/client.conf",
+    "etc/pulse/daemon.conf",
+    "etc/pulse/default.pa",
+    "etc/pulse/system.pa",
+    "include/pulse/cdecl.h",
+    "include/pulse/channelmap.h",
+    "include/pulse/context.h",
+    "include/pulse/def.h",
+    "include/pulse/direction.h",
+    "include/pulse/error.h",
+    "include/pulse/ext-device-manager.h",
+    "include/pulse/ext-device-restore.h",
+    "include/pulse/ext-stream-restore.h",
+    "include/pulse/format.h",
+    "include/pulse/gccmacro.h",
+    "include/pulse/glib-mainloop.h",
+    "include/pulse/introspect.h",
+    "include/pulse/mainloop-api.h",
+    "include/pulse/mainloop-signal.h",
+    "include/pulse/mainloop.h",
+    "include/pulse/operation.h",
+    "include/pulse/proplist.h",
+    "include/pulse/pulseaudio.h",
+    "include/pulse/rtclock.h",
+    "include/pulse/sample.h",
+    "include/pulse/scache.h",
+    "include/pulse/simple.h",
+    "include/pulse/stream.h",
+    "include/pulse/subscribe.h",
+    "include/pulse/thread-mainloop.h",
+    "include/pulse/timeval.h",
+    "include/pulse/utf8.h",
+    "include/pulse/util.h",
+    "include/pulse/version.h",
+    "include/pulse/volume.h",
+    "include/pulse/xmalloc.h",
+    "lib/cmake/PulseAudio/PulseAudioConfig.cmake",
+    "lib/cmake/PulseAudio/PulseAudioConfigVersion.cmake",
+    "lib/libpulse-mainloop-glib.so",
+    "lib/libpulse-mainloop-glib.so.0",
+    "lib/libpulse-mainloop-glib.so.0.0.6",
+    "lib/libpulse-simple.so",
+    "lib/libpulse-simple.so.0",
+    "lib/libpulse-simple.so.0.1.1",
+    "lib/libpulse.so",
+    "lib/libpulse.so.0",
+    "lib/libpulse.so.0.24.2",
+    "lib/pkgconfig/libpulse-mainloop-glib.pc",
+    "lib/pkgconfig/libpulse-simple.pc",
+    "lib/pkgconfig/libpulse.pc",
+    "lib/pulseaudio/libpulsecommon-16.1.so",
+    "lib/pulseaudio/libpulsecore-16.1.so",
+    "lib/pulseaudio/libpulsedsp.so",
+    "lib/pulseaudio/modules/libalsa-util.so",
+    "lib/pulseaudio/modules/libcli.so",
+    "lib/pulseaudio/modules/liboss-util.so",
+    "lib/pulseaudio/modules/libprotocol-cli.so",
+    "lib/pulseaudio/modules/libprotocol-http.so",
+    "lib/pulseaudio/modules/libprotocol-native.so",
+    "lib/pulseaudio/modules/libprotocol-simple.so",
+    "lib/pulseaudio/modules/libraop.so",
+    "lib/pulseaudio/modules/librtp.so",
+    "lib/pulseaudio/modules/module-allow-passthrough.so",
+    "lib/pulseaudio/modules/module-alsa-card.so",
+    "lib/pulseaudio/modules/module-alsa-sink.so",
+    "lib/pulseaudio/modules/module-alsa-source.so",
+    "lib/pulseaudio/modules/module-always-sink.so",
+    "lib/pulseaudio/modules/module-always-source.so",
+    "lib/pulseaudio/modules/module-augment-properties.so",
+    "lib/pulseaudio/modules/module-card-restore.so",
+    "lib/pulseaudio/modules/module-cli-protocol-tcp.so",
+    "lib/pulseaudio/modules/module-cli-protocol-unix.so",
+    "lib/pulseaudio/modules/module-cli.so",
+    "lib/pulseaudio/modules/module-combine-sink.so",
+    "lib/pulseaudio/modules/module-combine.so",
+    "lib/pulseaudio/modules/module-console-kit.so",
+    "lib/pulseaudio/modules/module-dbus-protocol.so",
+    "lib/pulseaudio/modules/module-default-device-restore.so",
+    "lib/pulseaudio/modules/module-detect.so",
+    "lib/pulseaudio/modules/module-device-manager.so",
+    "lib/pulseaudio/modules/module-device-restore.so",
+    "lib/pulseaudio/modules/module-echo-cancel.so",
+    "lib/pulseaudio/modules/module-equalizer-sink.so",
+    "lib/pulseaudio/modules/module-filter-apply.so",
+    "lib/pulseaudio/modules/module-filter-heuristics.so",
+    "lib/pulseaudio/modules/module-hal-detect.so",
+    "lib/pulseaudio/modules/module-http-protocol-tcp.so",
+    "lib/pulseaudio/modules/module-http-protocol-unix.so",
+    "lib/pulseaudio/modules/module-intended-roles.so",
+    "lib/pulseaudio/modules/module-jack-sink.so",
+    "lib/pulseaudio/modules/module-jack-source.so",
+    "lib/pulseaudio/modules/module-jackdbus-detect.so",
+    "lib/pulseaudio/modules/module-ladspa-sink.so",
+    "lib/pulseaudio/modules/module-loopback.so",
+    "lib/pulseaudio/modules/module-match.so",
+    "lib/pulseaudio/modules/module-mmkbd-evdev.so",
+    "lib/pulseaudio/modules/module-native-protocol-fd.so",
+    "lib/pulseaudio/modules/module-native-protocol-tcp.so",
+    "lib/pulseaudio/modules/module-native-protocol-unix.so",
+    "lib/pulseaudio/modules/module-null-sink.so",
+    "lib/pulseaudio/modules/module-null-source.so",
+    "lib/pulseaudio/modules/module-oss.so",
+    "lib/pulseaudio/modules/module-pipe-sink.so",
+    "lib/pulseaudio/modules/module-pipe-source.so",
+    "lib/pulseaudio/modules/module-position-event-sounds.so",
+    "lib/pulseaudio/modules/module-raop-sink.so",
+    "lib/pulseaudio/modules/module-remap-sink.so",
+    "lib/pulseaudio/modules/module-remap-source.so",
+    "lib/pulseaudio/modules/module-rescue-streams.so",
+    "lib/pulseaudio/modules/module-role-cork.so",
+    "lib/pulseaudio/modules/module-role-ducking.so",
+    "lib/pulseaudio/modules/module-rtp-recv.so",
+    "lib/pulseaudio/modules/module-rtp-send.so",
+    "lib/pulseaudio/modules/module-rygel-media-server.so",
+    "lib/pulseaudio/modules/module-simple-protocol-tcp.so",
+    "lib/pulseaudio/modules/module-simple-protocol-unix.so",
+    "lib/pulseaudio/modules/module-sine-source.so",
+    "lib/pulseaudio/modules/module-sine.so",
+    "lib/pulseaudio/modules/module-stream-restore.so",
+    "lib/pulseaudio/modules/module-suspend-on-idle.so",
+    "lib/pulseaudio/modules/module-switch-on-connect.so",
+    "lib/pulseaudio/modules/module-switch-on-port-available.so",
+    "lib/pulseaudio/modules/module-systemd-login.so",
+    "lib/pulseaudio/modules/module-tunnel-sink-new.so",
+    "lib/pulseaudio/modules/module-tunnel-sink.so",
+    "lib/pulseaudio/modules/module-tunnel-source-new.so",
+    "lib/pulseaudio/modules/module-tunnel-source.so",
+    "lib/pulseaudio/modules/module-udev-detect.so",
+    "lib/pulseaudio/modules/module-virtual-sink.so",
+    "lib/pulseaudio/modules/module-virtual-source.so",
+    "lib/pulseaudio/modules/module-virtual-surround-sink.so",
+    "lib/pulseaudio/modules/module-volume-restore.so",
+    "lib/udev/rules.d/90-pulseaudio.rules",
+    "share/bash-completion/completions/pacat",
+    "share/bash-completion/completions/pacmd",
+    "share/bash-completion/completions/pactl",
+    "share/bash-completion/completions/padsp",
+    "share/bash-completion/completions/paplay",
+    "share/bash-completion/completions/parec",
+    "share/bash-completion/completions/parecord",
+    "share/bash-completion/completions/pasuspender",
+    "share/bash-completion/completions/pulseaudio",
+    "share/locale/af/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/as/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/be/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/bg/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/bn_IN/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/ca/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/cs/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/da/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/de/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/de_CH/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/el/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/eo/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/es/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/fi/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/fr/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/gl/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/gu/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/he/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/hi/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/hr/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/hu/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/id/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/it/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/ja/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/ka/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/kk/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/kn/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/ko/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/lt/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/ml/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/mr/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/nl/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/nn/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/oc/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/or/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/pa/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/pl/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/pt/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/pt_BR/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/ru/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/si/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/sk/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/sr/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/sr@latin/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/sv/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/ta/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/te/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/tr/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/uk/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/zh_CN/LC_MESSAGES/pulseaudio.mo",
+    "share/locale/zh_TW/LC_MESSAGES/pulseaudio.mo",
+    "share/man/man1/pacat.1",
+    "share/man/man1/pacmd.1",
+    "share/man/man1/pactl.1",
+    "share/man/man1/padsp.1",
+    "share/man/man1/pamon.1",
+    "share/man/man1/paplay.1",
+    "share/man/man1/parec.1",
+    "share/man/man1/parecord.1",
+    "share/man/man1/pasuspender.1",
+    "share/man/man1/pulseaudio.1",
+    "share/man/man1/start-pulseaudio-x11.1",
+    "share/man/man5/default.pa.5",
+    "share/man/man5/pulse-cli-syntax.5",
+    "share/man/man5/pulse-client.conf.5",
+    "share/man/man5/pulse-daemon.conf.5",
+    "share/pulseaudio/alsa-mixer/paths/analog-input-aux.conf",
+    "share/pulseaudio/alsa-mixer/paths/analog-input-dock-mic.conf",
+    "share/pulseaudio/alsa-mixer/paths/analog-input-fm.conf",
+    "share/pulseaudio/alsa-mixer/paths/analog-input-front-mic.conf",
+    "share/pulseaudio/alsa-mixer/paths/analog-input-headphone-mic.conf",
+    "share/pulseaudio/alsa-mixer/paths/analog-input-headset-mic.conf",
+    "share/pulseaudio/alsa-mixer/paths/analog-input-internal-mic-always.conf",
+    "share/pulseaudio/alsa-mixer/paths/analog-input-internal-mic.conf",
+    "share/pulseaudio/alsa-mixer/paths/analog-input-linein.conf",
+    "share/pulseaudio/alsa-mixer/paths/analog-input-mic-line.conf",
+    "share/pulseaudio/alsa-mixer/paths/analog-input-mic.conf",
+    "share/pulseaudio/alsa-mixer/paths/analog-input-mic.conf.common",
+    "share/pulseaudio/alsa-mixer/paths/analog-input-rear-mic.conf",
+    "share/pulseaudio/alsa-mixer/paths/analog-input-tvtuner.conf",
+    "share/pulseaudio/alsa-mixer/paths/analog-input-video.conf",
+    "share/pulseaudio/alsa-mixer/paths/analog-input.conf",
+    "share/pulseaudio/alsa-mixer/paths/analog-input.conf.common",
+    "share/pulseaudio/alsa-mixer/paths/analog-output-chat.conf",
+    "share/pulseaudio/alsa-mixer/paths/analog-output-headphones-2.conf",
+    "share/pulseaudio/alsa-mixer/paths/analog-output-headphones.conf",
+    "share/pulseaudio/alsa-mixer/paths/analog-output-lineout.conf",
+    "share/pulseaudio/alsa-mixer/paths/analog-output-mono.conf",
+    "share/pulseaudio/alsa-mixer/paths/analog-output-speaker-always.conf",
+    "share/pulseaudio/alsa-mixer/paths/analog-output-speaker.conf",
+    "share/pulseaudio/alsa-mixer/paths/analog-output.conf",
+    "share/pulseaudio/alsa-mixer/paths/analog-output.conf.common",
+    "share/pulseaudio/alsa-mixer/paths/hdmi-output-0.conf",
+    "share/pulseaudio/alsa-mixer/paths/hdmi-output-1.conf",
+    "share/pulseaudio/alsa-mixer/paths/hdmi-output-10.conf",
+    "share/pulseaudio/alsa-mixer/paths/hdmi-output-2.conf",
+    "share/pulseaudio/alsa-mixer/paths/hdmi-output-3.conf",
+    "share/pulseaudio/alsa-mixer/paths/hdmi-output-4.conf",
+    "share/pulseaudio/alsa-mixer/paths/hdmi-output-5.conf",
+    "share/pulseaudio/alsa-mixer/paths/hdmi-output-6.conf",
+    "share/pulseaudio/alsa-mixer/paths/hdmi-output-7.conf",
+    "share/pulseaudio/alsa-mixer/paths/hdmi-output-8.conf",
+    "share/pulseaudio/alsa-mixer/paths/hdmi-output-9.conf",
+    "share/pulseaudio/alsa-mixer/paths/iec958-stereo-input.conf",
+    "share/pulseaudio/alsa-mixer/paths/iec958-stereo-output.conf",
+    "share/pulseaudio/alsa-mixer/paths/steelseries-arctis-output-chat-common.conf",
+    "share/pulseaudio/alsa-mixer/paths/steelseries-arctis-output-game-common.conf",
+    "share/pulseaudio/alsa-mixer/paths/usb-gaming-headset-input.conf",
+    "share/pulseaudio/alsa-mixer/paths/usb-gaming-headset-output-mono.conf",
+    "share/pulseaudio/alsa-mixer/paths/usb-gaming-headset-output-stereo.conf",
+    "share/pulseaudio/alsa-mixer/paths/virtual-surround-7.1.conf",
+    "share/pulseaudio/alsa-mixer/profile-sets/audigy.conf",
+    "share/pulseaudio/alsa-mixer/profile-sets/cmedia-high-speed-true-hdaudio.conf",
+    "share/pulseaudio/alsa-mixer/profile-sets/default.conf",
+    "share/pulseaudio/alsa-mixer/profile-sets/dell-dock-tb16-usb-audio.conf",
+    "share/pulseaudio/alsa-mixer/profile-sets/force-speaker-and-int-mic.conf",
+    "share/pulseaudio/alsa-mixer/profile-sets/force-speaker.conf",
+    "share/pulseaudio/alsa-mixer/profile-sets/hp-tbt-dock-120w-g2.conf",
+    "share/pulseaudio/alsa-mixer/profile-sets/hp-tbt-dock-audio-module.conf",
+    "share/pulseaudio/alsa-mixer/profile-sets/kinect-audio.conf",
+    "share/pulseaudio/alsa-mixer/profile-sets/maudio-fasttrack-pro.conf",
+    "share/pulseaudio/alsa-mixer/profile-sets/native-instruments-audio4dj.conf",
+    "share/pulseaudio/alsa-mixer/profile-sets/native-instruments-audio8dj.conf",
+    "share/pulseaudio/alsa-mixer/profile-sets/native-instruments-komplete-audio6.conf",
+    "share/pulseaudio/alsa-mixer/profile-sets/native-instruments-korecontroller.conf",
+    "share/pulseaudio/alsa-mixer/profile-sets/native-instruments-traktor-audio10.conf",
+    "share/pulseaudio/alsa-mixer/profile-sets/native-instruments-traktor-audio2.conf",
+    "share/pulseaudio/alsa-mixer/profile-sets/native-instruments-traktor-audio6.conf",
+    "share/pulseaudio/alsa-mixer/profile-sets/native-instruments-traktorkontrol-s4.conf",
+    "share/pulseaudio/alsa-mixer/profile-sets/sb-omni-surround-5.1.conf",
+    "share/pulseaudio/alsa-mixer/profile-sets/sennheiser-gsx.conf",
+    "share/pulseaudio/alsa-mixer/profile-sets/simple-headphones-mic.conf",
+    "share/pulseaudio/alsa-mixer/profile-sets/steelseries-arctis-common-usb-audio.conf",
+    "share/pulseaudio/alsa-mixer/profile-sets/texas-instruments-pcm2902.conf",
+    "share/pulseaudio/alsa-mixer/profile-sets/usb-gaming-headset.conf",
+    "share/vala/vapi/libpulse-mainloop-glib.deps",
+    "share/vala/vapi/libpulse-mainloop-glib.vapi",
+    "share/vala/vapi/libpulse-simple.deps",
+    "share/vala/vapi/libpulse-simple.vapi",
+    "share/vala/vapi/libpulse.deps",
+    "share/vala/vapi/libpulse.vapi",
+    "share/zsh/site-functions/_pulseaudio"
+  ],
+  "fn": "pulseaudio-16.1-h4ab2085_1.conda",
+  "license": "LGPL-2.1-or-later",
+  "license_family": "GPL",
+  "link": {
+    "source": "/home/acrnrpg/anaconda3/pkgs/pulseaudio-16.1-h4ab2085_1",
+    "type": 1
+  },
+  "md5": "5a3c2296c2b45f74fb2fd946cb107b3f",
+  "name": "pulseaudio",
+  "package_tarball_full_path": "/home/acrnrpg/anaconda3/pkgs/pulseaudio-16.1-h4ab2085_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/pa-info",
+        "path_type": "hardlink",
+        "sha256": "2f2137589f09d0b72e6f3a8e674ba29c0eb3c0287b29c5a69080346ae5a2adea",
+        "sha256_in_prefix": "2f2137589f09d0b72e6f3a8e674ba29c0eb3c0287b29c5a69080346ae5a2adea",
+        "size_in_bytes": 2349
+      },
+      {
+        "_path": "bin/pacat",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pulseaudio_1673503361167/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "f59c0d03d5266cdfadd19436af941736f898f5bb76dd964eda19765306d25fd1",
+        "sha256_in_prefix": "386b684d5516dd48445632497129c5e0289ac330aa2a6d1ea191dcb648ee4009",
+        "size_in_bytes": 57560
+      },
+      {
+        "_path": "bin/pacmd",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pulseaudio_1673503361167/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "cd87484eed0375d3b4562fc6dd3ff7382d6537ba424b97e5029503202e055f0e",
+        "sha256_in_prefix": "7ac5c46c74e03a50b0357dab7acfafbe2f5096616755a7548680c75d9eaa42ac",
+        "size_in_bytes": 25408
+      },
+      {
+        "_path": "bin/pactl",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pulseaudio_1673503361167/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "8272e6d3cf8c5fa3dad7e827f8f7b6a821ab0780abc13174f31c1862949293e0",
+        "sha256_in_prefix": "885c70bcccff0e9ad9100c58b15b5a430e8dc112b2f8d0d6b4d0c56c91486a3f",
+        "size_in_bytes": 104024
+      },
+      {
+        "_path": "bin/padsp",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pulseaudio_1673503361167/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "e6f906081cfe8d8ccd3f78fedc0aadbc256b8a7517bbcc996ad577c1477a28dd",
+        "sha256_in_prefix": "5a2758440d7a1f97b42d0f18f8c86959339cfc2638ce5f15f7eaa50b3b0e3269",
+        "size_in_bytes": 2727
+      },
+      {
+        "_path": "bin/pamon",
+        "path_type": "softlink",
+        "sha256": "f59c0d03d5266cdfadd19436af941736f898f5bb76dd964eda19765306d25fd1",
+        "size_in_bytes": 57560
+      },
+      {
+        "_path": "bin/paplay",
+        "path_type": "softlink",
+        "sha256": "f59c0d03d5266cdfadd19436af941736f898f5bb76dd964eda19765306d25fd1",
+        "size_in_bytes": 57560
+      },
+      {
+        "_path": "bin/parec",
+        "path_type": "softlink",
+        "sha256": "f59c0d03d5266cdfadd19436af941736f898f5bb76dd964eda19765306d25fd1",
+        "size_in_bytes": 57560
+      },
+      {
+        "_path": "bin/parecord",
+        "path_type": "softlink",
+        "sha256": "f59c0d03d5266cdfadd19436af941736f898f5bb76dd964eda19765306d25fd1",
+        "size_in_bytes": 57560
+      },
+      {
+        "_path": "bin/pasuspender",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pulseaudio_1673503361167/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "d53662f7b5793b082b3d46c7ba8d88f3f8eb1f3c9e865991dd807ea10ff9a19b",
+        "sha256_in_prefix": "32f08bf35e57cb7203b2a832f1f6c28b04d4d265e2ed187911a0dbeabaf49601",
+        "size_in_bytes": 22976
+      },
+      {
+        "_path": "bin/pulseaudio",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pulseaudio_1673503361167/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "923952f77bd58292374422dc393a669802908738076d9a62bc631576bdde2cf1",
+        "sha256_in_prefix": "d57e11bcbbac7c9ec610da1383c4cd43bd6f5fc7f29bce0f465af01869215137",
+        "size_in_bytes": 101280
+      },
+      {
+        "_path": "bin/qpaeq",
+        "path_type": "hardlink",
+        "sha256": "25b6510daba84b58a4f0168eb82dd71229d0b51542fba45b47bdadfb0ebbff9e",
+        "sha256_in_prefix": "25b6510daba84b58a4f0168eb82dd71229d0b51542fba45b47bdadfb0ebbff9e",
+        "size_in_bytes": 24656
+      },
+      {
+        "_path": "etc/dbus-1/system.d/pulseaudio-system.conf",
+        "path_type": "hardlink",
+        "sha256": "6a8fd2b0868682f017c6cff55d99ede7d01c54d0f6e69143ed3c320e73b2088c",
+        "sha256_in_prefix": "6a8fd2b0868682f017c6cff55d99ede7d01c54d0f6e69143ed3c320e73b2088c",
+        "size_in_bytes": 1084
+      },
+      {
+        "_path": "etc/pulse/client.conf",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pulseaudio_1673503361167/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "be397bcb70398eb473571f22077d5f93c0307ac83328d131055e7051c47301a9",
+        "sha256_in_prefix": "ad95fbed3182eb35b51745d95ba0764e01d08820b41c6927694e234783be7655",
+        "size_in_bytes": 1452
+      },
+      {
+        "_path": "etc/pulse/daemon.conf",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pulseaudio_1673503361167/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "9f9d45cab1da8167884263c7ef5bdb3cc68c67c16adf859638b09c3084c1a643",
+        "sha256_in_prefix": "770d8e0faca76d90353002c44e9aadd890ac4a63155123f7cce465c889591bc6",
+        "size_in_bytes": 2681
+      },
+      {
+        "_path": "etc/pulse/default.pa",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pulseaudio_1673503361167/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "d5f5af295a4c936afa683629bcdba5b7651ebeeac2af58fe8d93d3d4f2b457d8",
+        "sha256_in_prefix": "1e6bef856cdd2465ac1a32083b80872c936af88f229408378c0bc83bb37c6e49",
+        "size_in_bytes": 4980
+      },
+      {
+        "_path": "etc/pulse/system.pa",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pulseaudio_1673503361167/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "88e6d6697381e444b1afffc8311a91f07d5b42e5887d81d2372a758362141971",
+        "sha256_in_prefix": "d8240c564fdd83b318184a467f708fb998be346e17c94d2523964cb984cf5359",
+        "size_in_bytes": 2669
+      },
+      {
+        "_path": "include/pulse/cdecl.h",
+        "path_type": "hardlink",
+        "sha256": "5409316469361899e1dfe4cc8437c60b5a3d19e6bb9a0f2cf1ebb06c3acc149d",
+        "sha256_in_prefix": "5409316469361899e1dfe4cc8437c60b5a3d19e6bb9a0f2cf1ebb06c3acc149d",
+        "size_in_bytes": 1278
+      },
+      {
+        "_path": "include/pulse/channelmap.h",
+        "path_type": "hardlink",
+        "sha256": "74a1615e0e3a6e8577e2f668185a22d9f09b4b5ca5c615bfb47d991c76dc0f71",
+        "sha256_in_prefix": "74a1615e0e3a6e8577e2f668185a22d9f09b4b5ca5c615bfb47d991c76dc0f71",
+        "size_in_bytes": 17192
+      },
+      {
+        "_path": "include/pulse/context.h",
+        "path_type": "hardlink",
+        "sha256": "9c11f1c982c990e122592ec7e428cc8cf07d7bfbda177a37ab34d8fb682a96e3",
+        "sha256_in_prefix": "9c11f1c982c990e122592ec7e428cc8cf07d7bfbda177a37ab34d8fb682a96e3",
+        "size_in_bytes": 13537
+      },
+      {
+        "_path": "include/pulse/def.h",
+        "path_type": "hardlink",
+        "sha256": "57241aeafcce72061367ba0b04fd96a254b64591ff191a5fa6cea11544b27481",
+        "sha256_in_prefix": "57241aeafcce72061367ba0b04fd96a254b64591ff191a5fa6cea11544b27481",
+        "size_in_bytes": 46711
+      },
+      {
+        "_path": "include/pulse/direction.h",
+        "path_type": "hardlink",
+        "sha256": "9243db0ff8ec0fb0928fbafa08b3cc5e86120a324c1a0f4fbb6c99305819bc44",
+        "sha256_in_prefix": "9243db0ff8ec0fb0928fbafa08b3cc5e86120a324c1a0f4fbb6c99305819bc44",
+        "size_in_bytes": 1178
+      },
+      {
+        "_path": "include/pulse/error.h",
+        "path_type": "hardlink",
+        "sha256": "4db392efcefdcc4ec9b58ceb7fb5ad5a286dd845a8186d10b988661ee053530b",
+        "sha256_in_prefix": "4db392efcefdcc4ec9b58ceb7fb5ad5a286dd845a8186d10b988661ee053530b",
+        "size_in_bytes": 1081
+      },
+      {
+        "_path": "include/pulse/ext-device-manager.h",
+        "path_type": "hardlink",
+        "sha256": "14601ac7fb587f9fd12469223dec94133337620c63dd1be39b2fc1b53929e0ed",
+        "sha256_in_prefix": "14601ac7fb587f9fd12469223dec94133337620c63dd1be39b2fc1b53929e0ed",
+        "size_in_bytes": 4720
+      },
+      {
+        "_path": "include/pulse/ext-device-restore.h",
+        "path_type": "hardlink",
+        "sha256": "05781cb0b079e9fcd63a587f7071e9999f70e25def8240f7af6745541c46e07c",
+        "sha256_in_prefix": "05781cb0b079e9fcd63a587f7071e9999f70e25def8240f7af6745541c46e07c",
+        "size_in_bytes": 3708
+      },
+      {
+        "_path": "include/pulse/ext-stream-restore.h",
+        "path_type": "hardlink",
+        "sha256": "84c0e28465238f7d517abb8e766dbf8508e37b5491ac5e5733e09bba2ef47966",
+        "sha256_in_prefix": "84c0e28465238f7d517abb8e766dbf8508e37b5491ac5e5733e09bba2ef47966",
+        "size_in_bytes": 3915
+      },
+      {
+        "_path": "include/pulse/format.h",
+        "path_type": "hardlink",
+        "sha256": "015214b2a3c2c5732ede1ff60e5b1b22a372b94037e1595d60197f54655ab755",
+        "sha256_in_prefix": "015214b2a3c2c5732ede1ff60e5b1b22a372b94037e1595d60197f54655ab755",
+        "size_in_bytes": 13759
+      },
+      {
+        "_path": "include/pulse/gccmacro.h",
+        "path_type": "hardlink",
+        "sha256": "d1e4ae489b989c4f9d4bb2491f21ab8d1c44590d55649b28b2762e158f7b2e44",
+        "sha256_in_prefix": "d1e4ae489b989c4f9d4bb2491f21ab8d1c44590d55649b28b2762e158f7b2e44",
+        "size_in_bytes": 5050
+      },
+      {
+        "_path": "include/pulse/glib-mainloop.h",
+        "path_type": "hardlink",
+        "sha256": "39a5df77160c4e787910a1dc95dc38980c4c9315ca7640e1f5f9b73ed69e1504",
+        "sha256_in_prefix": "39a5df77160c4e787910a1dc95dc38980c4c9315ca7640e1f5f9b73ed69e1504",
+        "size_in_bytes": 2071
+      },
+      {
+        "_path": "include/pulse/introspect.h",
+        "path_type": "hardlink",
+        "sha256": "fdf38178ac144476d706abde9456ce5a0d1bae6ffc2a58b42ff9a2097ab81f84",
+        "sha256_in_prefix": "fdf38178ac144476d706abde9456ce5a0d1bae6ffc2a58b42ff9a2097ab81f84",
+        "size_in_bytes": 49895
+      },
+      {
+        "_path": "include/pulse/mainloop-api.h",
+        "path_type": "hardlink",
+        "sha256": "4adccd28ccf414ec8dea3354a07d6c398f7df324df5f5c50c673db83dbad9504",
+        "sha256_in_prefix": "4adccd28ccf414ec8dea3354a07d6c398f7df324df5f5c50c673db83dbad9504",
+        "size_in_bytes": 6220
+      },
+      {
+        "_path": "include/pulse/mainloop-signal.h",
+        "path_type": "hardlink",
+        "sha256": "0aa10d63118b31845446d79133bb0ff2a91486021947d000dc6a50583276fed9",
+        "sha256_in_prefix": "0aa10d63118b31845446d79133bb0ff2a91486021947d000dc6a50583276fed9",
+        "size_in_bytes": 2419
+      },
+      {
+        "_path": "include/pulse/mainloop.h",
+        "path_type": "hardlink",
+        "sha256": "db728dea865ace80fcee233028a9ff03792952065c0867218fe16f30f25c1735",
+        "sha256_in_prefix": "db728dea865ace80fcee233028a9ff03792952065c0867218fe16f30f25c1735",
+        "size_in_bytes": 5198
+      },
+      {
+        "_path": "include/pulse/operation.h",
+        "path_type": "hardlink",
+        "sha256": "f5afe1deb0ac539aeb74a23e646c6a2f3d4f6aead06d9f24bda717695f75f21c",
+        "sha256_in_prefix": "f5afe1deb0ac539aeb74a23e646c6a2f3d4f6aead06d9f24bda717695f75f21c",
+        "size_in_bytes": 2269
+      },
+      {
+        "_path": "include/pulse/proplist.h",
+        "path_type": "hardlink",
+        "sha256": "55bbfbf16fd12ca7e3d3ba37f44c6e8bc4b519b48c3a9419d3e8f7b01efc8e7e",
+        "sha256_in_prefix": "55bbfbf16fd12ca7e3d3ba37f44c6e8bc4b519b48c3a9419d3e8f7b01efc8e7e",
+        "size_in_bytes": 22704
+      },
+      {
+        "_path": "include/pulse/pulseaudio.h",
+        "path_type": "hardlink",
+        "sha256": "6f9a42d6cc00a25944e5cee62f96c36d119aeef14fa265a52791996cca9c5fd6",
+        "sha256_in_prefix": "6f9a42d6cc00a25944e5cee62f96c36d119aeef14fa265a52791996cca9c5fd6",
+        "size_in_bytes": 7605
+      },
+      {
+        "_path": "include/pulse/rtclock.h",
+        "path_type": "hardlink",
+        "sha256": "bd1ef12c706e09241730115bf4f48d8f3bebe268a4bd5f3cf6a11ea0bd6b81a4",
+        "sha256_in_prefix": "bd1ef12c706e09241730115bf4f48d8f3bebe268a4bd5f3cf6a11ea0bd6b81a4",
+        "size_in_bytes": 1127
+      },
+      {
+        "_path": "include/pulse/sample.h",
+        "path_type": "hardlink",
+        "sha256": "7159a3f99fbf4d67073fb01d26a90f44a828ac5d4a6b41c1e0117278718cf4b8",
+        "sha256_in_prefix": "7159a3f99fbf4d67073fb01d26a90f44a828ac5d4a6b41c1e0117278718cf4b8",
+        "size_in_bytes": 13863
+      },
+      {
+        "_path": "include/pulse/scache.h",
+        "path_type": "hardlink",
+        "sha256": "9e39fb3a3ddce99991c59570a54e19ff6d0ae242422b08af12f7a1ab2f743b81",
+        "sha256_in_prefix": "9e39fb3a3ddce99991c59570a54e19ff6d0ae242422b08af12f7a1ab2f743b81",
+        "size_in_bytes": 5348
+      },
+      {
+        "_path": "include/pulse/simple.h",
+        "path_type": "hardlink",
+        "sha256": "d31e5931758234943e984144d1ba6f07521439f691a47da328aa812aacc838bd",
+        "sha256_in_prefix": "d31e5931758234943e984144d1ba6f07521439f691a47da328aa812aacc838bd",
+        "size_in_bytes": 6119
+      },
+      {
+        "_path": "include/pulse/stream.h",
+        "path_type": "hardlink",
+        "sha256": "3422eda7e0b3b3948c0cbec43f12be877ed992baa4c523a535d4c303a447a1a8",
+        "sha256_in_prefix": "3422eda7e0b3b3948c0cbec43f12be877ed992baa4c523a535d4c303a447a1a8",
+        "size_in_bytes": 41832
+      },
+      {
+        "_path": "include/pulse/subscribe.h",
+        "path_type": "hardlink",
+        "sha256": "14e1c88d2c2f9ebd5e5da3b522b48ebb71ae3fa70e85868975b4e269f36f4b32",
+        "sha256_in_prefix": "14e1c88d2c2f9ebd5e5da3b522b48ebb71ae3fa70e85868975b4e269f36f4b32",
+        "size_in_bytes": 3065
+      },
+      {
+        "_path": "include/pulse/thread-mainloop.h",
+        "path_type": "hardlink",
+        "sha256": "a02e3e2fa5a4ea9f2d3cb64e4eb647225811a31d6ae5ae4605926a55a2e24acc",
+        "sha256_in_prefix": "a02e3e2fa5a4ea9f2d3cb64e4eb647225811a31d6ae5ae4605926a55a2e24acc",
+        "size_in_bytes": 12874
+      },
+      {
+        "_path": "include/pulse/timeval.h",
+        "path_type": "hardlink",
+        "sha256": "e1fa8f1c86eed95828737c3e4daed9a790cf4388c556d127854370a27c08ba18",
+        "sha256_in_prefix": "e1fa8f1c86eed95828737c3e4daed9a790cf4388c556d127854370a27c08ba18",
+        "size_in_bytes": 3052
+      },
+      {
+        "_path": "include/pulse/utf8.h",
+        "path_type": "hardlink",
+        "sha256": "a4fce745ee797efd0b60312b05ed5606c64110dcee6fe12aa5d1729b0bccb3ef",
+        "sha256_in_prefix": "a4fce745ee797efd0b60312b05ed5606c64110dcee6fe12aa5d1729b0bccb3ef",
+        "size_in_bytes": 2027
+      },
+      {
+        "_path": "include/pulse/util.h",
+        "path_type": "hardlink",
+        "sha256": "6fb670e2ef3bdd9b62dc043bef564f265c4019501fbf9d5a4f687f8a0c49d166",
+        "sha256_in_prefix": "6fb670e2ef3bdd9b62dc043bef564f265c4019501fbf9d5a4f687f8a0c49d166",
+        "size_in_bytes": 2093
+      },
+      {
+        "_path": "include/pulse/version.h",
+        "path_type": "hardlink",
+        "sha256": "b41df694be60d5fa31d7aa333892a0be816cb710a838640e09a754cab5e472d6",
+        "sha256_in_prefix": "b41df694be60d5fa31d7aa333892a0be816cb710a838640e09a754cab5e472d6",
+        "size_in_bytes": 2371
+      },
+      {
+        "_path": "include/pulse/volume.h",
+        "path_type": "hardlink",
+        "sha256": "35ee7b2ea0d008dc1b67077b4e8b1e0321d3a35e6d3f7a04fd74d4c70774ea17",
+        "sha256_in_prefix": "35ee7b2ea0d008dc1b67077b4e8b1e0321d3a35e6d3f7a04fd74d4c70774ea17",
+        "size_in_bytes": 21959
+      },
+      {
+        "_path": "include/pulse/xmalloc.h",
+        "path_type": "hardlink",
+        "sha256": "3c03250b39d1cf2f4b9f6f7db80fbbb1677253b29684ddda9eb940cd00f27c31",
+        "sha256_in_prefix": "3c03250b39d1cf2f4b9f6f7db80fbbb1677253b29684ddda9eb940cd00f27c31",
+        "size_in_bytes": 3474
+      },
+      {
+        "_path": "lib/cmake/PulseAudio/PulseAudioConfig.cmake",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pulseaudio_1673503361167/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "ee7677b3d1e0d250ad5c9690f4cf12292f25fa2da30ec0f45fb771a4c90c7452",
+        "sha256_in_prefix": "8d2d9ddabf0abdf7aab7b25e20b483ca85e3474c5314b55a8500e4c34a64174d",
+        "size_in_bytes": 1167
+      },
+      {
+        "_path": "lib/cmake/PulseAudio/PulseAudioConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "79ae927463c90c8d186fa65064cab7501fd13c7d8d00ce57bd0b4b758e3a66d6",
+        "sha256_in_prefix": "79ae927463c90c8d186fa65064cab7501fd13c7d8d00ce57bd0b4b758e3a66d6",
+        "size_in_bytes": 472
+      },
+      {
+        "_path": "lib/libpulse-mainloop-glib.so",
+        "path_type": "softlink",
+        "sha256": "19475df393af1c51ed3e1377967dc2be9520cc721ec5d4957bd4dde3c36a9839",
+        "size_in_bytes": 22104
+      },
+      {
+        "_path": "lib/libpulse-mainloop-glib.so.0",
+        "path_type": "softlink",
+        "sha256": "19475df393af1c51ed3e1377967dc2be9520cc721ec5d4957bd4dde3c36a9839",
+        "size_in_bytes": 22104
+      },
+      {
+        "_path": "lib/libpulse-mainloop-glib.so.0.0.6",
+        "path_type": "hardlink",
+        "sha256": "19475df393af1c51ed3e1377967dc2be9520cc721ec5d4957bd4dde3c36a9839",
+        "sha256_in_prefix": "19475df393af1c51ed3e1377967dc2be9520cc721ec5d4957bd4dde3c36a9839",
+        "size_in_bytes": 22104
+      },
+      {
+        "_path": "lib/libpulse-simple.so",
+        "path_type": "softlink",
+        "sha256": "2a06ae1039029580e537777f115d91bf064fc34786b8ed082cbe5292e5e1a17c",
+        "size_in_bytes": 22184
+      },
+      {
+        "_path": "lib/libpulse-simple.so.0",
+        "path_type": "softlink",
+        "sha256": "2a06ae1039029580e537777f115d91bf064fc34786b8ed082cbe5292e5e1a17c",
+        "size_in_bytes": 22184
+      },
+      {
+        "_path": "lib/libpulse-simple.so.0.1.1",
+        "path_type": "hardlink",
+        "sha256": "2a06ae1039029580e537777f115d91bf064fc34786b8ed082cbe5292e5e1a17c",
+        "sha256_in_prefix": "2a06ae1039029580e537777f115d91bf064fc34786b8ed082cbe5292e5e1a17c",
+        "size_in_bytes": 22184
+      },
+      {
+        "_path": "lib/libpulse.so",
+        "path_type": "softlink",
+        "sha256": "cfb146df4f99523697ba91c7cebe5c8abadc256d6bf874fcce96589a9d356d02",
+        "size_in_bytes": 270680
+      },
+      {
+        "_path": "lib/libpulse.so.0",
+        "path_type": "softlink",
+        "sha256": "cfb146df4f99523697ba91c7cebe5c8abadc256d6bf874fcce96589a9d356d02",
+        "size_in_bytes": 270680
+      },
+      {
+        "_path": "lib/libpulse.so.0.24.2",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pulseaudio_1673503361167/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "cfb146df4f99523697ba91c7cebe5c8abadc256d6bf874fcce96589a9d356d02",
+        "sha256_in_prefix": "58c06c897d171f9124d7f70c6b42ef916824eff16d8d3973483fb0bbe5c6bfbe",
+        "size_in_bytes": 270680
+      },
+      {
+        "_path": "lib/pkgconfig/libpulse-mainloop-glib.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pulseaudio_1673503361167/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "e659f92fadd86ad7d73aa8c708f15116be9e19bdd8a109a195cb4a086b56bc77",
+        "sha256_in_prefix": "706f2c05ee960d9418337aa7e2d450ae987d30e3330d123be71a4e6541c29891",
+        "size_in_bytes": 1338
+      },
+      {
+        "_path": "lib/pkgconfig/libpulse-simple.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pulseaudio_1673503361167/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "c63309ea59d678c496a0012c228dec388ae137ce45e8432671eea7cdaf0e0fc4",
+        "sha256_in_prefix": "f6025f6830b25552058f2c996f2e0208fbea3923949780853db820c7f9191b7b",
+        "size_in_bytes": 1328
+      },
+      {
+        "_path": "lib/pkgconfig/libpulse.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pulseaudio_1673503361167/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "af6e9e305b2594a966e3202398cbeb9659737816da89123c96c08446cda27842",
+        "sha256_in_prefix": "b3afb63def81793e21571bfb50b6868afc9ee3942519cd9602cb2bfa7ad5f394",
+        "size_in_bytes": 1565
+      },
+      {
+        "_path": "lib/pulseaudio/libpulsecommon-16.1.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pulseaudio_1673503361167/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "0cf86f63de6e663e67a49aa84745c79bd8803bc0b0fcac9e1b93175c01d0a7c2",
+        "sha256_in_prefix": "fe6a4f80c23358ab042c1941dabc6f9d6fa564c378574176e1fa1f90079a0a7e",
+        "size_in_bytes": 433832
+      },
+      {
+        "_path": "lib/pulseaudio/libpulsecore-16.1.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pulseaudio_1673503361167/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "387709cb7456d7cdf3d4e6752ddcdf6e9d496933cb42ea889295b32cadd75be1",
+        "sha256_in_prefix": "e8955c7b5b93e813c3f84405febcbe2fbdbf77051d8efbf770a92f6c0911c04d",
+        "size_in_bytes": 565088
+      },
+      {
+        "_path": "lib/pulseaudio/libpulsedsp.so",
+        "path_type": "hardlink",
+        "sha256": "04cf1f0660732a41c3ed0d2c585500c38d056a1f66362c8b0eb28394367c9e38",
+        "sha256_in_prefix": "04cf1f0660732a41c3ed0d2c585500c38d056a1f66362c8b0eb28394367c9e38",
+        "size_in_bytes": 59712
+      },
+      {
+        "_path": "lib/pulseaudio/modules/libalsa-util.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pulseaudio_1673503361167/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "77c0f28e4506a706396fb0b8ebcaba06758291eee0c1bb9add2c71f5fa2926ed",
+        "sha256_in_prefix": "8e1f20874f949a76ee2770491bd9081d48463979f3822195a7010159f422bd44",
+        "size_in_bytes": 335336
+      },
+      {
+        "_path": "lib/pulseaudio/modules/libcli.so",
+        "path_type": "hardlink",
+        "sha256": "3579623bb5c0fe68383921041e2017b6a1fbffedc1a904e551db24262aca1c9f",
+        "sha256_in_prefix": "3579623bb5c0fe68383921041e2017b6a1fbffedc1a904e551db24262aca1c9f",
+        "size_in_bytes": 16704
+      },
+      {
+        "_path": "lib/pulseaudio/modules/liboss-util.so",
+        "path_type": "hardlink",
+        "sha256": "ccf8e9c8526ebfe4b53aa13b664153ac1768745d57d4e606db04649dd6268350",
+        "sha256_in_prefix": "ccf8e9c8526ebfe4b53aa13b664153ac1768745d57d4e606db04649dd6268350",
+        "size_in_bytes": 21168
+      },
+      {
+        "_path": "lib/pulseaudio/modules/libprotocol-cli.so",
+        "path_type": "hardlink",
+        "sha256": "a51ca1afc6ee0fe8762e115e31b645932109c3d86b3d59b9162c3db727cc25fe",
+        "sha256_in_prefix": "a51ca1afc6ee0fe8762e115e31b645932109c3d86b3d59b9162c3db727cc25fe",
+        "size_in_bytes": 16560
+      },
+      {
+        "_path": "lib/pulseaudio/modules/libprotocol-http.so",
+        "path_type": "hardlink",
+        "sha256": "644a477b99a0f1f892a6c4008033b567bb21c7283f4ae769ded0d5b02b8eaaac",
+        "sha256_in_prefix": "644a477b99a0f1f892a6c4008033b567bb21c7283f4ae769ded0d5b02b8eaaac",
+        "size_in_bytes": 37512
+      },
+      {
+        "_path": "lib/pulseaudio/modules/libprotocol-native.so",
+        "path_type": "hardlink",
+        "sha256": "ee58a626ec4d76ad07018cfe78d5145e295a3b1cd2880d79932844b9fcbcb4bb",
+        "sha256_in_prefix": "ee58a626ec4d76ad07018cfe78d5145e295a3b1cd2880d79932844b9fcbcb4bb",
+        "size_in_bytes": 131792
+      },
+      {
+        "_path": "lib/pulseaudio/modules/libprotocol-simple.so",
+        "path_type": "hardlink",
+        "sha256": "c09d543f62eae43ad1c33095f508554bd5b003d9d39c3be0e5ceb0fc84686dc9",
+        "sha256_in_prefix": "c09d543f62eae43ad1c33095f508554bd5b003d9d39c3be0e5ceb0fc84686dc9",
+        "size_in_bytes": 32984
+      },
+      {
+        "_path": "lib/pulseaudio/modules/libraop.so",
+        "path_type": "hardlink",
+        "sha256": "8392c1d7bc6af1b4824f80eeffb4f4f432c225f74ae31323cfcb31c32e7ca961",
+        "sha256_in_prefix": "8392c1d7bc6af1b4824f80eeffb4f4f432c225f74ae31323cfcb31c32e7ca961",
+        "size_in_bytes": 71048
+      },
+      {
+        "_path": "lib/pulseaudio/modules/librtp.so",
+        "path_type": "hardlink",
+        "sha256": "7c3bce00cb5519b649c3ea70bdde9973d86f2afdb2f79d5ca2b35b86e2c3fd90",
+        "sha256_in_prefix": "7c3bce00cb5519b649c3ea70bdde9973d86f2afdb2f79d5ca2b35b86e2c3fd90",
+        "size_in_bytes": 41992
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-allow-passthrough.so",
+        "path_type": "hardlink",
+        "sha256": "d5279c1ffcfc0315ea8cdfe588f05f087c52a5976bc5acb60e2c0d828e91ddaa",
+        "sha256_in_prefix": "d5279c1ffcfc0315ea8cdfe588f05f087c52a5976bc5acb60e2c0d828e91ddaa",
+        "size_in_bytes": 21760
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-alsa-card.so",
+        "path_type": "hardlink",
+        "sha256": "31612fa85d73b5ca2081923f70edfacd238a497628353b36ad8f52206db3da32",
+        "sha256_in_prefix": "31612fa85d73b5ca2081923f70edfacd238a497628353b36ad8f52206db3da32",
+        "size_in_bytes": 46464
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-alsa-sink.so",
+        "path_type": "hardlink",
+        "sha256": "320ba1bddcbba36d72fb3f7de94d814ba13f2b16e1dd62cb2ebeed6de838d1ea",
+        "sha256_in_prefix": "320ba1bddcbba36d72fb3f7de94d814ba13f2b16e1dd62cb2ebeed6de838d1ea",
+        "size_in_bytes": 16344
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-alsa-source.so",
+        "path_type": "hardlink",
+        "sha256": "88777d565a83deaf224affddac4c898eb76324a20be72a1ba7392738c686d93e",
+        "sha256_in_prefix": "88777d565a83deaf224affddac4c898eb76324a20be72a1ba7392738c686d93e",
+        "size_in_bytes": 16368
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-always-sink.so",
+        "path_type": "hardlink",
+        "sha256": "fd5978340bdb9ef93fe754e5f0395d48dd28f79d3972e801cdb57fcd84f05a68",
+        "sha256_in_prefix": "fd5978340bdb9ef93fe754e5f0395d48dd28f79d3972e801cdb57fcd84f05a68",
+        "size_in_bytes": 16784
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-always-source.so",
+        "path_type": "hardlink",
+        "sha256": "0e6fa9815301bff15a18c3569860bb0cd332fde0d22aff3d83e465fa2b3edf38",
+        "sha256_in_prefix": "0e6fa9815301bff15a18c3569860bb0cd332fde0d22aff3d83e465fa2b3edf38",
+        "size_in_bytes": 16800
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-augment-properties.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pulseaudio_1673503361167/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "fef8820f8fd900571f5168c51afde1f93996aae4296bfe295b6e71bb2df9dfe1",
+        "sha256_in_prefix": "4b298d9746406323a25f80ddc1a145f9b08c24b7a30130005dc40d2702ad2c04",
+        "size_in_bytes": 22360
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-card-restore.so",
+        "path_type": "hardlink",
+        "sha256": "8286687c3a020cd32493a1dcc7003adbaf858b8b74f67845095916f72f0aeb42",
+        "sha256_in_prefix": "8286687c3a020cd32493a1dcc7003adbaf858b8b74f67845095916f72f0aeb42",
+        "size_in_bytes": 31656
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-cli-protocol-tcp.so",
+        "path_type": "hardlink",
+        "sha256": "5adf6a4e80897a2c1adb18d4b152acee950b4b01563ea0adee231da77e27d8b4",
+        "sha256_in_prefix": "5adf6a4e80897a2c1adb18d4b152acee950b4b01563ea0adee231da77e27d8b4",
+        "size_in_bytes": 20936
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-cli-protocol-unix.so",
+        "path_type": "hardlink",
+        "sha256": "071fefa38a57cd6ca48e9d5cd7ea77cb6485808e20b523507b89a80607f9789c",
+        "sha256_in_prefix": "071fefa38a57cd6ca48e9d5cd7ea77cb6485808e20b523507b89a80607f9789c",
+        "size_in_bytes": 20800
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-cli.so",
+        "path_type": "hardlink",
+        "sha256": "827424719cfa463f56507bd4f1ccff2d69657824908ebd8808b1713bae189e87",
+        "sha256_in_prefix": "827424719cfa463f56507bd4f1ccff2d69657824908ebd8808b1713bae189e87",
+        "size_in_bytes": 16504
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-combine-sink.so",
+        "path_type": "hardlink",
+        "sha256": "3945432788deded9e1714fb5da8ac0f7f40b2a6848f525cf4f5547517b0b6aef",
+        "sha256_in_prefix": "3945432788deded9e1714fb5da8ac0f7f40b2a6848f525cf4f5547517b0b6aef",
+        "size_in_bytes": 52608
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-combine.so",
+        "path_type": "hardlink",
+        "sha256": "d5aa689475f75ebfdc544676533f913778a212b8b28d28cdefbab54d705eec94",
+        "sha256_in_prefix": "d5aa689475f75ebfdc544676533f913778a212b8b28d28cdefbab54d705eec94",
+        "size_in_bytes": 16056
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-console-kit.so",
+        "path_type": "hardlink",
+        "sha256": "f10a929d95aa30d321e0ae02a45f19a1e4aaec7eef1433a931ebd3424c68ce24",
+        "sha256_in_prefix": "f10a929d95aa30d321e0ae02a45f19a1e4aaec7eef1433a931ebd3424c68ce24",
+        "size_in_bytes": 22392
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-dbus-protocol.so",
+        "path_type": "hardlink",
+        "sha256": "f14ddf4832781bc058adff6f40644c5e25fde583eb558278e6179524f1399a35",
+        "sha256_in_prefix": "f14ddf4832781bc058adff6f40644c5e25fde583eb558278e6179524f1399a35",
+        "size_in_bytes": 211088
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-default-device-restore.so",
+        "path_type": "hardlink",
+        "sha256": "18337e051bcd97f23000ae956dfe2bcd6397b5c6f943104cbf6162bd35d36c28",
+        "sha256_in_prefix": "18337e051bcd97f23000ae956dfe2bcd6397b5c6f943104cbf6162bd35d36c28",
+        "size_in_bytes": 20880
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-detect.so",
+        "path_type": "hardlink",
+        "sha256": "2defe096304aace0415380f5de54ee86e3ac3f3cdc1f2997e46a75efccc0119d",
+        "sha256_in_prefix": "2defe096304aace0415380f5de54ee86e3ac3f3cdc1f2997e46a75efccc0119d",
+        "size_in_bytes": 20984
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-device-manager.so",
+        "path_type": "hardlink",
+        "sha256": "5ace84677a8f092b7f0ea2aa34954805cbd955c1f60848e5709bd205fd0cc9c3",
+        "sha256_in_prefix": "5ace84677a8f092b7f0ea2aa34954805cbd955c1f60848e5709bd205fd0cc9c3",
+        "size_in_bytes": 45792
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-device-restore.so",
+        "path_type": "hardlink",
+        "sha256": "91635ddbba6a808e3e4072d59968f0778450507bde04c66f1fc2fbb66ecb9b33",
+        "sha256_in_prefix": "91635ddbba6a808e3e4072d59968f0778450507bde04c66f1fc2fbb66ecb9b33",
+        "size_in_bytes": 45664
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-echo-cancel.so",
+        "path_type": "hardlink",
+        "sha256": "18da71e894f308ac322f20c0e1b15741a5e9ea9b6116a5b3ed3139a85e7c8e3c",
+        "sha256_in_prefix": "18da71e894f308ac322f20c0e1b15741a5e9ea9b6116a5b3ed3139a85e7c8e3c",
+        "size_in_bytes": 80816
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-equalizer-sink.so",
+        "path_type": "hardlink",
+        "sha256": "83e4162a096eb6d28a6c413b2b6c59ee48efa152f37a3e3ba9fb30d206f5829d",
+        "sha256_in_prefix": "83e4162a096eb6d28a6c413b2b6c59ee48efa152f37a3e3ba9fb30d206f5829d",
+        "size_in_bytes": 84504
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-filter-apply.so",
+        "path_type": "hardlink",
+        "sha256": "f8567734fcd66c3a1bb6064e4a46de7c857689ce0536439f2468b01fd5001312",
+        "sha256_in_prefix": "f8567734fcd66c3a1bb6064e4a46de7c857689ce0536439f2468b01fd5001312",
+        "size_in_bytes": 26800
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-filter-heuristics.so",
+        "path_type": "hardlink",
+        "sha256": "98f9a1ffeb776de4e54f8644a5082dc18fcd45e67009b9bbe452a7e24b9b78d0",
+        "sha256_in_prefix": "98f9a1ffeb776de4e54f8644a5082dc18fcd45e67009b9bbe452a7e24b9b78d0",
+        "size_in_bytes": 16472
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-hal-detect.so",
+        "path_type": "hardlink",
+        "sha256": "45c003efdb9792ef131faf0e3603daf3810da9d1abf10891dbd6832b314013ae",
+        "sha256_in_prefix": "45c003efdb9792ef131faf0e3603daf3810da9d1abf10891dbd6832b314013ae",
+        "size_in_bytes": 16192
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-http-protocol-tcp.so",
+        "path_type": "hardlink",
+        "sha256": "87cf50f1b1a48562ab0742b90a1d233984f6fcde322a89187faf49821e8e4977",
+        "sha256_in_prefix": "87cf50f1b1a48562ab0742b90a1d233984f6fcde322a89187faf49821e8e4977",
+        "size_in_bytes": 21120
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-http-protocol-unix.so",
+        "path_type": "hardlink",
+        "sha256": "f73f260236bc008814bed387c97488bcf3f08a82af94aa2dcf11d9d9a37e625d",
+        "sha256_in_prefix": "f73f260236bc008814bed387c97488bcf3f08a82af94aa2dcf11d9d9a37e625d",
+        "size_in_bytes": 21048
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-intended-roles.so",
+        "path_type": "hardlink",
+        "sha256": "a6d82e67bcc81de21bafd8c9412f4df75df8a30bad237906186dc9a437617a83",
+        "sha256_in_prefix": "a6d82e67bcc81de21bafd8c9412f4df75df8a30bad237906186dc9a437617a83",
+        "size_in_bytes": 21160
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-jack-sink.so",
+        "path_type": "hardlink",
+        "sha256": "605c7fe93d5c6befc1e5e53f8fb6929388506cab26eca79c67f19eda7a6cd0d8",
+        "sha256_in_prefix": "605c7fe93d5c6befc1e5e53f8fb6929388506cab26eca79c67f19eda7a6cd0d8",
+        "size_in_bytes": 32512
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-jack-source.so",
+        "path_type": "hardlink",
+        "sha256": "72bbefd227708c45fa9d5f3bf04f1890da7c2552ed70d6244348e29d737a0794",
+        "sha256_in_prefix": "72bbefd227708c45fa9d5f3bf04f1890da7c2552ed70d6244348e29d737a0794",
+        "size_in_bytes": 32200
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-jackdbus-detect.so",
+        "path_type": "hardlink",
+        "sha256": "fb072b387060130fa35806dd65c6c7d70d4987740503bfc3864157f501bbbd8b",
+        "sha256_in_prefix": "fb072b387060130fa35806dd65c6c7d70d4987740503bfc3864157f501bbbd8b",
+        "size_in_bytes": 30984
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-ladspa-sink.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pulseaudio_1673503361167/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "93c75c3e8c0d83b8302e1bb389758ebb03dfa09702fd9e1ae740aa45f552f2ab",
+        "sha256_in_prefix": "38627d57723d8ccae1bee3cd15a07cddbb37bd070ce360d2b1de9b01f8cb2ebf",
+        "size_in_bytes": 57936
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-loopback.so",
+        "path_type": "hardlink",
+        "sha256": "c9fa1921e360b7b1c96aec56d9d355f798fa953978da12eda604d31f5df5f7b5",
+        "sha256_in_prefix": "c9fa1921e360b7b1c96aec56d9d355f798fa953978da12eda604d31f5df5f7b5",
+        "size_in_bytes": 56944
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-match.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pulseaudio_1673503361167/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "64e69a45abb5f4c2a90910dae381d34313dcd0182c956d68dd109408591d61f9",
+        "sha256_in_prefix": "b963b336c84acc01a0d271911dc793eaf350e344afaec45958fea75a96ab8178",
+        "size_in_bytes": 21624
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-mmkbd-evdev.so",
+        "path_type": "hardlink",
+        "sha256": "15e83e69b439caf5cb30601a897b4e71251f2cf47155a20f0b405f7eecfffc25",
+        "sha256_in_prefix": "15e83e69b439caf5cb30601a897b4e71251f2cf47155a20f0b405f7eecfffc25",
+        "size_in_bytes": 21040
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-native-protocol-fd.so",
+        "path_type": "hardlink",
+        "sha256": "64691b7fa23ee5a182813eba0aa92809ace11f50e84987166a5b7457ce2d8b9a",
+        "sha256_in_prefix": "64691b7fa23ee5a182813eba0aa92809ace11f50e84987166a5b7457ce2d8b9a",
+        "size_in_bytes": 16392
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-native-protocol-tcp.so",
+        "path_type": "hardlink",
+        "sha256": "d609997bdabd29f0a2a58746495f209514326afe22fe0f174f362e652bbaa1a9",
+        "sha256_in_prefix": "d609997bdabd29f0a2a58746495f209514326afe22fe0f174f362e652bbaa1a9",
+        "size_in_bytes": 21288
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-native-protocol-unix.so",
+        "path_type": "hardlink",
+        "sha256": "49e119f895fcd823c0390a349161faf67a01e2ce028fe3b0a7e3e275ed3e1933",
+        "sha256_in_prefix": "49e119f895fcd823c0390a349161faf67a01e2ce028fe3b0a7e3e275ed3e1933",
+        "size_in_bytes": 21216
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-null-sink.so",
+        "path_type": "hardlink",
+        "sha256": "bfbc3b887c09a15093a47baafd82a880b795dab4cf84fc31718989ed4f451c1a",
+        "sha256_in_prefix": "bfbc3b887c09a15093a47baafd82a880b795dab4cf84fc31718989ed4f451c1a",
+        "size_in_bytes": 23592
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-null-source.so",
+        "path_type": "hardlink",
+        "sha256": "0f4c337d275910c1cf3a88442d07fa1a31192419a3568e5a19e99fe09699d274",
+        "sha256_in_prefix": "0f4c337d275910c1cf3a88442d07fa1a31192419a3568e5a19e99fe09699d274",
+        "size_in_bytes": 22544
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-oss.so",
+        "path_type": "hardlink",
+        "sha256": "65fee7ee9a3d29ac48329b13d1c73e60d7f52d07c718d6891501293d9d58180e",
+        "sha256_in_prefix": "65fee7ee9a3d29ac48329b13d1c73e60d7f52d07c718d6891501293d9d58180e",
+        "size_in_bytes": 46080
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-pipe-sink.so",
+        "path_type": "hardlink",
+        "sha256": "3c05dfa04d16bb64796ed460360588287de82bd9c77ae2b6d3fd529cee4e84e8",
+        "sha256_in_prefix": "3c05dfa04d16bb64796ed460360588287de82bd9c77ae2b6d3fd529cee4e84e8",
+        "size_in_bytes": 32040
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-pipe-source.so",
+        "path_type": "hardlink",
+        "sha256": "64a9058dc11fc6fab5048bba4295fce3f4a65e526ae1e6420fa5d9c5612cd0ab",
+        "sha256_in_prefix": "64a9058dc11fc6fab5048bba4295fce3f4a65e526ae1e6420fa5d9c5612cd0ab",
+        "size_in_bytes": 22944
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-position-event-sounds.so",
+        "path_type": "hardlink",
+        "sha256": "19de1c25e6078983e30daf9867cde915f72a57479d66456948c63d2a731bbdcb",
+        "sha256_in_prefix": "19de1c25e6078983e30daf9867cde915f72a57479d66456948c63d2a731bbdcb",
+        "size_in_bytes": 20992
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-raop-sink.so",
+        "path_type": "hardlink",
+        "sha256": "c4a6eaa08537110bf2cb15a3846d25cd05ca3376d6713ab8a2afd97940828fd4",
+        "sha256_in_prefix": "c4a6eaa08537110bf2cb15a3846d25cd05ca3376d6713ab8a2afd97940828fd4",
+        "size_in_bytes": 16256
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-remap-sink.so",
+        "path_type": "hardlink",
+        "sha256": "0575b15cb2171075b816a4edada3350923c6fcf8652de63d2e7ed713565cc7aa",
+        "sha256_in_prefix": "0575b15cb2171075b816a4edada3350923c6fcf8652de63d2e7ed713565cc7aa",
+        "size_in_bytes": 37440
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-remap-source.so",
+        "path_type": "hardlink",
+        "sha256": "e9c174d1a501bd9f97ee4aac7df5c7a8fe7469953a334e8ae2eda07dbc5e3b40",
+        "sha256_in_prefix": "e9c174d1a501bd9f97ee4aac7df5c7a8fe7469953a334e8ae2eda07dbc5e3b40",
+        "size_in_bytes": 36936
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-rescue-streams.so",
+        "path_type": "hardlink",
+        "sha256": "f5eb0d7cc712ee0ecab3d1824f869bb0a143b4d518fb2813c030d6ccc6ac3d97",
+        "sha256_in_prefix": "f5eb0d7cc712ee0ecab3d1824f869bb0a143b4d518fb2813c030d6ccc6ac3d97",
+        "size_in_bytes": 15552
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-role-cork.so",
+        "path_type": "hardlink",
+        "sha256": "c556402db33b0f241b1a9e53cbd137a240bbdfa7944ba602495961ef467f35bf",
+        "sha256_in_prefix": "c556402db33b0f241b1a9e53cbd137a240bbdfa7944ba602495961ef467f35bf",
+        "size_in_bytes": 26792
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-role-ducking.so",
+        "path_type": "hardlink",
+        "sha256": "09d94d395869fbbbfbfea18ba7b7f45c0286933fd5683df657d13bd1eb0c022f",
+        "sha256_in_prefix": "09d94d395869fbbbfbfea18ba7b7f45c0286933fd5683df657d13bd1eb0c022f",
+        "size_in_bytes": 26816
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-rtp-recv.so",
+        "path_type": "hardlink",
+        "sha256": "2de5afff1d066e52ca1b66b7709a1b61109f1136baefd7bc13e03710050fc784",
+        "sha256_in_prefix": "2de5afff1d066e52ca1b66b7709a1b61109f1136baefd7bc13e03710050fc784",
+        "size_in_bytes": 37464
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-rtp-send.so",
+        "path_type": "hardlink",
+        "sha256": "934a677ac58957fec07566a4028ac6097c44130be5d906cdb23096f94c506da8",
+        "sha256_in_prefix": "934a677ac58957fec07566a4028ac6097c44130be5d906cdb23096f94c506da8",
+        "size_in_bytes": 35680
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-rygel-media-server.so",
+        "path_type": "hardlink",
+        "sha256": "9de0fdd40e9d423b2bc8934efa9962e37dfa18da67014644859ae88d3421fbf6",
+        "sha256_in_prefix": "9de0fdd40e9d423b2bc8934efa9962e37dfa18da67014644859ae88d3421fbf6",
+        "size_in_bytes": 54384
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-simple-protocol-tcp.so",
+        "path_type": "hardlink",
+        "sha256": "e68edd9043dc284e35679912f69ba42c174d5aca52f0640c6a362856aec23f0d",
+        "sha256_in_prefix": "e68edd9043dc284e35679912f69ba42c174d5aca52f0640c6a362856aec23f0d",
+        "size_in_bytes": 21112
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-simple-protocol-unix.so",
+        "path_type": "hardlink",
+        "sha256": "c513d8a6cbc53cdd39fabef7329818e8e2e1c3f42b225a46438592007a5be833",
+        "sha256_in_prefix": "c513d8a6cbc53cdd39fabef7329818e8e2e1c3f42b225a46438592007a5be833",
+        "size_in_bytes": 20976
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-sine-source.so",
+        "path_type": "hardlink",
+        "sha256": "a57477b44b5e546c45755430a7591791c0c1c105cb5029658dcc76fb9d37a4f3",
+        "sha256_in_prefix": "a57477b44b5e546c45755430a7591791c0c1c105cb5029658dcc76fb9d37a4f3",
+        "size_in_bytes": 22536
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-sine.so",
+        "path_type": "hardlink",
+        "sha256": "ffe2fc5f71afa2ac76179cac2ed98a57118eeb47405ce76be911830d5e532634",
+        "sha256_in_prefix": "ffe2fc5f71afa2ac76179cac2ed98a57118eeb47405ce76be911830d5e532634",
+        "size_in_bytes": 21592
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-stream-restore.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pulseaudio_1673503361167/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "d481d5c2e414efceff34f2ef36b14668731936860971a73531bf3d926dcd7673",
+        "sha256_in_prefix": "38890ac2540839e557ed54219d3b11188afe285e20b1b437720e4b63e6f655f7",
+        "size_in_bytes": 82592
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-suspend-on-idle.so",
+        "path_type": "hardlink",
+        "sha256": "b583b352ed1fbb841a4b13552bad3bc657f501c5ffc68d6134c9d1652a9a6c28",
+        "sha256_in_prefix": "b583b352ed1fbb841a4b13552bad3bc657f501c5ffc68d6134c9d1652a9a6c28",
+        "size_in_bytes": 26504
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-switch-on-connect.so",
+        "path_type": "hardlink",
+        "sha256": "d45e906c34a74a072c92bc5b5ab2d6e92ec7c906089c7d3305caf7066be048ca",
+        "sha256_in_prefix": "d45e906c34a74a072c92bc5b5ab2d6e92ec7c906089c7d3305caf7066be048ca",
+        "size_in_bytes": 20872
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-switch-on-port-available.so",
+        "path_type": "hardlink",
+        "sha256": "effe140078f157fe65ecc9526dd3d7f9f24a3a040ceffc0f3432f184bdebdb4c",
+        "sha256_in_prefix": "effe140078f157fe65ecc9526dd3d7f9f24a3a040ceffc0f3432f184bdebdb4c",
+        "size_in_bytes": 26048
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-systemd-login.so",
+        "path_type": "hardlink",
+        "sha256": "16ba2047c68ee2c3259a8e92aac1d40730323dc1cf55e6facb348bd0d9aa8fba",
+        "sha256_in_prefix": "16ba2047c68ee2c3259a8e92aac1d40730323dc1cf55e6facb348bd0d9aa8fba",
+        "size_in_bytes": 21456
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-tunnel-sink-new.so",
+        "path_type": "hardlink",
+        "sha256": "7b09cddc678cacd41f57cc71939d63f6227f64ba368d70058a98488c00591d97",
+        "sha256_in_prefix": "7b09cddc678cacd41f57cc71939d63f6227f64ba368d70058a98488c00591d97",
+        "size_in_bytes": 38088
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-tunnel-sink.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pulseaudio_1673503361167/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "63039c261146b0e52bcfebec30bcef94d3d9feb9aa04d6bbfa1ebc3f4703050a",
+        "sha256_in_prefix": "eb109570815c72086be132185316fa1a092155ededf6228ccf54ddd1b7e91d90",
+        "size_in_bytes": 57536
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-tunnel-source-new.so",
+        "path_type": "hardlink",
+        "sha256": "ce096f88fd028d70fc36fe4ad8cdb1baeefa25c496dd431658fb5abbdb024fa1",
+        "sha256_in_prefix": "ce096f88fd028d70fc36fe4ad8cdb1baeefa25c496dd431658fb5abbdb024fa1",
+        "size_in_bytes": 37648
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-tunnel-source.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pulseaudio_1673503361167/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "287e758aca56b56733f0e59df27302eab5c0bf92245ce93f760aabe68fe3dbce",
+        "sha256_in_prefix": "e75387224687e7d0d6c93cbf4901e37fa2515815f753e917d5f9a43f4027dffc",
+        "size_in_bytes": 57160
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-udev-detect.so",
+        "path_type": "hardlink",
+        "sha256": "43b3fc7b9256d05609f636859a2c204e2956a1dab899111cebde50eb81a0840a",
+        "sha256_in_prefix": "43b3fc7b9256d05609f636859a2c204e2956a1dab899111cebde50eb81a0840a",
+        "size_in_bytes": 36200
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-virtual-sink.so",
+        "path_type": "hardlink",
+        "sha256": "8c6f211f8d34f9e1e0e32291a41629716925cfbbd9048a18fee3ebd424802356",
+        "sha256_in_prefix": "8c6f211f8d34f9e1e0e32291a41629716925cfbbd9048a18fee3ebd424802356",
+        "size_in_bytes": 38944
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-virtual-source.so",
+        "path_type": "hardlink",
+        "sha256": "92e584d7bca5999b3d28231c9b215d90b1645a2fd38b46fdc0537662a66e632c",
+        "sha256_in_prefix": "92e584d7bca5999b3d28231c9b215d90b1645a2fd38b46fdc0537662a66e632c",
+        "size_in_bytes": 38912
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-virtual-surround-sink.so",
+        "path_type": "hardlink",
+        "sha256": "4c5bf55168b0dc2c1fa6288af9623481c3874284c18bce3a38d067b5119933bf",
+        "sha256_in_prefix": "4c5bf55168b0dc2c1fa6288af9623481c3874284c18bce3a38d067b5119933bf",
+        "size_in_bytes": 48512
+      },
+      {
+        "_path": "lib/pulseaudio/modules/module-volume-restore.so",
+        "path_type": "hardlink",
+        "sha256": "a642690810e8eb38625adc48c18bba1c42cbd7af615867e3d8bfca814fa71816",
+        "sha256_in_prefix": "a642690810e8eb38625adc48c18bba1c42cbd7af615867e3d8bfca814fa71816",
+        "size_in_bytes": 16208
+      },
+      {
+        "_path": "lib/udev/rules.d/90-pulseaudio.rules",
+        "path_type": "hardlink",
+        "sha256": "bd81e437a2643f44f9f09c401ce3f0868b326e74d7d350720bc627c0c7dc7606",
+        "sha256_in_prefix": "bd81e437a2643f44f9f09c401ce3f0868b326e74d7d350720bc627c0c7dc7606",
+        "size_in_bytes": 12803
+      },
+      {
+        "_path": "share/bash-completion/completions/pacat",
+        "path_type": "softlink",
+        "sha256": "a400ca2a0d4ae89a4b063b584ebacf24482ed0594182f025339ebb4fbca7b066",
+        "size_in_bytes": 15679
+      },
+      {
+        "_path": "share/bash-completion/completions/pacmd",
+        "path_type": "softlink",
+        "sha256": "a400ca2a0d4ae89a4b063b584ebacf24482ed0594182f025339ebb4fbca7b066",
+        "size_in_bytes": 15679
+      },
+      {
+        "_path": "share/bash-completion/completions/pactl",
+        "path_type": "hardlink",
+        "sha256": "a400ca2a0d4ae89a4b063b584ebacf24482ed0594182f025339ebb4fbca7b066",
+        "sha256_in_prefix": "a400ca2a0d4ae89a4b063b584ebacf24482ed0594182f025339ebb4fbca7b066",
+        "size_in_bytes": 15679
+      },
+      {
+        "_path": "share/bash-completion/completions/padsp",
+        "path_type": "softlink",
+        "sha256": "a400ca2a0d4ae89a4b063b584ebacf24482ed0594182f025339ebb4fbca7b066",
+        "size_in_bytes": 15679
+      },
+      {
+        "_path": "share/bash-completion/completions/paplay",
+        "path_type": "softlink",
+        "sha256": "a400ca2a0d4ae89a4b063b584ebacf24482ed0594182f025339ebb4fbca7b066",
+        "size_in_bytes": 15679
+      },
+      {
+        "_path": "share/bash-completion/completions/parec",
+        "path_type": "softlink",
+        "sha256": "a400ca2a0d4ae89a4b063b584ebacf24482ed0594182f025339ebb4fbca7b066",
+        "size_in_bytes": 15679
+      },
+      {
+        "_path": "share/bash-completion/completions/parecord",
+        "path_type": "softlink",
+        "sha256": "a400ca2a0d4ae89a4b063b584ebacf24482ed0594182f025339ebb4fbca7b066",
+        "size_in_bytes": 15679
+      },
+      {
+        "_path": "share/bash-completion/completions/pasuspender",
+        "path_type": "softlink",
+        "sha256": "a400ca2a0d4ae89a4b063b584ebacf24482ed0594182f025339ebb4fbca7b066",
+        "size_in_bytes": 15679
+      },
+      {
+        "_path": "share/bash-completion/completions/pulseaudio",
+        "path_type": "softlink",
+        "sha256": "a400ca2a0d4ae89a4b063b584ebacf24482ed0594182f025339ebb4fbca7b066",
+        "size_in_bytes": 15679
+      },
+      {
+        "_path": "share/locale/af/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "e6e51e09d7727ae10a7dcfd0c3ad7704bfa99ca2ef78d6dab230d59d0fef02b9",
+        "sha256_in_prefix": "e6e51e09d7727ae10a7dcfd0c3ad7704bfa99ca2ef78d6dab230d59d0fef02b9",
+        "size_in_bytes": 10401
+      },
+      {
+        "_path": "share/locale/as/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "de6fcbdc7296230728d90cf4af166e89b03723623718e966e93a6a7e4f78b052",
+        "sha256_in_prefix": "de6fcbdc7296230728d90cf4af166e89b03723623718e966e93a6a7e4f78b052",
+        "size_in_bytes": 39885
+      },
+      {
+        "_path": "share/locale/be/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "b6cac93904d3af8b1f1e8d313c7208ec40db1e620cb3add4013169711d446db0",
+        "sha256_in_prefix": "b6cac93904d3af8b1f1e8d313c7208ec40db1e620cb3add4013169711d446db0",
+        "size_in_bytes": 60632
+      },
+      {
+        "_path": "share/locale/bg/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "56ad125a14482ddbfcab22a8845123e20372e79bb1f351cc7284d3ed00b912c9",
+        "sha256_in_prefix": "56ad125a14482ddbfcab22a8845123e20372e79bb1f351cc7284d3ed00b912c9",
+        "size_in_bytes": 1937
+      },
+      {
+        "_path": "share/locale/bn_IN/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "d270f00cf42c187f00314d35bd657639d4ac891777b2d693a73949648c0d66ec",
+        "sha256_in_prefix": "d270f00cf42c187f00314d35bd657639d4ac891777b2d693a73949648c0d66ec",
+        "size_in_bytes": 41430
+      },
+      {
+        "_path": "share/locale/ca/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "5c41db50a1fd60456e07c96c48ba49e0daee2643881f80e5e819b98064016420",
+        "sha256_in_prefix": "5c41db50a1fd60456e07c96c48ba49e0daee2643881f80e5e819b98064016420",
+        "size_in_bytes": 32256
+      },
+      {
+        "_path": "share/locale/cs/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "54182ae27753ca225e5aac3bab2c8776960a70f271231bfed8d0ab94e08eadf1",
+        "sha256_in_prefix": "54182ae27753ca225e5aac3bab2c8776960a70f271231bfed8d0ab94e08eadf1",
+        "size_in_bytes": 51005
+      },
+      {
+        "_path": "share/locale/da/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "c5d2d01b41c6b08888d45b5360b54f4245feb8d9bf9402ae2730841294b9d7e9",
+        "sha256_in_prefix": "c5d2d01b41c6b08888d45b5360b54f4245feb8d9bf9402ae2730841294b9d7e9",
+        "size_in_bytes": 63466
+      },
+      {
+        "_path": "share/locale/de/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "49a873ff693c89731c7bf57f5644575b7405c0477bf907468ac75bb68ca252f9",
+        "sha256_in_prefix": "49a873ff693c89731c7bf57f5644575b7405c0477bf907468ac75bb68ca252f9",
+        "size_in_bytes": 50713
+      },
+      {
+        "_path": "share/locale/de_CH/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "09324f6f62771cf7daf213fe83d6b3f3582947d5bed9289bd03764014dcfcee3",
+        "sha256_in_prefix": "09324f6f62771cf7daf213fe83d6b3f3582947d5bed9289bd03764014dcfcee3",
+        "size_in_bytes": 25357
+      },
+      {
+        "_path": "share/locale/el/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "272bd8407ffcf38685632cdb3a9cbeefb4354c545eaf410311901b02f3f9d2e3",
+        "sha256_in_prefix": "272bd8407ffcf38685632cdb3a9cbeefb4354c545eaf410311901b02f3f9d2e3",
+        "size_in_bytes": 53170
+      },
+      {
+        "_path": "share/locale/eo/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "e26fcace6fa295e3d7d6c7e915fb05ee5ae7a8b5e776292228be186627357e55",
+        "sha256_in_prefix": "e26fcace6fa295e3d7d6c7e915fb05ee5ae7a8b5e776292228be186627357e55",
+        "size_in_bytes": 7608
+      },
+      {
+        "_path": "share/locale/es/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "cf7f28fb82465bb71ee720918d1fe86c46646880326f88f21cb0b2ac6be8cd30",
+        "sha256_in_prefix": "cf7f28fb82465bb71ee720918d1fe86c46646880326f88f21cb0b2ac6be8cd30",
+        "size_in_bytes": 68230
+      },
+      {
+        "_path": "share/locale/fi/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "61696a96edeff4f544838ca1c90f676fdc7a395674edb17dc9d84ee68e12c5b8",
+        "sha256_in_prefix": "61696a96edeff4f544838ca1c90f676fdc7a395674edb17dc9d84ee68e12c5b8",
+        "size_in_bytes": 68525
+      },
+      {
+        "_path": "share/locale/fr/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "871a1bfa5cc99bd64d37332fad7299fb2f07324f06b7efb3cbf7145552d068eb",
+        "sha256_in_prefix": "871a1bfa5cc99bd64d37332fad7299fb2f07324f06b7efb3cbf7145552d068eb",
+        "size_in_bytes": 44077
+      },
+      {
+        "_path": "share/locale/gl/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "23c83973640cf2966477a36435397dc207f8ecba76d1ffb411b21e0d7187f501",
+        "sha256_in_prefix": "23c83973640cf2966477a36435397dc207f8ecba76d1ffb411b21e0d7187f501",
+        "size_in_bytes": 65505
+      },
+      {
+        "_path": "share/locale/gu/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "39e824f3588bb9e1ef8e040933f1c1e43a7d59bd42ae00696382c6bf8b235c31",
+        "sha256_in_prefix": "39e824f3588bb9e1ef8e040933f1c1e43a7d59bd42ae00696382c6bf8b235c31",
+        "size_in_bytes": 38643
+      },
+      {
+        "_path": "share/locale/he/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "7fbea875c0c16917f6f4c09b99b3341ddb74f0c694a920529503c2db3f47b36a",
+        "sha256_in_prefix": "7fbea875c0c16917f6f4c09b99b3341ddb74f0c694a920529503c2db3f47b36a",
+        "size_in_bytes": 10250
+      },
+      {
+        "_path": "share/locale/hi/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "b084a8e594170a47ae79ff89436a926d78d5b7c86c48d98fe3cb79ce30e21a20",
+        "sha256_in_prefix": "b084a8e594170a47ae79ff89436a926d78d5b7c86c48d98fe3cb79ce30e21a20",
+        "size_in_bytes": 36344
+      },
+      {
+        "_path": "share/locale/hr/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "a07ed7c4a86b4a9956af25db043c1d1ec26df1598f59ea9b531dfc87c59b70e2",
+        "sha256_in_prefix": "a07ed7c4a86b4a9956af25db043c1d1ec26df1598f59ea9b531dfc87c59b70e2",
+        "size_in_bytes": 67767
+      },
+      {
+        "_path": "share/locale/hu/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "45ee2b89e7422a41d31af9d13e022bd20942b9e995be49b377375ef080c678e6",
+        "sha256_in_prefix": "45ee2b89e7422a41d31af9d13e022bd20942b9e995be49b377375ef080c678e6",
+        "size_in_bytes": 54774
+      },
+      {
+        "_path": "share/locale/id/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "1daa5ca31b46f69d36b91617fe003bb2aecdc85562ce2255c6b8b807b81291af",
+        "sha256_in_prefix": "1daa5ca31b46f69d36b91617fe003bb2aecdc85562ce2255c6b8b807b81291af",
+        "size_in_bytes": 50463
+      },
+      {
+        "_path": "share/locale/it/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "bbe67e7bd75db107539d3548c2f5481255b076e01d58bc8333612408c91620c8",
+        "sha256_in_prefix": "bbe67e7bd75db107539d3548c2f5481255b076e01d58bc8333612408c91620c8",
+        "size_in_bytes": 65325
+      },
+      {
+        "_path": "share/locale/ja/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "cfff5481acd9ce5ad39003118b3264ea087e41b7e521a3af96b3cb72a74e6fb6",
+        "sha256_in_prefix": "cfff5481acd9ce5ad39003118b3264ea087e41b7e521a3af96b3cb72a74e6fb6",
+        "size_in_bytes": 45809
+      },
+      {
+        "_path": "share/locale/ka/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "98296bdfdb27b9bdae1e7d0e4d315738578139a4c9506de2b794f1742989dc4d",
+        "sha256_in_prefix": "98296bdfdb27b9bdae1e7d0e4d315738578139a4c9506de2b794f1742989dc4d",
+        "size_in_bytes": 420
+      },
+      {
+        "_path": "share/locale/kk/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "b0bc67a013b629f14213095c612e5dd711bfbc40f1df9108632f1b189a0767ec",
+        "sha256_in_prefix": "b0bc67a013b629f14213095c612e5dd711bfbc40f1df9108632f1b189a0767ec",
+        "size_in_bytes": 20377
+      },
+      {
+        "_path": "share/locale/kn/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "412c46266e6c8397f01575057c318400f405ba1073441bef0bdc04ee6a4c3949",
+        "sha256_in_prefix": "412c46266e6c8397f01575057c318400f405ba1073441bef0bdc04ee6a4c3949",
+        "size_in_bytes": 43021
+      },
+      {
+        "_path": "share/locale/ko/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "3fa5161e23bbd8d680e3ebed85525c34207db2e688c317532129e3337f1ae3d8",
+        "sha256_in_prefix": "3fa5161e23bbd8d680e3ebed85525c34207db2e688c317532129e3337f1ae3d8",
+        "size_in_bytes": 73515
+      },
+      {
+        "_path": "share/locale/lt/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "86ff47ad7a37f44176b84a154ebe3b478d322c8dea6014f6c38adca734e10a01",
+        "sha256_in_prefix": "86ff47ad7a37f44176b84a154ebe3b478d322c8dea6014f6c38adca734e10a01",
+        "size_in_bytes": 64278
+      },
+      {
+        "_path": "share/locale/ml/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "ac66cfd49c7c06b4671b98ac6792d515e38d8faa137c7637671704898cb78634",
+        "sha256_in_prefix": "ac66cfd49c7c06b4671b98ac6792d515e38d8faa137c7637671704898cb78634",
+        "size_in_bytes": 45029
+      },
+      {
+        "_path": "share/locale/mr/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "caa4371ae5321e409be0eb3293371a64936be5b46fee2884a5aec8e2e8071eb6",
+        "sha256_in_prefix": "caa4371ae5321e409be0eb3293371a64936be5b46fee2884a5aec8e2e8071eb6",
+        "size_in_bytes": 37357
+      },
+      {
+        "_path": "share/locale/nl/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "232b5fa90e5462cbbee11e55eb17641b40fefc80183aff69d53c915865a9ee58",
+        "sha256_in_prefix": "232b5fa90e5462cbbee11e55eb17641b40fefc80183aff69d53c915865a9ee58",
+        "size_in_bytes": 63722
+      },
+      {
+        "_path": "share/locale/nn/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "999f7d9d2ba66e002a15aa2e8685e7089dd3cb5d937f3fccf55978259a201966",
+        "sha256_in_prefix": "999f7d9d2ba66e002a15aa2e8685e7089dd3cb5d937f3fccf55978259a201966",
+        "size_in_bytes": 71225
+      },
+      {
+        "_path": "share/locale/oc/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "4993f6daf5bc44a07536e04297ba385abf55598e8a94c936d1b491c4847469e0",
+        "sha256_in_prefix": "4993f6daf5bc44a07536e04297ba385abf55598e8a94c936d1b491c4847469e0",
+        "size_in_bytes": 38002
+      },
+      {
+        "_path": "share/locale/or/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "adbae7b2c801fbd5ca2f9a3fb18bda380b16a888cd8c9245c2cc9fe31bd8357a",
+        "sha256_in_prefix": "adbae7b2c801fbd5ca2f9a3fb18bda380b16a888cd8c9245c2cc9fe31bd8357a",
+        "size_in_bytes": 39412
+      },
+      {
+        "_path": "share/locale/pa/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "025180a1ea5bc87f5f9ef2afc47a3917a7433e8217d551725e3bae2a8a88fcca",
+        "sha256_in_prefix": "025180a1ea5bc87f5f9ef2afc47a3917a7433e8217d551725e3bae2a8a88fcca",
+        "size_in_bytes": 36233
+      },
+      {
+        "_path": "share/locale/pl/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "a8338c650eca81dec49561f8c6fbdf68df5e14ae70db2d03e407f87f7b266400",
+        "sha256_in_prefix": "a8338c650eca81dec49561f8c6fbdf68df5e14ae70db2d03e407f87f7b266400",
+        "size_in_bytes": 78343
+      },
+      {
+        "_path": "share/locale/pt/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "8539633e231dea54805874d13c8851f4ffe1273c9f38a4c15cac31fe33eb13a6",
+        "sha256_in_prefix": "8539633e231dea54805874d13c8851f4ffe1273c9f38a4c15cac31fe33eb13a6",
+        "size_in_bytes": 33900
+      },
+      {
+        "_path": "share/locale/pt_BR/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "88e74e7d2ef427d1b6a72b184cfe969d2eff1ae486673bcd1ec5d4ede58a39f6",
+        "sha256_in_prefix": "88e74e7d2ef427d1b6a72b184cfe969d2eff1ae486673bcd1ec5d4ede58a39f6",
+        "size_in_bytes": 67877
+      },
+      {
+        "_path": "share/locale/ru/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "22d2ee67c0bd33af2fa1768cf7139b21025304aca065c7238d3ff5aa740d6484",
+        "sha256_in_prefix": "22d2ee67c0bd33af2fa1768cf7139b21025304aca065c7238d3ff5aa740d6484",
+        "size_in_bytes": 104459
+      },
+      {
+        "_path": "share/locale/si/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "aa908a276b922f4457e6b58842739ac7ba881a21ff398255459a4548e4d95157",
+        "sha256_in_prefix": "aa908a276b922f4457e6b58842739ac7ba881a21ff398255459a4548e4d95157",
+        "size_in_bytes": 594
+      },
+      {
+        "_path": "share/locale/sk/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "5bec8480df9dd9d8caed7354fbff96f176bf78b046f9eb4d9f9502235d271747",
+        "sha256_in_prefix": "5bec8480df9dd9d8caed7354fbff96f176bf78b046f9eb4d9f9502235d271747",
+        "size_in_bytes": 29477
+      },
+      {
+        "_path": "share/locale/sr/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "415efd4ae5d604d7b74183a64e7b9871bb1975dff50f440288b636026237a793",
+        "sha256_in_prefix": "415efd4ae5d604d7b74183a64e7b9871bb1975dff50f440288b636026237a793",
+        "size_in_bytes": 34005
+      },
+      {
+        "_path": "share/locale/sr@latin/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "0ffb4ade694f762312f51041d3a21555865ceea2d9de24b152a67ad154366f16",
+        "sha256_in_prefix": "0ffb4ade694f762312f51041d3a21555865ceea2d9de24b152a67ad154366f16",
+        "size_in_bytes": 27508
+      },
+      {
+        "_path": "share/locale/sv/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "1919faa0ff60907fbb98bd96b8d3535a3dc7c0a0223d9bd5de494416808df68b",
+        "sha256_in_prefix": "1919faa0ff60907fbb98bd96b8d3535a3dc7c0a0223d9bd5de494416808df68b",
+        "size_in_bytes": 72150
+      },
+      {
+        "_path": "share/locale/ta/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "d41e83fa45e52d4cfd1a3d7acd36a3fdf51442646677297cd94b94fa104ae7b5",
+        "sha256_in_prefix": "d41e83fa45e52d4cfd1a3d7acd36a3fdf51442646677297cd94b94fa104ae7b5",
+        "size_in_bytes": 39608
+      },
+      {
+        "_path": "share/locale/te/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "5d0336231b6e01a60d8e853e4e93b29b8f4fc7044b3e5249a3285ca3dfac20e6",
+        "sha256_in_prefix": "5d0336231b6e01a60d8e853e4e93b29b8f4fc7044b3e5249a3285ca3dfac20e6",
+        "size_in_bytes": 41054
+      },
+      {
+        "_path": "share/locale/tr/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "50d3906817c592c022f05699997732a636e5759c2366fc33273dbee451c7603a",
+        "sha256_in_prefix": "50d3906817c592c022f05699997732a636e5759c2366fc33273dbee451c7603a",
+        "size_in_bytes": 72663
+      },
+      {
+        "_path": "share/locale/uk/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "1759c0e51eb5a91bb1effc6684ecead7930bc1a2391dbe3a560fe3d782e0066d",
+        "sha256_in_prefix": "1759c0e51eb5a91bb1effc6684ecead7930bc1a2391dbe3a560fe3d782e0066d",
+        "size_in_bytes": 97232
+      },
+      {
+        "_path": "share/locale/zh_CN/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "61470f15b7c5e24498814bb2d30911dbfc7071d3a4505a290cb66c716766b83b",
+        "sha256_in_prefix": "61470f15b7c5e24498814bb2d30911dbfc7071d3a4505a290cb66c716766b83b",
+        "size_in_bytes": 58846
+      },
+      {
+        "_path": "share/locale/zh_TW/LC_MESSAGES/pulseaudio.mo",
+        "path_type": "hardlink",
+        "sha256": "bb4bf17a78033f6956d4892c72ffdca7e354f6ed4614ad78fb242abd375d9d5d",
+        "sha256_in_prefix": "bb4bf17a78033f6956d4892c72ffdca7e354f6ed4614ad78fb242abd375d9d5d",
+        "size_in_bytes": 57726
+      },
+      {
+        "_path": "share/man/man1/pacat.1",
+        "path_type": "hardlink",
+        "sha256": "0c4397fc778c324051ac0e6dfa9cb387fe36af9b7540e2c5e3b0365574af0437",
+        "sha256_in_prefix": "0c4397fc778c324051ac0e6dfa9cb387fe36af9b7540e2c5e3b0365574af0437",
+        "size_in_bytes": 5727
+      },
+      {
+        "_path": "share/man/man1/pacmd.1",
+        "path_type": "hardlink",
+        "sha256": "411d5e198ce9d98cf8bebcda2a3c5a436c42d965994b053de356d558c5ede5a2",
+        "sha256_in_prefix": "411d5e198ce9d98cf8bebcda2a3c5a436c42d965994b053de356d558c5ede5a2",
+        "size_in_bytes": 1052
+      },
+      {
+        "_path": "share/man/man1/pactl.1",
+        "path_type": "hardlink",
+        "sha256": "6ba203bc01a4677cd6120d89c48cb7616a8e17327d352d7f7ce300b7fb73b537",
+        "sha256_in_prefix": "6ba203bc01a4677cd6120d89c48cb7616a8e17327d352d7f7ce300b7fb73b537",
+        "size_in_bytes": 10014
+      },
+      {
+        "_path": "share/man/man1/padsp.1",
+        "path_type": "hardlink",
+        "sha256": "053d486db7c43e778ffa7ff2f43ec0c1804541c3d5ea2a67973235c62c9420e5",
+        "sha256_in_prefix": "053d486db7c43e778ffa7ff2f43ec0c1804541c3d5ea2a67973235c62c9420e5",
+        "size_in_bytes": 1337
+      },
+      {
+        "_path": "share/man/man1/pamon.1",
+        "path_type": "softlink",
+        "sha256": "0c4397fc778c324051ac0e6dfa9cb387fe36af9b7540e2c5e3b0365574af0437",
+        "size_in_bytes": 5727
+      },
+      {
+        "_path": "share/man/man1/paplay.1",
+        "path_type": "softlink",
+        "sha256": "0c4397fc778c324051ac0e6dfa9cb387fe36af9b7540e2c5e3b0365574af0437",
+        "size_in_bytes": 5727
+      },
+      {
+        "_path": "share/man/man1/parec.1",
+        "path_type": "softlink",
+        "sha256": "0c4397fc778c324051ac0e6dfa9cb387fe36af9b7540e2c5e3b0365574af0437",
+        "size_in_bytes": 5727
+      },
+      {
+        "_path": "share/man/man1/parecord.1",
+        "path_type": "softlink",
+        "sha256": "0c4397fc778c324051ac0e6dfa9cb387fe36af9b7540e2c5e3b0365574af0437",
+        "size_in_bytes": 5727
+      },
+      {
+        "_path": "share/man/man1/pasuspender.1",
+        "path_type": "hardlink",
+        "sha256": "2d546f36aefbdaa785f3d03d94bb2b1c55e96f50f54d1ca333be459416e0d441",
+        "sha256_in_prefix": "2d546f36aefbdaa785f3d03d94bb2b1c55e96f50f54d1ca333be459416e0d441",
+        "size_in_bytes": 1243
+      },
+      {
+        "_path": "share/man/man1/pulseaudio.1",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pulseaudio_1673503361167/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "027c96ff64bfc3e81db05aad7dc34524e27e422e5f0d7336cae116aca0c493ba",
+        "sha256_in_prefix": "ef93da8e67d44e22153d0469c329d680305e47963c056b5820dd1bf0ee5dc0d6",
+        "size_in_bytes": 15041
+      },
+      {
+        "_path": "share/man/man1/start-pulseaudio-x11.1",
+        "path_type": "hardlink",
+        "sha256": "60c467004c6b78371dbe8d55847fa44c47dc6897861fdfa14721cf522f781635",
+        "sha256_in_prefix": "60c467004c6b78371dbe8d55847fa44c47dc6897861fdfa14721cf522f781635",
+        "size_in_bytes": 720
+      },
+      {
+        "_path": "share/man/man5/default.pa.5",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pulseaudio_1673503361167/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "6907808e786e20079baf70c5479e34b82b3d2fb5f75a59def9837fc70af6ca6d",
+        "sha256_in_prefix": "9b54a9ad2a1534e1b9a2ed9d9ceb737095e2f24615209ba72c00df79d9ecb3be",
+        "size_in_bytes": 2038
+      },
+      {
+        "_path": "share/man/man5/pulse-cli-syntax.5",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pulseaudio_1673503361167/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "f8f6fd9c8d98a51e30289a00d62feeef2f9ab844f9a41d4309bb54cd7db6a39d",
+        "sha256_in_prefix": "96538e17d1e51d6e0bb1df8a455e1b1c106a71a63d906d1542758e279d98cc03",
+        "size_in_bytes": 9074
+      },
+      {
+        "_path": "share/man/man5/pulse-client.conf.5",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pulseaudio_1673503361167/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "8542d04db6cd02f30396657a5a34d9efcc8139af23fafebbe8acf6dc06aee2a0",
+        "sha256_in_prefix": "2bf19eafcef5f859d3a969d1689a4bd4b6c04aeb5fed536272cb2ffe1a1a81ab",
+        "size_in_bytes": 5525
+      },
+      {
+        "_path": "share/man/man5/pulse-daemon.conf.5",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pulseaudio_1673503361167/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "363443daaeadf4fe09a5f382c09795444e728a2710e5acda176852fe573f65c2",
+        "sha256_in_prefix": "5ec024ccddcb5f401fc7c679d6c36c773d1021d8229411d837070a08091ce563",
+        "size_in_bytes": 20450
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/analog-input-aux.conf",
+        "path_type": "hardlink",
+        "sha256": "8cfdf1190de489037b38627d59976db2f97968f91df1080c029e49cbc5805668",
+        "sha256_in_prefix": "8cfdf1190de489037b38627d59976db2f97968f91df1080c029e49cbc5805668",
+        "size_in_bytes": 1415
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/analog-input-dock-mic.conf",
+        "path_type": "hardlink",
+        "sha256": "f384e6158eeb2a844bda761e41137199fcb284841bbc6e6bf963ec1c091dbc93",
+        "sha256_in_prefix": "f384e6158eeb2a844bda761e41137199fcb284841bbc6e6bf963ec1c091dbc93",
+        "size_in_bytes": 2185
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/analog-input-fm.conf",
+        "path_type": "hardlink",
+        "sha256": "bd302e95e63f4a23b90383c1a7019da20d352359c89cecfd2effa6ff17d816a5",
+        "sha256_in_prefix": "bd302e95e63f4a23b90383c1a7019da20d352359c89cecfd2effa6ff17d816a5",
+        "size_in_bytes": 1420
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/analog-input-front-mic.conf",
+        "path_type": "hardlink",
+        "sha256": "56dbf67cd1f831f04ade1b2f0bfa5896aeb37abe99c801638866a59f841e4c1e",
+        "sha256_in_prefix": "56dbf67cd1f831f04ade1b2f0bfa5896aeb37abe99c801638866a59f841e4c1e",
+        "size_in_bytes": 2196
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/analog-input-headphone-mic.conf",
+        "path_type": "hardlink",
+        "sha256": "5b3cc458304477bfac8dd6fdd383dc8a1c94b80987dd36d3ff9cf6b86c3d72e0",
+        "sha256_in_prefix": "5b3cc458304477bfac8dd6fdd383dc8a1c94b80987dd36d3ff9cf6b86c3d72e0",
+        "size_in_bytes": 2298
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/analog-input-headset-mic.conf",
+        "path_type": "hardlink",
+        "sha256": "9a6a6a3c6d42753743dd5a523bc30e5e83b424a31d665894af021bfdc5546747",
+        "sha256_in_prefix": "9a6a6a3c6d42753743dd5a523bc30e5e83b424a31d665894af021bfdc5546747",
+        "size_in_bytes": 2360
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/analog-input-internal-mic-always.conf",
+        "path_type": "hardlink",
+        "sha256": "cb797c78e09c02e782faa6d5005922f498941fa3709916b0c311aa029ddc2662",
+        "sha256_in_prefix": "cb797c78e09c02e782faa6d5005922f498941fa3709916b0c311aa029ddc2662",
+        "size_in_bytes": 2797
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/analog-input-internal-mic.conf",
+        "path_type": "hardlink",
+        "sha256": "aed33a4ba81e4dc4a580a3a0b8f2668f49b03644291320a5a5705a4e521312bf",
+        "sha256_in_prefix": "aed33a4ba81e4dc4a580a3a0b8f2668f49b03644291320a5a5705a4e521312bf",
+        "size_in_bytes": 3155
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/analog-input-linein.conf",
+        "path_type": "hardlink",
+        "sha256": "180136bc6f7e2f91fe1abe9de57faddad1ed80a705c9691e545010c703bad7b2",
+        "sha256_in_prefix": "180136bc6f7e2f91fe1abe9de57faddad1ed80a705c9691e545010c703bad7b2",
+        "size_in_bytes": 2609
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/analog-input-mic-line.conf",
+        "path_type": "hardlink",
+        "sha256": "6a33421919c6c8dabc301bd1da5a1ad332bbea5cc69d2ea16676dbd735972125",
+        "sha256_in_prefix": "6a33421919c6c8dabc301bd1da5a1ad332bbea5cc69d2ea16676dbd735972125",
+        "size_in_bytes": 1457
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/analog-input-mic.conf",
+        "path_type": "hardlink",
+        "sha256": "231741eb25593485000500ad5ae5e473f4e5c86341f7143b97075e90f0cad63f",
+        "sha256_in_prefix": "231741eb25593485000500ad5ae5e473f4e5c86341f7143b97075e90f0cad63f",
+        "size_in_bytes": 2797
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/analog-input-mic.conf.common",
+        "path_type": "hardlink",
+        "sha256": "927ddc7376500fc7cc396833c06c7847f0d3e172c4dd524129253b8ccd7e8581",
+        "sha256_in_prefix": "927ddc7376500fc7cc396833c06c7847f0d3e172c4dd524129253b8ccd7e8581",
+        "size_in_bytes": 1330
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/analog-input-rear-mic.conf",
+        "path_type": "hardlink",
+        "sha256": "8c9df52461e4ef12b08381fd6cff4a4c932b7b2c6b648924a936020f688045e6",
+        "sha256_in_prefix": "8c9df52461e4ef12b08381fd6cff4a4c932b7b2c6b648924a936020f688045e6",
+        "size_in_bytes": 2229
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/analog-input-tvtuner.conf",
+        "path_type": "hardlink",
+        "sha256": "69152fb03997a9fe5e09039671a6897735b954e31cc878d690e4d570eff046d6",
+        "sha256_in_prefix": "69152fb03997a9fe5e09039671a6897735b954e31cc878d690e4d570eff046d6",
+        "size_in_bytes": 1425
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/analog-input-video.conf",
+        "path_type": "hardlink",
+        "sha256": "8d3fe46fadd652cd26f72732c15352b9b23e291b08b932ed74a9e8bb094803af",
+        "sha256_in_prefix": "8d3fe46fadd652cd26f72732c15352b9b23e291b08b932ed74a9e8bb094803af",
+        "size_in_bytes": 1385
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/analog-input.conf",
+        "path_type": "hardlink",
+        "sha256": "a66ddfa7d3723d099ab874b55c6faf6d31727056d9b90ae3c983778887f48ef6",
+        "sha256_in_prefix": "a66ddfa7d3723d099ab874b55c6faf6d31727056d9b90ae3c983778887f48ef6",
+        "size_in_bytes": 2056
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/analog-input.conf.common",
+        "path_type": "hardlink",
+        "sha256": "cdecb2934db2db7269f72e3ede55a61748d16c06a0126c2c4ed1ee6ae8d1d8a5",
+        "sha256_in_prefix": "cdecb2934db2db7269f72e3ede55a61748d16c06a0126c2c4ed1ee6ae8d1d8a5",
+        "size_in_bytes": 5769
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/analog-output-chat.conf",
+        "path_type": "hardlink",
+        "sha256": "28dd252e42faa82c8a37fe2e0807f992d73caa9ab1d5b00a80de33ecbb75c54e",
+        "sha256_in_prefix": "28dd252e42faa82c8a37fe2e0807f992d73caa9ab1d5b00a80de33ecbb75c54e",
+        "size_in_bytes": 309
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/analog-output-headphones-2.conf",
+        "path_type": "hardlink",
+        "sha256": "2c2f0d38f9f375b5ff4f049afdd8709e16c608d2a3e5406683ad04c5dc389fe6",
+        "sha256_in_prefix": "2c2f0d38f9f375b5ff4f049afdd8709e16c608d2a3e5406683ad04c5dc389fe6",
+        "size_in_bytes": 2540
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/analog-output-headphones.conf",
+        "path_type": "hardlink",
+        "sha256": "f81ec1b07dedefdf9bbca5d6d47d401f10a6b6b9820475666e67dd57e376ac37",
+        "sha256_in_prefix": "f81ec1b07dedefdf9bbca5d6d47d401f10a6b6b9820475666e67dd57e376ac37",
+        "size_in_bytes": 3683
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/analog-output-lineout.conf",
+        "path_type": "hardlink",
+        "sha256": "cc09e74ad122727ce51cdb38c0948afdfd5a10e9b9aa5ec69f3b1246367332f8",
+        "sha256_in_prefix": "cc09e74ad122727ce51cdb38c0948afdfd5a10e9b9aa5ec69f3b1246367332f8",
+        "size_in_bytes": 4123
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/analog-output-mono.conf",
+        "path_type": "hardlink",
+        "sha256": "e7dae5dad2b509017ba64ceedf82e3997f75ee5aa7a91ac2014f16f8cfeb939a",
+        "sha256_in_prefix": "e7dae5dad2b509017ba64ceedf82e3997f75ee5aa7a91ac2014f16f8cfeb939a",
+        "size_in_bytes": 2044
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/analog-output-speaker-always.conf",
+        "path_type": "hardlink",
+        "sha256": "35183952c2783747b7ce93dd5854d945298421031a4f73961df497b00a470a69",
+        "sha256_in_prefix": "35183952c2783747b7ce93dd5854d945298421031a4f73961df497b00a470a69",
+        "size_in_bytes": 3887
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/analog-output-speaker.conf",
+        "path_type": "hardlink",
+        "sha256": "be156d5186887f28dcd2f129d1d9efd91643f74c6859f3c305d773aadd04be7e",
+        "sha256_in_prefix": "be156d5186887f28dcd2f129d1d9efd91643f74c6859f3c305d773aadd04be7e",
+        "size_in_bytes": 4952
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/analog-output.conf",
+        "path_type": "hardlink",
+        "sha256": "1ae2721891fdc47f2518a4182823d94cd12a730a42c0b494119e81b6e980abd7",
+        "sha256_in_prefix": "1ae2721891fdc47f2518a4182823d94cd12a730a42c0b494119e81b6e980abd7",
+        "size_in_bytes": 2040
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/analog-output.conf.common",
+        "path_type": "hardlink",
+        "sha256": "3ef6ea43a045c7e50ee6aea6574429974ad1fd58ac818144e6069b96e6907d56",
+        "sha256_in_prefix": "3ef6ea43a045c7e50ee6aea6574429974ad1fd58ac818144e6069b96e6907d56",
+        "size_in_bytes": 11778
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/hdmi-output-0.conf",
+        "path_type": "hardlink",
+        "sha256": "af36bda57c96ff2a1caac1a822b6bdad97c4ae3275014638cf1366ab20f9b2a7",
+        "sha256_in_prefix": "af36bda57c96ff2a1caac1a822b6bdad97c4ae3275014638cf1366ab20f9b2a7",
+        "size_in_bytes": 193
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/hdmi-output-1.conf",
+        "path_type": "hardlink",
+        "sha256": "5d5df1f7e16e64f781f953673a0cb00c5163565b269cdfd07c1eeaf3631c83e0",
+        "sha256_in_prefix": "5d5df1f7e16e64f781f953673a0cb00c5163565b269cdfd07c1eeaf3631c83e0",
+        "size_in_bytes": 195
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/hdmi-output-10.conf",
+        "path_type": "hardlink",
+        "sha256": "651347acbb0285781dbacaf5f3f56b1bb7cd715e2b669db48431102b76e7fe49",
+        "sha256_in_prefix": "651347acbb0285781dbacaf5f3f56b1bb7cd715e2b669db48431102b76e7fe49",
+        "size_in_bytes": 196
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/hdmi-output-2.conf",
+        "path_type": "hardlink",
+        "sha256": "b59f9c9f7fa47e8ad863f1329cfbb7b03afd87a01d7ebecae93efb9fbfea6486",
+        "sha256_in_prefix": "b59f9c9f7fa47e8ad863f1329cfbb7b03afd87a01d7ebecae93efb9fbfea6486",
+        "size_in_bytes": 195
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/hdmi-output-3.conf",
+        "path_type": "hardlink",
+        "sha256": "7b95cdef55da595164d47fd75df2a99ff0a533b4edd4aa56f662a74a7c52cba8",
+        "sha256_in_prefix": "7b95cdef55da595164d47fd75df2a99ff0a533b4edd4aa56f662a74a7c52cba8",
+        "size_in_bytes": 195
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/hdmi-output-4.conf",
+        "path_type": "hardlink",
+        "sha256": "884cc6c05823973be9b3986f6538454f731783f865d8a47c138867d88c08be53",
+        "sha256_in_prefix": "884cc6c05823973be9b3986f6538454f731783f865d8a47c138867d88c08be53",
+        "size_in_bytes": 195
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/hdmi-output-5.conf",
+        "path_type": "hardlink",
+        "sha256": "b4df4d060bdddd54d0698751a4adfa34503c8079565689d247c3c3a9415eae1c",
+        "sha256_in_prefix": "b4df4d060bdddd54d0698751a4adfa34503c8079565689d247c3c3a9415eae1c",
+        "size_in_bytes": 195
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/hdmi-output-6.conf",
+        "path_type": "hardlink",
+        "sha256": "6eb32c2c0227af59d3af3de418a73a4702793dfe2ce61e0fbaec09df975205d9",
+        "sha256_in_prefix": "6eb32c2c0227af59d3af3de418a73a4702793dfe2ce61e0fbaec09df975205d9",
+        "size_in_bytes": 195
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/hdmi-output-7.conf",
+        "path_type": "hardlink",
+        "sha256": "df3d4282786de4a40dfe0715a9dd4a26c5e70adcf5cf476d5d97704f84aa7e0e",
+        "sha256_in_prefix": "df3d4282786de4a40dfe0715a9dd4a26c5e70adcf5cf476d5d97704f84aa7e0e",
+        "size_in_bytes": 195
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/hdmi-output-8.conf",
+        "path_type": "hardlink",
+        "sha256": "45b5f6e0fabc14a852801db8e92dfd001f9e574bf8ba5ad63ddf5243e9e00403",
+        "sha256_in_prefix": "45b5f6e0fabc14a852801db8e92dfd001f9e574bf8ba5ad63ddf5243e9e00403",
+        "size_in_bytes": 195
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/hdmi-output-9.conf",
+        "path_type": "hardlink",
+        "sha256": "5e99c0d2635435188d49fc70d987e794cd78fd0257ba33550e08971ff1a28fe7",
+        "sha256_in_prefix": "5e99c0d2635435188d49fc70d987e794cd78fd0257ba33550e08971ff1a28fe7",
+        "size_in_bytes": 196
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/iec958-stereo-input.conf",
+        "path_type": "hardlink",
+        "sha256": "6f639917b373bd60120864dd6b76f163439b88fa1e88ce6b2a6e078f4fdd476a",
+        "sha256_in_prefix": "6f639917b373bd60120864dd6b76f163439b88fa1e88ce6b2a6e078f4fdd476a",
+        "size_in_bytes": 789
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/iec958-stereo-output.conf",
+        "path_type": "hardlink",
+        "sha256": "dc8f258cc786471d8e3edb1631593c544c5c468f196fb67aff358157c259c451",
+        "sha256_in_prefix": "dc8f258cc786471d8e3edb1631593c544c5c468f196fb67aff358157c259c451",
+        "size_in_bytes": 712
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/steelseries-arctis-output-chat-common.conf",
+        "path_type": "hardlink",
+        "sha256": "c7c275e83b1ccdd29d07846c0389eb499dab2759c199428d023e202a08bb8337",
+        "sha256_in_prefix": "c7c275e83b1ccdd29d07846c0389eb499dab2759c199428d023e202a08bb8337",
+        "size_in_bytes": 1072
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/steelseries-arctis-output-game-common.conf",
+        "path_type": "hardlink",
+        "sha256": "c97f4b0e1de860b86d3ba078440f433087798dce1446123faba1c7b873059abb",
+        "sha256_in_prefix": "c97f4b0e1de860b86d3ba078440f433087798dce1446123faba1c7b873059abb",
+        "size_in_bytes": 1064
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/usb-gaming-headset-input.conf",
+        "path_type": "hardlink",
+        "sha256": "86a0b0a037f039cc4fcdadc16f7911447bb41662f31db4204e5f020b836e88bc",
+        "sha256_in_prefix": "86a0b0a037f039cc4fcdadc16f7911447bb41662f31db4204e5f020b836e88bc",
+        "size_in_bytes": 1273
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/usb-gaming-headset-output-mono.conf",
+        "path_type": "hardlink",
+        "sha256": "fc35e19d053530149fc415beff8e63c4337c08ab333f9be1f192f68882d9e4d2",
+        "sha256_in_prefix": "fc35e19d053530149fc415beff8e63c4337c08ab333f9be1f192f68882d9e4d2",
+        "size_in_bytes": 1262
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/usb-gaming-headset-output-stereo.conf",
+        "path_type": "hardlink",
+        "sha256": "8ae2fe977983b1d6775a4092735d3fbce85465088ff46fdc1d63a04638c06b6b",
+        "sha256_in_prefix": "8ae2fe977983b1d6775a4092735d3fbce85465088ff46fdc1d63a04638c06b6b",
+        "size_in_bytes": 1259
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/paths/virtual-surround-7.1.conf",
+        "path_type": "hardlink",
+        "sha256": "47cf9ceed1d0a41ee83bf96dd15fec06950002e1dc2172b1bb356352ab402dca",
+        "sha256_in_prefix": "47cf9ceed1d0a41ee83bf96dd15fec06950002e1dc2172b1bb356352ab402dca",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/profile-sets/audigy.conf",
+        "path_type": "hardlink",
+        "sha256": "dfe7e55762dc0db8fb016f1e8f328e4db58a91202c204f809d9178f6e4706264",
+        "sha256_in_prefix": "dfe7e55762dc0db8fb016f1e8f328e4db58a91202c204f809d9178f6e4706264",
+        "size_in_bytes": 3909
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/profile-sets/cmedia-high-speed-true-hdaudio.conf",
+        "path_type": "hardlink",
+        "sha256": "da84270b29927d8d37a5e29ba6435acdf3232e3711d08f3fd803b668fa38364f",
+        "sha256_in_prefix": "da84270b29927d8d37a5e29ba6435acdf3232e3711d08f3fd803b668fa38364f",
+        "size_in_bytes": 2867
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/profile-sets/default.conf",
+        "path_type": "hardlink",
+        "sha256": "18e8cc52bcff73a8731e88eed65abe56fa00b3b1dd617b1ca63625bdc7776acd",
+        "sha256_in_prefix": "18e8cc52bcff73a8731e88eed65abe56fa00b3b1dd617b1ca63625bdc7776acd",
+        "size_in_bytes": 22299
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/profile-sets/dell-dock-tb16-usb-audio.conf",
+        "path_type": "hardlink",
+        "sha256": "9b990784481ebc94a70121f2a6ddc1c0e780d7b7ebd20476b050397c09417c2f",
+        "sha256_in_prefix": "9b990784481ebc94a70121f2a6ddc1c0e780d7b7ebd20476b050397c09417c2f",
+        "size_in_bytes": 1579
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/profile-sets/force-speaker-and-int-mic.conf",
+        "path_type": "hardlink",
+        "sha256": "33fc9461af9765cc0446875dea83544dfa443439bd5a9063211b1317dc13a140",
+        "sha256_in_prefix": "33fc9461af9765cc0446875dea83544dfa443439bd5a9063211b1317dc13a140",
+        "size_in_bytes": 5491
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/profile-sets/force-speaker.conf",
+        "path_type": "hardlink",
+        "sha256": "9de0208e53d9ec28d5350b2a0c7c660af17692f807c35c76795c1f4522d92062",
+        "sha256_in_prefix": "9de0208e53d9ec28d5350b2a0c7c660af17692f807c35c76795c1f4522d92062",
+        "size_in_bytes": 5456
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/profile-sets/hp-tbt-dock-120w-g2.conf",
+        "path_type": "hardlink",
+        "sha256": "849694d785e9c9a70ec71d693753b3e1869df104753835ca8f4434d91c251106",
+        "sha256_in_prefix": "849694d785e9c9a70ec71d693753b3e1869df104753835ca8f4434d91c251106",
+        "size_in_bytes": 1315
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/profile-sets/hp-tbt-dock-audio-module.conf",
+        "path_type": "hardlink",
+        "sha256": "2fd2b46ad2bc94546687ba4175786277ea4958c313ab0e45180d34164a7bbcc4",
+        "sha256_in_prefix": "2fd2b46ad2bc94546687ba4175786277ea4958c313ab0e45180d34164a7bbcc4",
+        "size_in_bytes": 1395
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/profile-sets/kinect-audio.conf",
+        "path_type": "hardlink",
+        "sha256": "361670fb6183c840f2dfef947fb48b2653003d50cb8459fcd27e5791508fe61c",
+        "sha256_in_prefix": "361670fb6183c840f2dfef947fb48b2653003d50cb8459fcd27e5791508fe61c",
+        "size_in_bytes": 1284
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/profile-sets/maudio-fasttrack-pro.conf",
+        "path_type": "hardlink",
+        "sha256": "407cd96445ee262b40ecde7793d3423f6247f52b19ee7d6e1f4624ff62eee07b",
+        "sha256_in_prefix": "407cd96445ee262b40ecde7793d3423f6247f52b19ee7d6e1f4624ff62eee07b",
+        "size_in_bytes": 2714
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/profile-sets/native-instruments-audio4dj.conf",
+        "path_type": "hardlink",
+        "sha256": "4c5c1e1652e1192c4a301a10250257f6fdd5340393d3d39f84a1f95e2916f76b",
+        "sha256_in_prefix": "4c5c1e1652e1192c4a301a10250257f6fdd5340393d3d39f84a1f95e2916f76b",
+        "size_in_bytes": 2769
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/profile-sets/native-instruments-audio8dj.conf",
+        "path_type": "hardlink",
+        "sha256": "dfa4376acd59927b4e6189659bbc8e380bf466ff4bb9491271a23b4f66b39a01",
+        "sha256_in_prefix": "dfa4376acd59927b4e6189659bbc8e380bf466ff4bb9491271a23b4f66b39a01",
+        "size_in_bytes": 4999
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/profile-sets/native-instruments-komplete-audio6.conf",
+        "path_type": "hardlink",
+        "sha256": "f091e6b2c0f6ea5340eae07f98f6bc5b929db480273d615a2b4c05ee96878859",
+        "sha256_in_prefix": "f091e6b2c0f6ea5340eae07f98f6bc5b929db480273d615a2b4c05ee96878859",
+        "size_in_bytes": 3380
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/profile-sets/native-instruments-korecontroller.conf",
+        "path_type": "hardlink",
+        "sha256": "35dc1c073ac952ba3112b20b2f6c60d280e261bd2a68fbc4447d2f3fdf7099e6",
+        "sha256_in_prefix": "35dc1c073ac952ba3112b20b2f6c60d280e261bd2a68fbc4447d2f3fdf7099e6",
+        "size_in_bytes": 2713
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/profile-sets/native-instruments-traktor-audio10.conf",
+        "path_type": "hardlink",
+        "sha256": "ccfeb983437d6e2ed46993402362c173b31b9e47ada0134c77b1f43c893ae40a",
+        "sha256_in_prefix": "ccfeb983437d6e2ed46993402362c173b31b9e47ada0134c77b1f43c893ae40a",
+        "size_in_bytes": 3778
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/profile-sets/native-instruments-traktor-audio2.conf",
+        "path_type": "hardlink",
+        "sha256": "093d9e7dce9bfbfcd3533e13f57432f3cdfed8c9a7ab5a261d1893ef05c8dec4",
+        "sha256_in_prefix": "093d9e7dce9bfbfcd3533e13f57432f3cdfed8c9a7ab5a261d1893ef05c8dec4",
+        "size_in_bytes": 1583
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/profile-sets/native-instruments-traktor-audio6.conf",
+        "path_type": "hardlink",
+        "sha256": "cad8b0fed1c14916273236a03a57ecc8c571a03fd503d80ad17cab4bc5f84809",
+        "sha256_in_prefix": "cad8b0fed1c14916273236a03a57ecc8c571a03fd503d80ad17cab4bc5f84809",
+        "size_in_bytes": 2741
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/profile-sets/native-instruments-traktorkontrol-s4.conf",
+        "path_type": "hardlink",
+        "sha256": "ea146097e661fcc1b3e2ac24684318d7c5f3f2bdf89ef7f2bdc61b1517bdd18c",
+        "sha256_in_prefix": "ea146097e661fcc1b3e2ac24684318d7c5f3f2bdf89ef7f2bdc61b1517bdd18c",
+        "size_in_bytes": 2419
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/profile-sets/sb-omni-surround-5.1.conf",
+        "path_type": "hardlink",
+        "sha256": "12e381917650f22dde4b0f08b51c483922739eb6ee02a16042f53ec7fd78abfe",
+        "sha256_in_prefix": "12e381917650f22dde4b0f08b51c483922739eb6ee02a16042f53ec7fd78abfe",
+        "size_in_bytes": 3536
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/profile-sets/sennheiser-gsx.conf",
+        "path_type": "hardlink",
+        "sha256": "763905b7a1e20fc25bcf42e074621bb2bace984b2fa72a9b9ccf507005dd6c08",
+        "sha256_in_prefix": "763905b7a1e20fc25bcf42e074621bb2bace984b2fa72a9b9ccf507005dd6c08",
+        "size_in_bytes": 1958
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/profile-sets/simple-headphones-mic.conf",
+        "path_type": "hardlink",
+        "sha256": "36762047410fa606435d55e9226554544e54f50c4dbb13c4e9e4be7bfd943bad",
+        "sha256_in_prefix": "36762047410fa606435d55e9226554544e54f50c4dbb13c4e9e4be7bfd943bad",
+        "size_in_bytes": 2121
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/profile-sets/steelseries-arctis-common-usb-audio.conf",
+        "path_type": "hardlink",
+        "sha256": "47b4b9420979eb349f62307a0b26355f72a4e8f8f9630565bcf1ff4f76a68dbe",
+        "sha256_in_prefix": "47b4b9420979eb349f62307a0b26355f72a4e8f8f9630565bcf1ff4f76a68dbe",
+        "size_in_bytes": 606
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/profile-sets/texas-instruments-pcm2902.conf",
+        "path_type": "hardlink",
+        "sha256": "c78988cf40462330178e74a8c7df880af9269530a6af2304c5babdae24b4bf80",
+        "sha256_in_prefix": "c78988cf40462330178e74a8c7df880af9269530a6af2304c5babdae24b4bf80",
+        "size_in_bytes": 2427
+      },
+      {
+        "_path": "share/pulseaudio/alsa-mixer/profile-sets/usb-gaming-headset.conf",
+        "path_type": "hardlink",
+        "sha256": "9482f4a0bf3895d3a389f02c37a507d7eec618a5d2a9d0e15d6e6f02837ab96c",
+        "sha256_in_prefix": "9482f4a0bf3895d3a389f02c37a507d7eec618a5d2a9d0e15d6e6f02837ab96c",
+        "size_in_bytes": 2095
+      },
+      {
+        "_path": "share/vala/vapi/libpulse-mainloop-glib.deps",
+        "path_type": "hardlink",
+        "sha256": "5f47e7e89bbfd36dcf149f4fe0b4fc2671a6309d6d305884db7da5ed3f1ddf2d",
+        "sha256_in_prefix": "5f47e7e89bbfd36dcf149f4fe0b4fc2671a6309d6d305884db7da5ed3f1ddf2d",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "share/vala/vapi/libpulse-mainloop-glib.vapi",
+        "path_type": "hardlink",
+        "sha256": "636d41b39098ddedd4e2629a238e408acb23f0c8cf033a989c4a89287c1a3e14",
+        "sha256_in_prefix": "636d41b39098ddedd4e2629a238e408acb23f0c8cf033a989c4a89287c1a3e14",
+        "size_in_bytes": 426
+      },
+      {
+        "_path": "share/vala/vapi/libpulse-simple.deps",
+        "path_type": "hardlink",
+        "sha256": "5f47e7e89bbfd36dcf149f4fe0b4fc2671a6309d6d305884db7da5ed3f1ddf2d",
+        "sha256_in_prefix": "5f47e7e89bbfd36dcf149f4fe0b4fc2671a6309d6d305884db7da5ed3f1ddf2d",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "share/vala/vapi/libpulse-simple.vapi",
+        "path_type": "hardlink",
+        "sha256": "4853301ec5b6fd373946377d769b5a37f01004fecd0c12d768160e434c553c9e",
+        "sha256_in_prefix": "4853301ec5b6fd373946377d769b5a37f01004fecd0c12d768160e434c553c9e",
+        "size_in_bytes": 1683
+      },
+      {
+        "_path": "share/vala/vapi/libpulse.deps",
+        "path_type": "hardlink",
+        "sha256": "ceb1effbcc434e5f31864d2ddab4e0b1ae49862085522b1481fc859771f466de",
+        "sha256_in_prefix": "ceb1effbcc434e5f31864d2ddab4e0b1ae49862085522b1481fc859771f466de",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "share/vala/vapi/libpulse.vapi",
+        "path_type": "hardlink",
+        "sha256": "71c56d775f5be1c56e28c702ebfde55b2266e3e15f935b9b4a87795317fc68a7",
+        "sha256_in_prefix": "71c56d775f5be1c56e28c702ebfde55b2266e3e15f935b9b4a87795317fc68a7",
+        "size_in_bytes": 66404
+      },
+      {
+        "_path": "share/zsh/site-functions/_pulseaudio",
+        "path_type": "hardlink",
+        "sha256": "de7a7f36dbe60151e1ee27b82c7bb9efae1c41b08a36527a97aca06c644f69ef",
+        "sha256_in_prefix": "de7a7f36dbe60151e1ee27b82c7bb9efae1c41b08a36527a97aca06c644f69ef",
+        "size_in_bytes": 31424
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "68de428dabc1e5bf9c68edb12fb05bb11d7dded964897f4445bf9c50899dcb88",
+  "size": 1587139,
+  "subdir": "linux-64",
+  "timestamp": 1673503640859,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pulseaudio-16.1-h4ab2085_1.conda",
+  "version": "16.1"
+}

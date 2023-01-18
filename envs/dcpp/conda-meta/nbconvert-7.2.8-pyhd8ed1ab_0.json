@@ -1,0 +1,37 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "nbconvert-core 7.2.8 pyhd8ed1ab_0",
+    "nbconvert-pandoc 7.2.8 pyhd8ed1ab_0",
+    "python >=3.7"
+  ],
+  "extracted_package_dir": "/home/acrnrpg/anaconda3/pkgs/nbconvert-7.2.8-pyhd8ed1ab_0",
+  "features": "",
+  "files": [],
+  "fn": "nbconvert-7.2.8-pyhd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/acrnrpg/anaconda3/pkgs/nbconvert-7.2.8-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "8b5cb7073f66beef0d7161406fdb6e8b",
+  "name": "nbconvert",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/acrnrpg/anaconda3/pkgs/nbconvert-7.2.8-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d2d8a448263111c43461b22d979ecfe6b0cfc912690dfae102bfa389bf39fd45",
+  "size": 7688,
+  "subdir": "noarch",
+  "timestamp": 1673893358251,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/nbconvert-7.2.8-pyhd8ed1ab_0.conda",
+  "version": "7.2.8"
+}

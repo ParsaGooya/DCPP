@@ -1,0 +1,259 @@
+{
+  "build": "nompi_hc402ea5_101",
+  "build_number": 101,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "hdf5 * nompi_*",
+    "hdf5 >=1.12.2,<1.12.3.0a0",
+    "libgcc-ng >=12",
+    "libgfortran-ng",
+    "libgfortran5 >=10.4.0",
+    "libnetcdf * nompi_*",
+    "libnetcdf >=4.8.1,<4.8.2.0a0"
+  ],
+  "extracted_package_dir": "/home/acrnrpg/anaconda3/pkgs/netcdf-fortran-4.6.0-nompi_hc402ea5_101",
+  "features": "",
+  "files": [
+    "bin/nf-config",
+    "include/netcdf.inc",
+    "include/netcdf.mod",
+    "include/netcdf4_f03.mod",
+    "include/netcdf4_nc_interfaces.mod",
+    "include/netcdf4_nf_interfaces.mod",
+    "include/netcdf_f03.mod",
+    "include/netcdf_fortv2_c_interfaces.mod",
+    "include/netcdf_nc_data.mod",
+    "include/netcdf_nc_interfaces.mod",
+    "include/netcdf_nf_data.mod",
+    "include/netcdf_nf_interfaces.mod",
+    "include/typesizes.mod",
+    "lib/cmake/netCDF/netCDF-FortranConfig.cmake",
+    "lib/cmake/netCDF/netCDF-FortranConfigVersion.cmake",
+    "lib/cmake/netCDF/netcdffTargets-debug.cmake",
+    "lib/cmake/netCDF/netcdffTargets.cmake",
+    "lib/libnetcdff.settings",
+    "lib/libnetcdff.so",
+    "lib/libnetcdff.so.7",
+    "lib/libnetcdff.so.7.1.0",
+    "lib/objects-DEBUG/netcdff_c/nf_lib.c.o",
+    "lib/objects-DEBUG/netcdff_c/nf_v2compat.c.o",
+    "lib/objects-RelWithDebInfo/ftest_c/f03lib.c.o",
+    "lib/objects-RelWithDebInfo/nf_test_c/f03lib.c.o",
+    "lib/pkgconfig/netcdf-fortran.pc"
+  ],
+  "fn": "netcdf-fortran-4.6.0-nompi_hc402ea5_101.tar.bz2",
+  "license": "NetCDF",
+  "link": {
+    "source": "/home/acrnrpg/anaconda3/pkgs/netcdf-fortran-4.6.0-nompi_hc402ea5_101",
+    "type": 1
+  },
+  "md5": "6cb999e38b36d5695c2a672dc6f09399",
+  "name": "netcdf-fortran",
+  "package_tarball_full_path": "/home/acrnrpg/anaconda3/pkgs/netcdf-fortran-4.6.0-nompi_hc402ea5_101.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/nf-config",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/netcdf-fortran_1664457789836/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "32f2bbbd6508e59eef25949b7ff2cf842ac92a88181ff086cae1ed0c96593351",
+        "sha256_in_prefix": "a823b927655c222a0dbdc0a3650d8dbfe72da3598d23b0e6a15adc1af31e11e8",
+        "size_in_bytes": 5083
+      },
+      {
+        "_path": "include/netcdf.inc",
+        "path_type": "hardlink",
+        "sha256": "1f50693e9f7ec62f51979df40c75ed39f74c3b2538359888705cc66c8ad2d268",
+        "sha256_in_prefix": "1f50693e9f7ec62f51979df40c75ed39f74c3b2538359888705cc66c8ad2d268",
+        "size_in_bytes": 63542
+      },
+      {
+        "_path": "include/netcdf.mod",
+        "path_type": "hardlink",
+        "sha256": "4ed25299a8a3913d9feac6eb6c93ccf68b1e8556365c16012329b1e1d835030d",
+        "sha256_in_prefix": "4ed25299a8a3913d9feac6eb6c93ccf68b1e8556365c16012329b1e1d835030d",
+        "size_in_bytes": 23341
+      },
+      {
+        "_path": "include/netcdf4_f03.mod",
+        "path_type": "hardlink",
+        "sha256": "c0e512c24bbef8f277c40988d3baea7a13a5a58f86b75585bfe01f1495af5e6b",
+        "sha256_in_prefix": "c0e512c24bbef8f277c40988d3baea7a13a5a58f86b75585bfe01f1495af5e6b",
+        "size_in_bytes": 27767
+      },
+      {
+        "_path": "include/netcdf4_nc_interfaces.mod",
+        "path_type": "hardlink",
+        "sha256": "ca9a39d1564a0fb73ef2e1654dc5214194e6811f19701366ad4fd94b7f7ac9b0",
+        "sha256_in_prefix": "ca9a39d1564a0fb73ef2e1654dc5214194e6811f19701366ad4fd94b7f7ac9b0",
+        "size_in_bytes": 27209
+      },
+      {
+        "_path": "include/netcdf4_nf_interfaces.mod",
+        "path_type": "hardlink",
+        "sha256": "dd4e045a9382fea357bd2fb2cb8da7092902a804b94c3b328543f2a4582b544a",
+        "sha256_in_prefix": "dd4e045a9382fea357bd2fb2cb8da7092902a804b94c3b328543f2a4582b544a",
+        "size_in_bytes": 5835
+      },
+      {
+        "_path": "include/netcdf_f03.mod",
+        "path_type": "hardlink",
+        "sha256": "6efcb458b623944a371a317ec5c2218f7814f000e5fa07595eb6183f1fe5e0e3",
+        "sha256_in_prefix": "6efcb458b623944a371a317ec5c2218f7814f000e5fa07595eb6183f1fe5e0e3",
+        "size_in_bytes": 22273
+      },
+      {
+        "_path": "include/netcdf_fortv2_c_interfaces.mod",
+        "path_type": "hardlink",
+        "sha256": "84c28356de76a10872e4f9836de226835c3338e3bfc5c85bc3ebe8bf2e62c618",
+        "sha256_in_prefix": "84c28356de76a10872e4f9836de226835c3338e3bfc5c85bc3ebe8bf2e62c618",
+        "size_in_bytes": 25096
+      },
+      {
+        "_path": "include/netcdf_nc_data.mod",
+        "path_type": "hardlink",
+        "sha256": "b4a5bf4d59529ffa7b18fbeb077627c37fbd83ca51ddf78b23c628b227630df7",
+        "sha256_in_prefix": "b4a5bf4d59529ffa7b18fbeb077627c37fbd83ca51ddf78b23c628b227630df7",
+        "size_in_bytes": 5982
+      },
+      {
+        "_path": "include/netcdf_nc_interfaces.mod",
+        "path_type": "hardlink",
+        "sha256": "c46460ecc5ba91749106bc5e14b7903e4d6323a3b265ae9d1f1dc76b4758e74c",
+        "sha256_in_prefix": "c46460ecc5ba91749106bc5e14b7903e4d6323a3b265ae9d1f1dc76b4758e74c",
+        "size_in_bytes": 21426
+      },
+      {
+        "_path": "include/netcdf_nf_data.mod",
+        "path_type": "hardlink",
+        "sha256": "f88c7b77b32a87f10f7479f81a2d0fc0a81d0ba79e97c633e8b46e850dd2ae4d",
+        "sha256_in_prefix": "f88c7b77b32a87f10f7479f81a2d0fc0a81d0ba79e97c633e8b46e850dd2ae4d",
+        "size_in_bytes": 10284
+      },
+      {
+        "_path": "include/netcdf_nf_interfaces.mod",
+        "path_type": "hardlink",
+        "sha256": "3e6965285c35f618d9409a68767b17f77578a6176000d47f5f2eb55ea7c5983c",
+        "sha256_in_prefix": "3e6965285c35f618d9409a68767b17f77578a6176000d47f5f2eb55ea7c5983c",
+        "size_in_bytes": 11482
+      },
+      {
+        "_path": "include/typesizes.mod",
+        "path_type": "hardlink",
+        "sha256": "e7e533155af576dd6db7d0f1aacfe9a37c2cd8556855dee3526a88142f4bfac0",
+        "sha256_in_prefix": "e7e533155af576dd6db7d0f1aacfe9a37c2cd8556855dee3526a88142f4bfac0",
+        "size_in_bytes": 496
+      },
+      {
+        "_path": "lib/cmake/netCDF/netCDF-FortranConfig.cmake",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/netcdf-fortran_1664457789836/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "39fbf83b85e857baa701e2893ebf43af89817b20c70fd170528265e136ecb977",
+        "sha256_in_prefix": "b5762b580158b164a84e1acb8c2b28410dcd6ad58f46daac845faabaf5655ef2",
+        "size_in_bytes": 2134
+      },
+      {
+        "_path": "lib/cmake/netCDF/netCDF-FortranConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "b6e460e5ec815790d382b44a9fe12007415e4df13d9cc5d887e6d3cfc050335a",
+        "sha256_in_prefix": "b6e460e5ec815790d382b44a9fe12007415e4df13d9cc5d887e6d3cfc050335a",
+        "size_in_bytes": 2914
+      },
+      {
+        "_path": "lib/cmake/netCDF/netcdffTargets-debug.cmake",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/netcdf-fortran_1664457789836/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "9e289b28532908453565fb47b2f012647975002b6cd95e3c5d4a78d0e3310dbc",
+        "sha256_in_prefix": "2f0237b4d2a575d0239807e98bf02db806b3751d73336b8141e5758586e0c970",
+        "size_in_bytes": 1324
+      },
+      {
+        "_path": "lib/cmake/netCDF/netcdffTargets.cmake",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/netcdf-fortran_1664457789836/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "f826b0637291d9a312e81e331819c0291c11e5c5bcb4b316ae7d37a471df3feb",
+        "sha256_in_prefix": "1d4e97d7658beb71d67b090d23679853888850533ec278c45b8f435c55b56fe6",
+        "size_in_bytes": 4751
+      },
+      {
+        "_path": "lib/libnetcdff.settings",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/netcdf-fortran_1664457789836/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "4bcf1e6f169230b8109d97ad6cd114bea6d88c7ff71ad45edf75bd22227bd1fd",
+        "sha256_in_prefix": "ee6abcd7388258526b577b90d1791ecd646600d8b9978bd67c598cb0263ce731",
+        "size_in_bytes": 5124
+      },
+      {
+        "_path": "lib/libnetcdff.so",
+        "path_type": "softlink",
+        "sha256": "7052fc6aa841f2e914b6377ea8b45053c4f3d90eba4048aec1d6b66af144bf36",
+        "size_in_bytes": 2095184
+      },
+      {
+        "_path": "lib/libnetcdff.so.7",
+        "path_type": "softlink",
+        "sha256": "7052fc6aa841f2e914b6377ea8b45053c4f3d90eba4048aec1d6b66af144bf36",
+        "size_in_bytes": 2095184
+      },
+      {
+        "_path": "lib/libnetcdff.so.7.1.0",
+        "path_type": "hardlink",
+        "sha256": "7052fc6aa841f2e914b6377ea8b45053c4f3d90eba4048aec1d6b66af144bf36",
+        "sha256_in_prefix": "7052fc6aa841f2e914b6377ea8b45053c4f3d90eba4048aec1d6b66af144bf36",
+        "size_in_bytes": 2095184
+      },
+      {
+        "_path": "lib/objects-DEBUG/netcdff_c/nf_lib.c.o",
+        "path_type": "hardlink",
+        "sha256": "6f0604268cd21021ac6778d6c4f7eda3f33ee04328cb0e72c1f77083fe7cd55c",
+        "sha256_in_prefix": "6f0604268cd21021ac6778d6c4f7eda3f33ee04328cb0e72c1f77083fe7cd55c",
+        "size_in_bytes": 23840
+      },
+      {
+        "_path": "lib/objects-DEBUG/netcdff_c/nf_v2compat.c.o",
+        "path_type": "hardlink",
+        "sha256": "4e0a2a4e717da9d5e9908fe383d69846596fd9ae235b9db93f3a76c258c1c803",
+        "sha256_in_prefix": "4e0a2a4e717da9d5e9908fe383d69846596fd9ae235b9db93f3a76c258c1c803",
+        "size_in_bytes": 109512
+      },
+      {
+        "_path": "lib/objects-RelWithDebInfo/ftest_c/f03lib.c.o",
+        "path_type": "hardlink",
+        "sha256": "7f3eddd28597ab918d9f026e751c10c9aa3706b7068d1b3d7ba648ad86915faf",
+        "sha256_in_prefix": "7f3eddd28597ab918d9f026e751c10c9aa3706b7068d1b3d7ba648ad86915faf",
+        "size_in_bytes": 11512
+      },
+      {
+        "_path": "lib/objects-RelWithDebInfo/nf_test_c/f03lib.c.o",
+        "path_type": "hardlink",
+        "sha256": "7f3eddd28597ab918d9f026e751c10c9aa3706b7068d1b3d7ba648ad86915faf",
+        "sha256_in_prefix": "7f3eddd28597ab918d9f026e751c10c9aa3706b7068d1b3d7ba648ad86915faf",
+        "size_in_bytes": 11512
+      },
+      {
+        "_path": "lib/pkgconfig/netcdf-fortran.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/netcdf-fortran_1664457789836/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "5d5c030c2f0185020528342bd89972de7fa1658047d0d8e95bef24e7e993b0c5",
+        "sha256_in_prefix": "e771ec93e0f84e67c7538e7b0082989a5955abe2765a94dfe9ae249c0d674487",
+        "size_in_bytes": 1870
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f046301d1acd286080e3d3db765661ca8d446cef8db6aadb33a6ccd6be29ba6e",
+  "size": 778026,
+  "subdir": "linux-64",
+  "timestamp": 1664457951382,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/netcdf-fortran-4.6.0-nompi_hc402ea5_101.tar.bz2",
+  "version": "4.6.0"
+}

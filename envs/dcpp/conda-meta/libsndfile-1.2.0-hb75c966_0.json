@@ -1,0 +1,379 @@
+{
+  "build": "hb75c966_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "lame >=3.100,<3.101.0a0",
+    "libflac >=1.4.2,<1.5.0a0",
+    "libgcc-ng >=12",
+    "libogg >=1.3.4,<1.4.0a0",
+    "libopus >=1.3.1,<2.0a0",
+    "libstdcxx-ng >=12",
+    "libvorbis >=1.3.7,<1.4.0a0",
+    "mpg123 >=1.31.1,<1.32.0a0"
+  ],
+  "extracted_package_dir": "/home/acrnrpg/anaconda3/pkgs/libsndfile-1.2.0-hb75c966_0",
+  "features": "",
+  "files": [
+    "bin/sndfile-cmp",
+    "bin/sndfile-concat",
+    "bin/sndfile-convert",
+    "bin/sndfile-deinterleave",
+    "bin/sndfile-info",
+    "bin/sndfile-interleave",
+    "bin/sndfile-metadata-get",
+    "bin/sndfile-metadata-set",
+    "bin/sndfile-play",
+    "bin/sndfile-salvage",
+    "include/sndfile.h",
+    "include/sndfile.hh",
+    "lib/libsndfile.so",
+    "lib/libsndfile.so.1",
+    "lib/libsndfile.so.1.0.35",
+    "lib/pkgconfig/sndfile.pc",
+    "share/doc/libsndfile/FAQ.md",
+    "share/doc/libsndfile/api.md",
+    "share/doc/libsndfile/bugs.md",
+    "share/doc/libsndfile/command.md",
+    "share/doc/libsndfile/embedded_files.md",
+    "share/doc/libsndfile/formats.md",
+    "share/doc/libsndfile/index.md",
+    "share/doc/libsndfile/libsndfile.css",
+    "share/doc/libsndfile/libsndfile.jpg",
+    "share/doc/libsndfile/lists.md",
+    "share/doc/libsndfile/new_file_type_howto.md",
+    "share/doc/libsndfile/octave.md",
+    "share/doc/libsndfile/print.css",
+    "share/doc/libsndfile/sndfile_info.md",
+    "share/doc/libsndfile/tutorial.md",
+    "share/doc/libsndfile/win32.md",
+    "share/man/man1/sndfile-cmp.1",
+    "share/man/man1/sndfile-concat.1",
+    "share/man/man1/sndfile-convert.1",
+    "share/man/man1/sndfile-deinterleave.1",
+    "share/man/man1/sndfile-info.1",
+    "share/man/man1/sndfile-interleave.1",
+    "share/man/man1/sndfile-metadata-get.1",
+    "share/man/man1/sndfile-metadata-set.1",
+    "share/man/man1/sndfile-play.1",
+    "share/man/man1/sndfile-salvage.1"
+  ],
+  "fn": "libsndfile-1.2.0-hb75c966_0.conda",
+  "license": "LGPL-2.1-or-later",
+  "license_family": "LGPL",
+  "link": {
+    "source": "/home/acrnrpg/anaconda3/pkgs/libsndfile-1.2.0-hb75c966_0",
+    "type": 1
+  },
+  "md5": "c648d19cd9c8625898d5d370414de7c7",
+  "name": "libsndfile",
+  "package_tarball_full_path": "/home/acrnrpg/anaconda3/pkgs/libsndfile-1.2.0-hb75c966_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/sndfile-cmp",
+        "path_type": "hardlink",
+        "sha256": "01e862daf9811f315fe40d2ce739780b38a225c02d169c3eacd4a08eb3c5434d",
+        "sha256_in_prefix": "01e862daf9811f315fe40d2ce739780b38a225c02d169c3eacd4a08eb3c5434d",
+        "size_in_bytes": 16656
+      },
+      {
+        "_path": "bin/sndfile-concat",
+        "path_type": "hardlink",
+        "sha256": "9cbe71941555a0a5783bf07167bf4f9fed302e0b85dfa4fdd3ec277d2bb77ccb",
+        "sha256_in_prefix": "9cbe71941555a0a5783bf07167bf4f9fed302e0b85dfa4fdd3ec277d2bb77ccb",
+        "size_in_bytes": 16792
+      },
+      {
+        "_path": "bin/sndfile-convert",
+        "path_type": "hardlink",
+        "sha256": "22daa39b98552d330a7586211dd252ae4387fe56b9625285bfb0e4ffc6105e83",
+        "sha256_in_prefix": "22daa39b98552d330a7586211dd252ae4387fe56b9625285bfb0e4ffc6105e83",
+        "size_in_bytes": 30088
+      },
+      {
+        "_path": "bin/sndfile-deinterleave",
+        "path_type": "hardlink",
+        "sha256": "84f90e70bccddbd6224c320b28ad5e48e021a2ae9184a9f41d6550b55ef86f6a",
+        "sha256_in_prefix": "84f90e70bccddbd6224c320b28ad5e48e021a2ae9184a9f41d6550b55ef86f6a",
+        "size_in_bytes": 16680
+      },
+      {
+        "_path": "bin/sndfile-info",
+        "path_type": "hardlink",
+        "sha256": "df36af5e0ebcf2764fe34c52bc0843dad1c94748b548c1bdad7eb4c3f3c8b6c6",
+        "sha256_in_prefix": "df36af5e0ebcf2764fe34c52bc0843dad1c94748b548c1bdad7eb4c3f3c8b6c6",
+        "size_in_bytes": 25272
+      },
+      {
+        "_path": "bin/sndfile-interleave",
+        "path_type": "hardlink",
+        "sha256": "589f8e959b00258827eb19e24a29f03dc7aff3498f46d03eb271ecc7680774fd",
+        "sha256_in_prefix": "589f8e959b00258827eb19e24a29f03dc7aff3498f46d03eb271ecc7680774fd",
+        "size_in_bytes": 17008
+      },
+      {
+        "_path": "bin/sndfile-metadata-get",
+        "path_type": "hardlink",
+        "sha256": "db480f193c5f694b5973267f955618613f7361eff6b33f988ba3d5dbf9a9fe0d",
+        "sha256_in_prefix": "db480f193c5f694b5973267f955618613f7361eff6b33f988ba3d5dbf9a9fe0d",
+        "size_in_bytes": 16552
+      },
+      {
+        "_path": "bin/sndfile-metadata-set",
+        "path_type": "hardlink",
+        "sha256": "d1515ace3f9ada782255354201a43a5e31edddde85da05cfc50d28ebbc287bc4",
+        "sha256_in_prefix": "d1515ace3f9ada782255354201a43a5e31edddde85da05cfc50d28ebbc287bc4",
+        "size_in_bytes": 25904
+      },
+      {
+        "_path": "bin/sndfile-play",
+        "path_type": "hardlink",
+        "sha256": "94899e07fbd3be6337093e373f972b1e543277890f82a82ff83dfa002afb2d11",
+        "sha256_in_prefix": "94899e07fbd3be6337093e373f972b1e543277890f82a82ff83dfa002afb2d11",
+        "size_in_bytes": 16792
+      },
+      {
+        "_path": "bin/sndfile-salvage",
+        "path_type": "hardlink",
+        "sha256": "77e2ed5fe15584b14598115db55d99ba0024cf5479583baa5a485480c52280f8",
+        "sha256_in_prefix": "77e2ed5fe15584b14598115db55d99ba0024cf5479583baa5a485480c52280f8",
+        "size_in_bytes": 17000
+      },
+      {
+        "_path": "include/sndfile.h",
+        "path_type": "hardlink",
+        "sha256": "911098ea4b66f0c5ad59785b176f2b19f6e657042c15c93791edb53467efd6c0",
+        "sha256_in_prefix": "911098ea4b66f0c5ad59785b176f2b19f6e657042c15c93791edb53467efd6c0",
+        "size_in_bytes": 29558
+      },
+      {
+        "_path": "include/sndfile.hh",
+        "path_type": "hardlink",
+        "sha256": "3b79d1de0290b8acc466652214ac0bb09c39a66cdd749db4641904ddeacbbc22",
+        "sha256_in_prefix": "3b79d1de0290b8acc466652214ac0bb09c39a66cdd749db4641904ddeacbbc22",
+        "size_in_bytes": 12851
+      },
+      {
+        "_path": "lib/libsndfile.so",
+        "path_type": "softlink",
+        "sha256": "6b803ea01c599d4ed7d7f5cba14ff68e80f88fc27bf497fbf0eb07f023d255bf",
+        "size_in_bytes": 630152
+      },
+      {
+        "_path": "lib/libsndfile.so.1",
+        "path_type": "softlink",
+        "sha256": "6b803ea01c599d4ed7d7f5cba14ff68e80f88fc27bf497fbf0eb07f023d255bf",
+        "size_in_bytes": 630152
+      },
+      {
+        "_path": "lib/libsndfile.so.1.0.35",
+        "path_type": "hardlink",
+        "sha256": "6b803ea01c599d4ed7d7f5cba14ff68e80f88fc27bf497fbf0eb07f023d255bf",
+        "sha256_in_prefix": "6b803ea01c599d4ed7d7f5cba14ff68e80f88fc27bf497fbf0eb07f023d255bf",
+        "size_in_bytes": 630152
+      },
+      {
+        "_path": "lib/pkgconfig/sndfile.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/libsndfile_1672054325687/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "aff0443cdde27d51da3905dcdbfac0bfa19a0733115d93a7b111473821d38586",
+        "sha256_in_prefix": "d0fe4d8b169b7326fb0f058ca4f7c0bb30599ca36152469f4c559e5d011ba867",
+        "size_in_bytes": 550
+      },
+      {
+        "_path": "share/doc/libsndfile/FAQ.md",
+        "path_type": "hardlink",
+        "sha256": "b5a940334e798ab0b38056b40e9cb7d86de4ca758215800e199452ea637077cc",
+        "sha256_in_prefix": "b5a940334e798ab0b38056b40e9cb7d86de4ca758215800e199452ea637077cc",
+        "size_in_bytes": 24036
+      },
+      {
+        "_path": "share/doc/libsndfile/api.md",
+        "path_type": "hardlink",
+        "sha256": "40eaefec184231eccfc40552f689c7dbcffc26866c612d62df88737563b509ef",
+        "sha256_in_prefix": "40eaefec184231eccfc40552f689c7dbcffc26866c612d62df88737563b509ef",
+        "size_in_bytes": 35268
+      },
+      {
+        "_path": "share/doc/libsndfile/bugs.md",
+        "path_type": "hardlink",
+        "sha256": "2c84b13fcf1161e172dfa8fe14e081a58fe85d1dacc4202f6d23dda50b9d51e9",
+        "sha256_in_prefix": "2c84b13fcf1161e172dfa8fe14e081a58fe85d1dacc4202f6d23dda50b9d51e9",
+        "size_in_bytes": 2104
+      },
+      {
+        "_path": "share/doc/libsndfile/command.md",
+        "path_type": "hardlink",
+        "sha256": "610dd723e8fa93f1272e290cf724cbb77a9440c23fc738f3685aed638acd7e1f",
+        "sha256_in_prefix": "610dd723e8fa93f1272e290cf724cbb77a9440c23fc738f3685aed638acd7e1f",
+        "size_in_bytes": 50023
+      },
+      {
+        "_path": "share/doc/libsndfile/embedded_files.md",
+        "path_type": "hardlink",
+        "sha256": "fb9ca2dd4128ea64d3b28022d2d51d74b38de4b9e026f14562585cedfd456866",
+        "sha256_in_prefix": "fb9ca2dd4128ea64d3b28022d2d51d74b38de4b9e026f14562585cedfd456866",
+        "size_in_bytes": 727
+      },
+      {
+        "_path": "share/doc/libsndfile/formats.md",
+        "path_type": "hardlink",
+        "sha256": "994ebdb0682c162633ceefa1f9581fad7b828a9e2c17c7f743391b84b28e734e",
+        "sha256_in_prefix": "994ebdb0682c162633ceefa1f9581fad7b828a9e2c17c7f743391b84b28e734e",
+        "size_in_bytes": 10046
+      },
+      {
+        "_path": "share/doc/libsndfile/index.md",
+        "path_type": "hardlink",
+        "sha256": "a0be97223cd46de7e344827539a3233cca59a3bae24a55a79bd13a0c24b7c6f5",
+        "sha256_in_prefix": "a0be97223cd46de7e344827539a3233cca59a3bae24a55a79bd13a0c24b7c6f5",
+        "size_in_bytes": 17235
+      },
+      {
+        "_path": "share/doc/libsndfile/libsndfile.css",
+        "path_type": "hardlink",
+        "sha256": "8b88bf89c95da3f17bcc7ca40d385a53bb39d30ae0bc3ebcc4e3743b251c86e2",
+        "sha256_in_prefix": "8b88bf89c95da3f17bcc7ca40d385a53bb39d30ae0bc3ebcc4e3743b251c86e2",
+        "size_in_bytes": 1739
+      },
+      {
+        "_path": "share/doc/libsndfile/libsndfile.jpg",
+        "path_type": "hardlink",
+        "sha256": "e8635d9344f17f6020488a33ed47cfa5e2ce648e893a0f9dd3ae97116efdfa6f",
+        "sha256_in_prefix": "e8635d9344f17f6020488a33ed47cfa5e2ce648e893a0f9dd3ae97116efdfa6f",
+        "size_in_bytes": 22043
+      },
+      {
+        "_path": "share/doc/libsndfile/lists.md",
+        "path_type": "hardlink",
+        "sha256": "71ff61d209ca1023370445eb2e93065899e05c54252659762190ddf2594f80f3",
+        "sha256_in_prefix": "71ff61d209ca1023370445eb2e93065899e05c54252659762190ddf2594f80f3",
+        "size_in_bytes": 1188
+      },
+      {
+        "_path": "share/doc/libsndfile/new_file_type_howto.md",
+        "path_type": "hardlink",
+        "sha256": "6d1a68976845846b698547dc02201ba899b533bd86c010aa4a957e0274dbad4c",
+        "sha256_in_prefix": "6d1a68976845846b698547dc02201ba899b533bd86c010aa4a957e0274dbad4c",
+        "size_in_bytes": 4672
+      },
+      {
+        "_path": "share/doc/libsndfile/octave.md",
+        "path_type": "hardlink",
+        "sha256": "335a8368bb44ceeefd21fabb5dee224f33076243e3dca766bb57e7a69b5dfd42",
+        "sha256_in_prefix": "335a8368bb44ceeefd21fabb5dee224f33076243e3dca766bb57e7a69b5dfd42",
+        "size_in_bytes": 3148
+      },
+      {
+        "_path": "share/doc/libsndfile/print.css",
+        "path_type": "hardlink",
+        "sha256": "2f354daaaa5c75b8f0fe1431be00c2b8b756438a63e900343bc32d69ac3ea956",
+        "sha256_in_prefix": "2f354daaaa5c75b8f0fe1431be00c2b8b756438a63e900343bc32d69ac3ea956",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "share/doc/libsndfile/sndfile_info.md",
+        "path_type": "hardlink",
+        "sha256": "2e49b33583295c598d5dbc8bcb510550aa49b12f49b22277e35676d90779e64d",
+        "sha256_in_prefix": "2e49b33583295c598d5dbc8bcb510550aa49b12f49b22277e35676d90779e64d",
+        "size_in_bytes": 928
+      },
+      {
+        "_path": "share/doc/libsndfile/tutorial.md",
+        "path_type": "hardlink",
+        "sha256": "cd268dae907a29b821430c62e8c10540e8ca46079e39fd470a0d180daf2d3cdd",
+        "sha256_in_prefix": "cd268dae907a29b821430c62e8c10540e8ca46079e39fd470a0d180daf2d3cdd",
+        "size_in_bytes": 284
+      },
+      {
+        "_path": "share/doc/libsndfile/win32.md",
+        "path_type": "hardlink",
+        "sha256": "d2a0f0a8433e4a83c1b67b53d2589fd0a505475b23998a61e2a26cc39b8bdd37",
+        "sha256_in_prefix": "d2a0f0a8433e4a83c1b67b53d2589fd0a505475b23998a61e2a26cc39b8bdd37",
+        "size_in_bytes": 631
+      },
+      {
+        "_path": "share/man/man1/sndfile-cmp.1",
+        "path_type": "hardlink",
+        "sha256": "df55e9102d936e1dc97d3cbeb72adc85c5f1ee8448e36e1bf8bb9eb99e06606e",
+        "sha256_in_prefix": "df55e9102d936e1dc97d3cbeb72adc85c5f1ee8448e36e1bf8bb9eb99e06606e",
+        "size_in_bytes": 730
+      },
+      {
+        "_path": "share/man/man1/sndfile-concat.1",
+        "path_type": "hardlink",
+        "sha256": "9ea3da1bb0171f060605a3a274e26e190fd7d7499890547ba7bfd613f92daf89",
+        "sha256_in_prefix": "9ea3da1bb0171f060605a3a274e26e190fd7d7499890547ba7bfd613f92daf89",
+        "size_in_bytes": 728
+      },
+      {
+        "_path": "share/man/man1/sndfile-convert.1",
+        "path_type": "hardlink",
+        "sha256": "dd54f3991ad8fcee1845f6a283de8bb88bfaafc3147d6b54ed5f456bca744597",
+        "sha256_in_prefix": "dd54f3991ad8fcee1845f6a283de8bb88bfaafc3147d6b54ed5f456bca744597",
+        "size_in_bytes": 3288
+      },
+      {
+        "_path": "share/man/man1/sndfile-deinterleave.1",
+        "path_type": "hardlink",
+        "sha256": "5e979a98761dfd1c14abd6026b56d73fb1ea96fdac4aa255fdabf220366191c4",
+        "sha256_in_prefix": "5e979a98761dfd1c14abd6026b56d73fb1ea96fdac4aa255fdabf220366191c4",
+        "size_in_bytes": 1755
+      },
+      {
+        "_path": "share/man/man1/sndfile-info.1",
+        "path_type": "hardlink",
+        "sha256": "d24516a7841e2b418db50cbe0a6aa670a773bcea9cae04d166992cc9dde979ad",
+        "sha256_in_prefix": "d24516a7841e2b418db50cbe0a6aa670a773bcea9cae04d166992cc9dde979ad",
+        "size_in_bytes": 796
+      },
+      {
+        "_path": "share/man/man1/sndfile-interleave.1",
+        "path_type": "hardlink",
+        "sha256": "5e979a98761dfd1c14abd6026b56d73fb1ea96fdac4aa255fdabf220366191c4",
+        "sha256_in_prefix": "5e979a98761dfd1c14abd6026b56d73fb1ea96fdac4aa255fdabf220366191c4",
+        "size_in_bytes": 1755
+      },
+      {
+        "_path": "share/man/man1/sndfile-metadata-get.1",
+        "path_type": "hardlink",
+        "sha256": "dd8a8b89ad524aeb5fa42a475c62140c42291857f9122551d85394e9b64958e7",
+        "sha256_in_prefix": "dd8a8b89ad524aeb5fa42a475c62140c42291857f9122551d85394e9b64958e7",
+        "size_in_bytes": 2479
+      },
+      {
+        "_path": "share/man/man1/sndfile-metadata-set.1",
+        "path_type": "hardlink",
+        "sha256": "dd8a8b89ad524aeb5fa42a475c62140c42291857f9122551d85394e9b64958e7",
+        "sha256_in_prefix": "dd8a8b89ad524aeb5fa42a475c62140c42291857f9122551d85394e9b64958e7",
+        "size_in_bytes": 2479
+      },
+      {
+        "_path": "share/man/man1/sndfile-play.1",
+        "path_type": "hardlink",
+        "sha256": "fd4c11e081498508732c219a62d185a6471fedd5b0a6872b63dc4d3a6aa3fffa",
+        "sha256_in_prefix": "fd4c11e081498508732c219a62d185a6471fedd5b0a6872b63dc4d3a6aa3fffa",
+        "size_in_bytes": 652
+      },
+      {
+        "_path": "share/man/man1/sndfile-salvage.1",
+        "path_type": "hardlink",
+        "sha256": "a068e951e3e42ad34a7000d18423ca8eb4c44f2b3925e65470e9a9e8a2265e68",
+        "sha256_in_prefix": "a068e951e3e42ad34a7000d18423ca8eb4c44f2b3925e65470e9a9e8a2265e68",
+        "size_in_bytes": 744
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "52ab2460d626d1cc95092daa4f7191f84d4950aeb9925484135f96af6b6391d8",
+  "size": 350153,
+  "subdir": "linux-64",
+  "timestamp": 1672054525440,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libsndfile-1.2.0-hb75c966_0.conda",
+  "version": "1.2.0"
+}

@@ -1,0 +1,36 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "nbconvert-core 7.2.8 pyhd8ed1ab_0",
+    "pandoc",
+    "python >=3.7"
+  ],
+  "extracted_package_dir": "/home/acrnrpg/anaconda3/pkgs/nbconvert-pandoc-7.2.8-pyhd8ed1ab_0",
+  "features": "",
+  "files": [],
+  "fn": "nbconvert-pandoc-7.2.8-pyhd8ed1ab_0.conda",
+  "link": {
+    "source": "/home/acrnrpg/anaconda3/pkgs/nbconvert-pandoc-7.2.8-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "701b0db88fe192e1685de29b8ca0840e",
+  "name": "nbconvert-pandoc",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/acrnrpg/anaconda3/pkgs/nbconvert-pandoc-7.2.8-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b00e605be64cdc9125d8ff8f00ce96674be7cc223ae57b4b5615a46d3f6f6385",
+  "size": 6127,
+  "subdir": "noarch",
+  "timestamp": 1673893326213,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/nbconvert-pandoc-7.2.8-pyhd8ed1ab_0.conda",
+  "version": "7.2.8"
+}

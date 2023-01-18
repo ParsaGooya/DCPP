@@ -1,0 +1,49 @@
+{
+  "build": "ha770c72_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/acrnrpg/anaconda3/pkgs/pandoc-2.19.2-ha770c72_0",
+  "features": "",
+  "files": [
+    "bin/pandoc",
+    "bin/pandoc-server"
+  ],
+  "fn": "pandoc-2.19.2-ha770c72_0.tar.bz2",
+  "license": "GPL-2.0-or-later",
+  "license_family": "GPL",
+  "link": {
+    "source": "/home/acrnrpg/anaconda3/pkgs/pandoc-2.19.2-ha770c72_0",
+    "type": 1
+  },
+  "md5": "f17322ae18898607521b3fa90df84235",
+  "name": "pandoc",
+  "package_tarball_full_path": "/home/acrnrpg/anaconda3/pkgs/pandoc-2.19.2-ha770c72_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/pandoc",
+        "path_type": "hardlink",
+        "sha256": "d6596ea001e0ea3a09d862158481bca287417cb870b7a9834fb8efa8363dbb15",
+        "sha256_in_prefix": "d6596ea001e0ea3a09d862158481bca287417cb870b7a9834fb8efa8363dbb15",
+        "size_in_bytes": 83507776
+      },
+      {
+        "_path": "bin/pandoc-server",
+        "path_type": "softlink",
+        "sha256": "d6596ea001e0ea3a09d862158481bca287417cb870b7a9834fb8efa8363dbb15",
+        "size_in_bytes": 83507776
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9438d4b74c64868ff80a634f3e00b79113e6570588b7c023f5924427117d3118",
+  "size": 13467276,
+  "subdir": "linux-64",
+  "timestamp": 1661202782585,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pandoc-2.19.2-ha770c72_0.tar.bz2",
+  "version": "2.19.2"
+}

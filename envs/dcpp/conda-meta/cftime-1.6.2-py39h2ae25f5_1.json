@@ -1,0 +1,143 @@
+{
+  "build": "py39h2ae25f5_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=12",
+    "numpy >=1.20.3,<2.0a0",
+    "python >=3.9,<3.10.0a0",
+    "python_abi 3.9.* *_cp39"
+  ],
+  "extracted_package_dir": "/home/acrnrpg/anaconda3/pkgs/cftime-1.6.2-py39h2ae25f5_1",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/cftime-1.6.2.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/cftime-1.6.2.dist-info/LICENSE",
+    "lib/python3.9/site-packages/cftime-1.6.2.dist-info/METADATA",
+    "lib/python3.9/site-packages/cftime-1.6.2.dist-info/RECORD",
+    "lib/python3.9/site-packages/cftime-1.6.2.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/cftime-1.6.2.dist-info/WHEEL",
+    "lib/python3.9/site-packages/cftime-1.6.2.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/cftime-1.6.2.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/cftime/__init__.py",
+    "lib/python3.9/site-packages/cftime/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/cftime/__pycache__/_strptime.cpython-39.pyc",
+    "lib/python3.9/site-packages/cftime/_cftime.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/cftime/_strptime.py"
+  ],
+  "fn": "cftime-1.6.2-py39h2ae25f5_1.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/acrnrpg/anaconda3/pkgs/cftime-1.6.2-py39h2ae25f5_1",
+    "type": 1
+  },
+  "md5": "c943fb9a2818ecc5be1e0ecc8b7738f1",
+  "name": "cftime",
+  "package_tarball_full_path": "/home/acrnrpg/anaconda3/pkgs/cftime-1.6.2-py39h2ae25f5_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/cftime-1.6.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cftime-1.6.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "7fdd0c2647de9ed5aa549c21c46778374867793c2f874497b5480df22c7778ff",
+        "sha256_in_prefix": "7fdd0c2647de9ed5aa549c21c46778374867793c2f874497b5480df22c7778ff",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cftime-1.6.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "07820801b2bd007565a8e0adb111790ed768003ecd1cf652051a5c37712e1234",
+        "sha256_in_prefix": "07820801b2bd007565a8e0adb111790ed768003ecd1cf652051a5c37712e1234",
+        "size_in_bytes": 8366
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cftime-1.6.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "de95ad1be13f139340e7b7524b30007f8d1ba86a7c7161be34026974142a5c60",
+        "sha256_in_prefix": "de95ad1be13f139340e7b7524b30007f8d1ba86a7c7161be34026974142a5c60",
+        "size_in_bytes": 1005
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cftime-1.6.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cftime-1.6.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "fd3cea8db975b7fda98fd81f64fbc6d69a72bda3b2a3151ad39de77e1e34ac4f",
+        "sha256_in_prefix": "fd3cea8db975b7fda98fd81f64fbc6d69a72bda3b2a3151ad39de77e1e34ac4f",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cftime-1.6.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "9bc760010e58c9db326f149c71a34be2640c06db37356c1ce7f16dd14c931a02",
+        "sha256_in_prefix": "9bc760010e58c9db326f149c71a34be2640c06db37356c1ce7f16dd14c931a02",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cftime-1.6.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "d3f3d00ed5a5680772176fb4acaf76aa4568988d33e201d2e420f746688da897",
+        "sha256_in_prefix": "d3f3d00ed5a5680772176fb4acaf76aa4568988d33e201d2e420f746688da897",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cftime/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6c856c3c3fe093c14a01abd3deb5e6f49418120e33934c00137054921904cf15",
+        "sha256_in_prefix": "6c856c3c3fe093c14a01abd3deb5e6f49418120e33934c00137054921904cf15",
+        "size_in_bytes": 651
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cftime/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ff78fd88794d9de402e9ec846f60f7b3446e2f2bcbf3b754ad1ab9c72907cb7b",
+        "sha256_in_prefix": "ff78fd88794d9de402e9ec846f60f7b3446e2f2bcbf3b754ad1ab9c72907cb7b",
+        "size_in_bytes": 836
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cftime/__pycache__/_strptime.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7013a1a2a769fba101a8a04764719921889dce5468c26a744832690506edb8ea",
+        "sha256_in_prefix": "7013a1a2a769fba101a8a04764719921889dce5468c26a744832690506edb8ea",
+        "size_in_bytes": 5104
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cftime/_cftime.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "cd01afa9631692a393e223f3fd47b17255991774b64cf694ea69eabd8b86a960",
+        "sha256_in_prefix": "cd01afa9631692a393e223f3fd47b17255991774b64cf694ea69eabd8b86a960",
+        "size_in_bytes": 662184
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cftime/_strptime.py",
+        "path_type": "hardlink",
+        "sha256": "5b2da62981b09405f0af1ef187b97b9cf1fcb979f309ee260aaa194945a527e6",
+        "sha256_in_prefix": "5b2da62981b09405f0af1ef187b97b9cf1fcb979f309ee260aaa194945a527e6",
+        "size_in_bytes": 6689
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b36913e15583f59e902c84821bc35648ba1c1fca1c1ec4de7e5674cd609234b9",
+  "size": 255203,
+  "subdir": "linux-64",
+  "timestamp": 1666833957531,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cftime-1.6.2-py39h2ae25f5_1.tar.bz2",
+  "version": "1.6.2"
+}

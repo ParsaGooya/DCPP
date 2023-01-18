@@ -1,0 +1,386 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "numba >=0.49",
+    "numpy >=1.17",
+    "python >=3.7",
+    "scipy >=0.19"
+  ],
+  "extracted_package_dir": "/home/acrnrpg/anaconda3/pkgs/sparse-0.13.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/sparse-0.13.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/sparse-0.13.0.dist-info/LICENSE",
+    "lib/python3.9/site-packages/sparse-0.13.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/sparse-0.13.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/sparse-0.13.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/sparse-0.13.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/sparse-0.13.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/sparse-0.13.0.dist-info/entry_points.txt",
+    "lib/python3.9/site-packages/sparse-0.13.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/sparse/__init__.py",
+    "lib/python3.9/site-packages/sparse/_common.py",
+    "lib/python3.9/site-packages/sparse/_compressed/__init__.py",
+    "lib/python3.9/site-packages/sparse/_compressed/common.py",
+    "lib/python3.9/site-packages/sparse/_compressed/compressed.py",
+    "lib/python3.9/site-packages/sparse/_compressed/convert.py",
+    "lib/python3.9/site-packages/sparse/_compressed/indexing.py",
+    "lib/python3.9/site-packages/sparse/_coo/__init__.py",
+    "lib/python3.9/site-packages/sparse/_coo/common.py",
+    "lib/python3.9/site-packages/sparse/_coo/core.py",
+    "lib/python3.9/site-packages/sparse/_coo/indexing.py",
+    "lib/python3.9/site-packages/sparse/_coo/numba_extension.py",
+    "lib/python3.9/site-packages/sparse/_dok.py",
+    "lib/python3.9/site-packages/sparse/_io.py",
+    "lib/python3.9/site-packages/sparse/_numba_extension.py",
+    "lib/python3.9/site-packages/sparse/_settings.py",
+    "lib/python3.9/site-packages/sparse/_slicing.py",
+    "lib/python3.9/site-packages/sparse/_sparse_array.py",
+    "lib/python3.9/site-packages/sparse/_umath.py",
+    "lib/python3.9/site-packages/sparse/_utils.py",
+    "lib/python3.9/site-packages/sparse/_version.py",
+    "lib/python3.9/site-packages/sparse/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/sparse/__pycache__/_common.cpython-39.pyc",
+    "lib/python3.9/site-packages/sparse/_compressed/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/sparse/_compressed/__pycache__/common.cpython-39.pyc",
+    "lib/python3.9/site-packages/sparse/_compressed/__pycache__/compressed.cpython-39.pyc",
+    "lib/python3.9/site-packages/sparse/_compressed/__pycache__/convert.cpython-39.pyc",
+    "lib/python3.9/site-packages/sparse/_compressed/__pycache__/indexing.cpython-39.pyc",
+    "lib/python3.9/site-packages/sparse/_coo/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/sparse/_coo/__pycache__/common.cpython-39.pyc",
+    "lib/python3.9/site-packages/sparse/_coo/__pycache__/core.cpython-39.pyc",
+    "lib/python3.9/site-packages/sparse/_coo/__pycache__/indexing.cpython-39.pyc",
+    "lib/python3.9/site-packages/sparse/_coo/__pycache__/numba_extension.cpython-39.pyc",
+    "lib/python3.9/site-packages/sparse/__pycache__/_dok.cpython-39.pyc",
+    "lib/python3.9/site-packages/sparse/__pycache__/_io.cpython-39.pyc",
+    "lib/python3.9/site-packages/sparse/__pycache__/_numba_extension.cpython-39.pyc",
+    "lib/python3.9/site-packages/sparse/__pycache__/_settings.cpython-39.pyc",
+    "lib/python3.9/site-packages/sparse/__pycache__/_slicing.cpython-39.pyc",
+    "lib/python3.9/site-packages/sparse/__pycache__/_sparse_array.cpython-39.pyc",
+    "lib/python3.9/site-packages/sparse/__pycache__/_umath.cpython-39.pyc",
+    "lib/python3.9/site-packages/sparse/__pycache__/_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/sparse/__pycache__/_version.cpython-39.pyc"
+  ],
+  "fn": "sparse-0.13.0-pyhd8ed1ab_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/acrnrpg/anaconda3/pkgs/sparse-0.13.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "e9727043a1d08f997884851c9f428638",
+  "name": "sparse",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/acrnrpg/anaconda3/pkgs/sparse-0.13.0-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/sparse-0.13.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/sparse-0.13.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "a93d79b0e4f7fa92b75ce5c304ed44780addfaf92578a7ab3e06e2335a1c514e",
+        "sha256_in_prefix": "a93d79b0e4f7fa92b75ce5c304ed44780addfaf92578a7ab3e06e2335a1c514e",
+        "size_in_bytes": 1517
+      },
+      {
+        "_path": "site-packages/sparse-0.13.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "400f200e204f31605162e2172ff1e88f6d571fac9b906dffb908da09a6450acc",
+        "sha256_in_prefix": "400f200e204f31605162e2172ff1e88f6d571fac9b906dffb908da09a6450acc",
+        "size_in_bytes": 2922
+      },
+      {
+        "_path": "site-packages/sparse-0.13.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "66ec8483f8352718129775fbc66eb6f283f75a8a4d3836a9afdd52431216629c",
+        "sha256_in_prefix": "66ec8483f8352718129775fbc66eb6f283f75a8a4d3836a9afdd52431216629c",
+        "size_in_bytes": 3495
+      },
+      {
+        "_path": "site-packages/sparse-0.13.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/sparse-0.13.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "5b367c7308e1f25d23b542cd8d8ab51e9afe582a824603ebfbe4d7e0fe48d56a",
+        "sha256_in_prefix": "5b367c7308e1f25d23b542cd8d8ab51e9afe582a824603ebfbe4d7e0fe48d56a",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/sparse-0.13.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "e24687d733086d7c5ac65aac301a7b6a58da943861766c7d2c08d5f0e3f6fbc5",
+        "sha256_in_prefix": "e24687d733086d7c5ac65aac301a7b6a58da943861766c7d2c08d5f0e3f6fbc5",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "site-packages/sparse-0.13.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "f8ff1f72c042d5d89fe50e97e2e2f77a21a514fac19e73733e72c471e871491e",
+        "sha256_in_prefix": "f8ff1f72c042d5d89fe50e97e2e2f77a21a514fac19e73733e72c471e871491e",
+        "size_in_bytes": 67
+      },
+      {
+        "_path": "site-packages/sparse-0.13.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "25b1c549a3a9f9d45fc08fad733cc0509cc3265e33f6025fd2febf189e3a77bf",
+        "sha256_in_prefix": "25b1c549a3a9f9d45fc08fad733cc0509cc3265e33f6025fd2febf189e3a77bf",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "site-packages/sparse/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d618f298d32c103b82167d479bc1c15bd1f6a46da614f8aced71a753ed72edfb",
+        "sha256_in_prefix": "d618f298d32c103b82167d479bc1c15bd1f6a46da614f8aced71a753ed72edfb",
+        "size_in_bytes": 301
+      },
+      {
+        "_path": "site-packages/sparse/_common.py",
+        "path_type": "hardlink",
+        "sha256": "3b3f91433eb3e57ece63d3c9c9d04610f9f5f18b40feb7837a32580be709603e",
+        "sha256_in_prefix": "3b3f91433eb3e57ece63d3c9c9d04610f9f5f18b40feb7837a32580be709603e",
+        "size_in_bytes": 52314
+      },
+      {
+        "_path": "site-packages/sparse/_compressed/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0bbafd3dd6b99e50d30862792710e364adb0f4e7c2c03cb2d39c098116b01c80",
+        "sha256_in_prefix": "0bbafd3dd6b99e50d30862792710e364adb0f4e7c2c03cb2d39c098116b01c80",
+        "size_in_bytes": 78
+      },
+      {
+        "_path": "site-packages/sparse/_compressed/common.py",
+        "path_type": "hardlink",
+        "sha256": "39cac080e3f00143b663739646e19e4647c75bba61cde12470e969233e8bf2e6",
+        "sha256_in_prefix": "39cac080e3f00143b663739646e19e4647c75bba61cde12470e969233e8bf2e6",
+        "size_in_bytes": 3890
+      },
+      {
+        "_path": "site-packages/sparse/_compressed/compressed.py",
+        "path_type": "hardlink",
+        "sha256": "b5561d912f107eb0e3f8e5a6446116e7f0cd268465843c1c3fb3ec6a43ae44cf",
+        "sha256_in_prefix": "b5561d912f107eb0e3f8e5a6446116e7f0cd268465843c1c3fb3ec6a43ae44cf",
+        "size_in_bytes": 29145
+      },
+      {
+        "_path": "site-packages/sparse/_compressed/convert.py",
+        "path_type": "hardlink",
+        "sha256": "161050bb2355efad5f537f7ecf3e76bc0cea5693f560f58914e9658d580b471f",
+        "sha256_in_prefix": "161050bb2355efad5f537f7ecf3e76bc0cea5693f560f58914e9658d580b471f",
+        "size_in_bytes": 10803
+      },
+      {
+        "_path": "site-packages/sparse/_compressed/indexing.py",
+        "path_type": "hardlink",
+        "sha256": "f72f5d32828ef376aa5a6301f531af14ab1fc9e73b770ccb4e2821948a80a23b",
+        "sha256_in_prefix": "f72f5d32828ef376aa5a6301f531af14ab1fc9e73b770ccb4e2821948a80a23b",
+        "size_in_bytes": 10221
+      },
+      {
+        "_path": "site-packages/sparse/_coo/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ae6728941d758c3c3641d0f5e6031a77474b99edf77309587dfee705d8945040",
+        "sha256_in_prefix": "ae6728941d758c3c3641d0f5e6031a77474b99edf77309587dfee705d8945040",
+        "size_in_bytes": 646
+      },
+      {
+        "_path": "site-packages/sparse/_coo/common.py",
+        "path_type": "hardlink",
+        "sha256": "efba4f0ba921a069b59b797f50a2551f4a0dae7be1938d3af888bc0144e7e093",
+        "sha256_in_prefix": "efba4f0ba921a069b59b797f50a2551f4a0dae7be1938d3af888bc0144e7e093",
+        "size_in_bytes": 27544
+      },
+      {
+        "_path": "site-packages/sparse/_coo/core.py",
+        "path_type": "hardlink",
+        "sha256": "5ba90fe21446e5602b952ea3c2b145bf1dc41db811d7fd71af4f27b92931ed7b",
+        "sha256_in_prefix": "5ba90fe21446e5602b952ea3c2b145bf1dc41db811d7fd71af4f27b92931ed7b",
+        "size_in_bytes": 47409
+      },
+      {
+        "_path": "site-packages/sparse/_coo/indexing.py",
+        "path_type": "hardlink",
+        "sha256": "1e446175170c14411b3d2abbe617d665b1af854ed66bf04e11fac61679e569eb",
+        "sha256_in_prefix": "1e446175170c14411b3d2abbe617d665b1af854ed66bf04e11fac61679e569eb",
+        "size_in_bytes": 20918
+      },
+      {
+        "_path": "site-packages/sparse/_coo/numba_extension.py",
+        "path_type": "hardlink",
+        "sha256": "8eb1c68e6cfc6b8353f940d7878eeea1dd9cf9c6af11f66f6d4d50f908bcee7a",
+        "sha256_in_prefix": "8eb1c68e6cfc6b8353f940d7878eeea1dd9cf9c6af11f66f6d4d50f908bcee7a",
+        "size_in_bytes": 9734
+      },
+      {
+        "_path": "site-packages/sparse/_dok.py",
+        "path_type": "hardlink",
+        "sha256": "88691aad176446890dfbe65b18018bb1664fbe5240cd28c2a270ced5ba9f7b0c",
+        "sha256_in_prefix": "88691aad176446890dfbe65b18018bb1664fbe5240cd28c2a270ced5ba9f7b0c",
+        "size_in_bytes": 15295
+      },
+      {
+        "_path": "site-packages/sparse/_io.py",
+        "path_type": "hardlink",
+        "sha256": "c859c1c97db7ad9b5d2bd18f9668b35b95825ef59d92ac3b2631338aefb1ec19",
+        "sha256_in_prefix": "c859c1c97db7ad9b5d2bd18f9668b35b95825ef59d92ac3b2631338aefb1ec19",
+        "size_in_bytes": 3804
+      },
+      {
+        "_path": "site-packages/sparse/_numba_extension.py",
+        "path_type": "hardlink",
+        "sha256": "bed8c38dee99f8702c33ab6d50b593b9d0965592cce68e30639379a210648225",
+        "sha256_in_prefix": "bed8c38dee99f8702c33ab6d50b593b9d0965592cce68e30639379a210648225",
+        "size_in_bytes": 165
+      },
+      {
+        "_path": "site-packages/sparse/_settings.py",
+        "path_type": "hardlink",
+        "sha256": "08f1ccadfe5d6eaeff3aee9954ed389e1dcb3873d65a540e825419fae263aa1c",
+        "sha256_in_prefix": "08f1ccadfe5d6eaeff3aee9954ed389e1dcb3873d65a540e825419fae263aa1c",
+        "size_in_bytes": 424
+      },
+      {
+        "_path": "site-packages/sparse/_slicing.py",
+        "path_type": "hardlink",
+        "sha256": "42330bb2b2d2c81e1236655dd71de60d08a0f822e8ad503ba6625b3fc7af54d9",
+        "sha256_in_prefix": "42330bb2b2d2c81e1236655dd71de60d08a0f822e8ad503ba6625b3fc7af54d9",
+        "size_in_bytes": 8910
+      },
+      {
+        "_path": "site-packages/sparse/_sparse_array.py",
+        "path_type": "hardlink",
+        "sha256": "3d7975bcd76a49f3b71325c1e714c0630e394924b6aca984ca63f1ba82b5c7ff",
+        "sha256_in_prefix": "3d7975bcd76a49f3b71325c1e714c0630e394924b6aca984ca63f1ba82b5c7ff",
+        "size_in_bytes": 28264
+      },
+      {
+        "_path": "site-packages/sparse/_umath.py",
+        "path_type": "hardlink",
+        "sha256": "46db4b424aa62f6b93d7783a6ccd06268b53bdee3028cdfa2f23f426200600fb",
+        "sha256_in_prefix": "46db4b424aa62f6b93d7783a6ccd06268b53bdee3028cdfa2f23f426200600fb",
+        "size_in_bytes": 24271
+      },
+      {
+        "_path": "site-packages/sparse/_utils.py",
+        "path_type": "hardlink",
+        "sha256": "7d68c9ae9229e87dfbcddd4b37171feb5a4e00e93583c9d892cc58c21fc1487a",
+        "sha256_in_prefix": "7d68c9ae9229e87dfbcddd4b37171feb5a4e00e93583c9d892cc58c21fc1487a",
+        "size_in_bytes": 14255
+      },
+      {
+        "_path": "site-packages/sparse/_version.py",
+        "path_type": "hardlink",
+        "sha256": "62fb6c603e58d5f50657605e6191c8bb446c6a0d233e7caef986d196c933a0b9",
+        "sha256_in_prefix": "62fb6c603e58d5f50657605e6191c8bb446c6a0d233e7caef986d196c933a0b9",
+        "size_in_bytes": 498
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sparse/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sparse/__pycache__/_common.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sparse/_compressed/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sparse/_compressed/__pycache__/common.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sparse/_compressed/__pycache__/compressed.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sparse/_compressed/__pycache__/convert.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sparse/_compressed/__pycache__/indexing.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sparse/_coo/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sparse/_coo/__pycache__/common.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sparse/_coo/__pycache__/core.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sparse/_coo/__pycache__/indexing.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sparse/_coo/__pycache__/numba_extension.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sparse/__pycache__/_dok.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sparse/__pycache__/_io.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sparse/__pycache__/_numba_extension.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sparse/__pycache__/_settings.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sparse/__pycache__/_slicing.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sparse/__pycache__/_sparse_array.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sparse/__pycache__/_umath.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sparse/__pycache__/_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/sparse/__pycache__/_version.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0c109a7d214e4269e3cfe93dc1ef6ce74bec1abe60650f13f89512e6e514a158",
+  "size": 60231,
+  "subdir": "noarch",
+  "timestamp": 1630177884341,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/sparse-0.13.0-pyhd8ed1ab_0.tar.bz2",
+  "version": "0.13.0"
+}

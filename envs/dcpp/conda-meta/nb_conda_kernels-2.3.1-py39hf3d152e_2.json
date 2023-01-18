@@ -1,0 +1,238 @@
+{
+  "build": "py39hf3d152e_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "jupyter_client >=4.2",
+    "python >=3.9,<3.10.0a0",
+    "python_abi 3.9.* *_cp39"
+  ],
+  "extracted_package_dir": "/home/acrnrpg/anaconda3/pkgs/nb_conda_kernels-2.3.1-py39hf3d152e_2",
+  "features": "",
+  "files": [
+    "bin/.nb_conda_kernels-post-link.sh",
+    "bin/.nb_conda_kernels-pre-unlink.sh",
+    "lib/python3.9/site-packages/nb_conda_kernels-2.3.1.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/nb_conda_kernels-2.3.1.dist-info/LICENSE",
+    "lib/python3.9/site-packages/nb_conda_kernels-2.3.1.dist-info/METADATA",
+    "lib/python3.9/site-packages/nb_conda_kernels-2.3.1.dist-info/RECORD",
+    "lib/python3.9/site-packages/nb_conda_kernels-2.3.1.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/nb_conda_kernels-2.3.1.dist-info/WHEEL",
+    "lib/python3.9/site-packages/nb_conda_kernels-2.3.1.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/nb_conda_kernels-2.3.1.dist-info/entry_points.txt",
+    "lib/python3.9/site-packages/nb_conda_kernels-2.3.1.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/nb_conda_kernels/__init__.py",
+    "lib/python3.9/site-packages/nb_conda_kernels/__main__.py",
+    "lib/python3.9/site-packages/nb_conda_kernels/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/nb_conda_kernels/__pycache__/__main__.cpython-39.pyc",
+    "lib/python3.9/site-packages/nb_conda_kernels/__pycache__/_version.cpython-39.pyc",
+    "lib/python3.9/site-packages/nb_conda_kernels/__pycache__/discovery.cpython-39.pyc",
+    "lib/python3.9/site-packages/nb_conda_kernels/__pycache__/install.cpython-39.pyc",
+    "lib/python3.9/site-packages/nb_conda_kernels/__pycache__/manager.cpython-39.pyc",
+    "lib/python3.9/site-packages/nb_conda_kernels/__pycache__/runner.cpython-39.pyc",
+    "lib/python3.9/site-packages/nb_conda_kernels/_version.py",
+    "lib/python3.9/site-packages/nb_conda_kernels/discovery.py",
+    "lib/python3.9/site-packages/nb_conda_kernels/install.py",
+    "lib/python3.9/site-packages/nb_conda_kernels/manager.py",
+    "lib/python3.9/site-packages/nb_conda_kernels/runner.py"
+  ],
+  "fn": "nb_conda_kernels-2.3.1-py39hf3d152e_2.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/acrnrpg/anaconda3/pkgs/nb_conda_kernels-2.3.1-py39hf3d152e_2",
+    "type": 1
+  },
+  "md5": "0633f27c61a16b60bd79521edd688bf6",
+  "name": "nb_conda_kernels",
+  "package_tarball_full_path": "/home/acrnrpg/anaconda3/pkgs/nb_conda_kernels-2.3.1-py39hf3d152e_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/.nb_conda_kernels-post-link.sh",
+        "path_type": "hardlink",
+        "sha256": "4d513864f58a9a518ca5df80feb6b40abbc6e272772b48c33e38af0da9e96cbb",
+        "sha256_in_prefix": "4d513864f58a9a518ca5df80feb6b40abbc6e272772b48c33e38af0da9e96cbb",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "bin/.nb_conda_kernels-pre-unlink.sh",
+        "path_type": "hardlink",
+        "sha256": "1ec4539f56eee6aa323c3e3430f8075b7c03749a2f5395f55f739f6ba224866b",
+        "sha256_in_prefix": "1ec4539f56eee6aa323c3e3430f8075b7c03749a2f5395f55f739f6ba224866b",
+        "size_in_bytes": 94
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nb_conda_kernels-2.3.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nb_conda_kernels-2.3.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "704c3ddca05dc980400f7cd6a945475522e45f4a9b6a6d61d3fffc553c424665",
+        "sha256_in_prefix": "704c3ddca05dc980400f7cd6a945475522e45f4a9b6a6d61d3fffc553c424665",
+        "size_in_bytes": 1508
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nb_conda_kernels-2.3.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "e9e4b50a4a6c8ec831bc45a4a70acd74b807edfec2043363d219773177f77bed",
+        "sha256_in_prefix": "e9e4b50a4a6c8ec831bc45a4a70acd74b807edfec2043363d219773177f77bed",
+        "size_in_bytes": 10704
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nb_conda_kernels-2.3.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "7021a6733946418b561b0ce8e749101a5622c56fc6f75214930ba93eec65f931",
+        "sha256_in_prefix": "7021a6733946418b561b0ce8e749101a5622c56fc6f75214930ba93eec65f931",
+        "size_in_bytes": 1827
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nb_conda_kernels-2.3.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nb_conda_kernels-2.3.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nb_conda_kernels-2.3.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "ed3e7da130979b610bb9762dc13197afa934ef865d58ee08c0cc51735d5352ca",
+        "sha256_in_prefix": "ed3e7da130979b610bb9762dc13197afa934ef865d58ee08c0cc51735d5352ca",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nb_conda_kernels-2.3.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "ac9bef53448864f30bedad94ede5d695b7f81456d5acb4a948ddd969dbcdc329",
+        "sha256_in_prefix": "ac9bef53448864f30bedad94ede5d695b7f81456d5acb4a948ddd969dbcdc329",
+        "size_in_bytes": 89
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nb_conda_kernels-2.3.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "3469c1d14758e1cd116c78a613017324a14dde222eb2b41e602f64ab4e681ad6",
+        "sha256_in_prefix": "3469c1d14758e1cd116c78a613017324a14dde222eb2b41e602f64ab4e681ad6",
+        "size_in_bytes": 17
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nb_conda_kernels/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3ed6b3d011b0755c00abe6c4b605dd078e09728231e28aed7b6d1baacc61f07d",
+        "sha256_in_prefix": "3ed6b3d011b0755c00abe6c4b605dd078e09728231e28aed7b6d1baacc61f07d",
+        "size_in_bytes": 151
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nb_conda_kernels/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "bab7f8d98581da01f8149420aa542917c8f5fb79a5bb7d070f05067fa8aba600",
+        "sha256_in_prefix": "bab7f8d98581da01f8149420aa542917c8f5fb79a5bb7d070f05067fa8aba600",
+        "size_in_bytes": 233
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nb_conda_kernels/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "660e25d0c37747bf675b7ecd710ab4c983cf621bdcc855b5622fc3de2f9b3bed",
+        "sha256_in_prefix": "660e25d0c37747bf675b7ecd710ab4c983cf621bdcc855b5622fc3de2f9b3bed",
+        "size_in_bytes": 284
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nb_conda_kernels/__pycache__/__main__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "548d301f47d1c6579ed6dc947893f5965d0848862bc89643e9d305b422342f71",
+        "sha256_in_prefix": "548d301f47d1c6579ed6dc947893f5965d0848862bc89643e9d305b422342f71",
+        "size_in_bytes": 375
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nb_conda_kernels/__pycache__/_version.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "20f1c86de3f76c34fba9fef06c3b8e9493f3e5118500623e1e45c673180ac41c",
+        "sha256_in_prefix": "20f1c86de3f76c34fba9fef06c3b8e9493f3e5118500623e1e45c673180ac41c",
+        "size_in_bytes": 471
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nb_conda_kernels/__pycache__/discovery.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "fc203137d89d9e6e166f6958eaa20eaffd1b027aacfafd7841bb2de0066cabf8",
+        "sha256_in_prefix": "fc203137d89d9e6e166f6958eaa20eaffd1b027aacfafd7841bb2de0066cabf8",
+        "size_in_bytes": 1154
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nb_conda_kernels/__pycache__/install.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "710b6551d7122b879f8b7f68802c033fe92d93015a94214b39fb55df6f07d91d",
+        "sha256_in_prefix": "710b6551d7122b879f8b7f68802c033fe92d93015a94214b39fb55df6f07d91d",
+        "size_in_bytes": 6978
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nb_conda_kernels/__pycache__/manager.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "cfaea90011c8635477418957c600211cd83af7dea77ee8e2a7b5c7285eee350e",
+        "sha256_in_prefix": "cfaea90011c8635477418957c600211cd83af7dea77ee8e2a7b5c7285eee350e",
+        "size_in_bytes": 11465
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nb_conda_kernels/__pycache__/runner.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "94ddf182208f97e22c33ad8bf7923998590a9167eff0aed3fb677ddb3399bcae",
+        "sha256_in_prefix": "94ddf182208f97e22c33ad8bf7923998590a9167eff0aed3fb677ddb3399bcae",
+        "size_in_bytes": 1329
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nb_conda_kernels/_version.py",
+        "path_type": "hardlink",
+        "sha256": "06eb8f50702863b903c6048e8cd7b671f8a0b57889eb88e6d377e06ea252d7b1",
+        "sha256_in_prefix": "06eb8f50702863b903c6048e8cd7b671f8a0b57889eb88e6d377e06ea252d7b1",
+        "size_in_bytes": 497
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nb_conda_kernels/discovery.py",
+        "path_type": "hardlink",
+        "sha256": "2663fc6311a7cb6e5df8c62b609cadd36459d23d2d14f729136909b92ef17f3d",
+        "sha256_in_prefix": "2663fc6311a7cb6e5df8c62b609cadd36459d23d2d14f729136909b92ef17f3d",
+        "size_in_bytes": 959
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nb_conda_kernels/install.py",
+        "path_type": "hardlink",
+        "sha256": "44cead20e1c6e643175e8a3ee8ccabb4dc8e9477d91c3c75bf4eba9a7460c5c9",
+        "sha256_in_prefix": "44cead20e1c6e643175e8a3ee8ccabb4dc8e9477d91c3c75bf4eba9a7460c5c9",
+        "size_in_bytes": 10166
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nb_conda_kernels/manager.py",
+        "path_type": "hardlink",
+        "sha256": "fdb703487491be1c038b8f8517f6280aa39315ad83be735bf6c326545ed60f6d",
+        "sha256_in_prefix": "fdb703487491be1c038b8f8517f6280aa39315ad83be735bf6c326545ed60f6d",
+        "size_in_bytes": 16871
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nb_conda_kernels/runner.py",
+        "path_type": "hardlink",
+        "sha256": "e8135cfae1c36165a7d97d57a2399fdf01ef8831da73096ad9c1d1dd2ca43cba",
+        "sha256_in_prefix": "e8135cfae1c36165a7d97d57a2399fdf01ef8831da73096ad9c1d1dd2ca43cba",
+        "size_in_bytes": 1429
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "nb_conda_kernels",
+  "sha256": "b9841b867cea777a52b4335465f7be250bcd78b072ba7e81e4d3c8dad9a2a514",
+  "size": 28080,
+  "subdir": "linux-64",
+  "timestamp": 1667060738202,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/nb_conda_kernels-2.3.1-py39hf3d152e_2.tar.bz2",
+  "version": "2.3.1"
+}

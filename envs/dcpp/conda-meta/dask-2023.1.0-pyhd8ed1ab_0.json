@@ -1,0 +1,46 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [
+    "openssl !=1.1.1e"
+  ],
+  "depends": [
+    "bokeh >=2.4.2,<3",
+    "cytoolz >=0.8.2",
+    "dask-core >=2023.1.0,<2023.1.1.0a0",
+    "distributed >=2023.1.0,<2023.1.1.0a0",
+    "jinja2",
+    "lz4",
+    "numpy >=1.18",
+    "pandas >=1.0",
+    "python >=3.8"
+  ],
+  "extracted_package_dir": "/home/acrnrpg/anaconda3/pkgs/dask-2023.1.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [],
+  "fn": "dask-2023.1.0-pyhd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/acrnrpg/anaconda3/pkgs/dask-2023.1.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "d250f59c269f98243efc7c681aa1a424",
+  "name": "dask",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/acrnrpg/anaconda3/pkgs/dask-2023.1.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "dask",
+  "sha256": "c0a500fc1db11dd6446dce8c064b584859b70c6c9e2ebef68bf40d605fdaa0ea",
+  "size": 7092,
+  "subdir": "noarch",
+  "timestamp": 1673647125412,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/dask-2023.1.0-pyhd8ed1ab_0.conda",
+  "version": "2023.1.0"
+}
