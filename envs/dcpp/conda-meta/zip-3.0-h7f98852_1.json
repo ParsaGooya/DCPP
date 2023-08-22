@@ -1,0 +1,43 @@
+{
+  "build": "h7f98852_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0"
+  ],
+  "extracted_package_dir": "/home/acrnrpg/anaconda3/pkgs/zip-3.0-h7f98852_1",
+  "features": "",
+  "files": [
+    "bin/zip"
+  ],
+  "fn": "zip-3.0-h7f98852_1.tar.bz2",
+  "license": "BSD-like",
+  "link": {
+    "source": "/home/acrnrpg/anaconda3/pkgs/zip-3.0-h7f98852_1",
+    "type": 1
+  },
+  "md5": "805b4e497ce810e5df23e251b0c8e014",
+  "name": "zip",
+  "package_tarball_full_path": "/home/acrnrpg/anaconda3/pkgs/zip-3.0-h7f98852_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/zip",
+        "path_type": "hardlink",
+        "sha256": "eea6b11c238bbc5581e30d64be2147a1a2b7b71358c6881a2db04faa42e76cd0",
+        "sha256_in_prefix": "eea6b11c238bbc5581e30d64be2147a1a2b7b71358c6881a2db04faa42e76cd0",
+        "size_in_bytes": 246216
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "zip",
+  "sha256": "cb46825bfd8e6a98da41e113d768f35bf3f4f9ac2ad8be58206521c67fb8b1fb",
+  "size": 113039,
+  "subdir": "linux-64",
+  "timestamp": 1616682924362,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/zip-3.0-h7f98852_1.tar.bz2",
+  "version": "3.0"
+}

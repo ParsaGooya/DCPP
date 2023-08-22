@@ -1,0 +1,261 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "cftime >=1.5",
+    "matplotlib-base",
+    "numpy",
+    "python >=3.7"
+  ],
+  "extracted_package_dir": "/home/acrnrpg/anaconda3/pkgs/nc-time-axis-1.4.1-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/nc_time_axis-1.4.1.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/nc_time_axis-1.4.1.dist-info/LICENSE",
+    "lib/python3.9/site-packages/nc_time_axis-1.4.1.dist-info/METADATA",
+    "lib/python3.9/site-packages/nc_time_axis-1.4.1.dist-info/RECORD",
+    "lib/python3.9/site-packages/nc_time_axis-1.4.1.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/nc_time_axis-1.4.1.dist-info/WHEEL",
+    "lib/python3.9/site-packages/nc_time_axis-1.4.1.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/nc_time_axis-1.4.1.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/nc_time_axis/__init__.py",
+    "lib/python3.9/site-packages/nc_time_axis/_matplotlib_compatibility.py",
+    "lib/python3.9/site-packages/nc_time_axis/_version.py",
+    "lib/python3.9/site-packages/nc_time_axis/tests/__init__.py",
+    "lib/python3.9/site-packages/nc_time_axis/tests/integration/__init__.py",
+    "lib/python3.9/site-packages/nc_time_axis/tests/integration/test_plot.py",
+    "lib/python3.9/site-packages/nc_time_axis/tests/unit/__init__.py",
+    "lib/python3.9/site-packages/nc_time_axis/tests/unit/test_AutoCFTimeFormatter.py",
+    "lib/python3.9/site-packages/nc_time_axis/tests/unit/test_CFTimeFormatter.py",
+    "lib/python3.9/site-packages/nc_time_axis/tests/unit/test_CalendarDateTime.py",
+    "lib/python3.9/site-packages/nc_time_axis/tests/unit/test_NetCDFTimeConverter.py",
+    "lib/python3.9/site-packages/nc_time_axis/tests/unit/test_NetCDFTimeDateLocator.py",
+    "lib/python3.9/site-packages/nc_time_axis/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/nc_time_axis/__pycache__/_matplotlib_compatibility.cpython-39.pyc",
+    "lib/python3.9/site-packages/nc_time_axis/__pycache__/_version.cpython-39.pyc",
+    "lib/python3.9/site-packages/nc_time_axis/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/nc_time_axis/tests/integration/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/nc_time_axis/tests/integration/__pycache__/test_plot.cpython-39.pyc",
+    "lib/python3.9/site-packages/nc_time_axis/tests/unit/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/nc_time_axis/tests/unit/__pycache__/test_AutoCFTimeFormatter.cpython-39.pyc",
+    "lib/python3.9/site-packages/nc_time_axis/tests/unit/__pycache__/test_CFTimeFormatter.cpython-39.pyc",
+    "lib/python3.9/site-packages/nc_time_axis/tests/unit/__pycache__/test_CalendarDateTime.cpython-39.pyc",
+    "lib/python3.9/site-packages/nc_time_axis/tests/unit/__pycache__/test_NetCDFTimeConverter.cpython-39.pyc",
+    "lib/python3.9/site-packages/nc_time_axis/tests/unit/__pycache__/test_NetCDFTimeDateLocator.cpython-39.pyc"
+  ],
+  "fn": "nc-time-axis-1.4.1-pyhd8ed1ab_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/acrnrpg/anaconda3/pkgs/nc-time-axis-1.4.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "281b58948bf60a2582de9e548bcc5369",
+  "name": "nc-time-axis",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/acrnrpg/anaconda3/pkgs/nc-time-axis-1.4.1-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/nc_time_axis-1.4.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/nc_time_axis-1.4.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "6bda164a59ec557dc34796b37b059ad29935a3abb8bf55c004c72aea500713ef",
+        "sha256_in_prefix": "6bda164a59ec557dc34796b37b059ad29935a3abb8bf55c004c72aea500713ef",
+        "size_in_bytes": 1504
+      },
+      {
+        "_path": "site-packages/nc_time_axis-1.4.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "01e8ab99cd5c09192a08736f49a87213a1483c54e5fa96c9facd93ca78df0724",
+        "sha256_in_prefix": "01e8ab99cd5c09192a08736f49a87213a1483c54e5fa96c9facd93ca78df0724",
+        "size_in_bytes": 4708
+      },
+      {
+        "_path": "site-packages/nc_time_axis-1.4.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "8d9f7b5004f59cd16dd6ee3772e785eeab4ce69cb96599c96e922f61dee8e88b",
+        "sha256_in_prefix": "8d9f7b5004f59cd16dd6ee3772e785eeab4ce69cb96599c96e922f61dee8e88b",
+        "size_in_bytes": 2716
+      },
+      {
+        "_path": "site-packages/nc_time_axis-1.4.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/nc_time_axis-1.4.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/nc_time_axis-1.4.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "fdd4ce050e2a702522bfd96bb2ca4ac268bbf95c5dc24dd5546d425c5f41dbd2",
+        "sha256_in_prefix": "fdd4ce050e2a702522bfd96bb2ca4ac268bbf95c5dc24dd5546d425c5f41dbd2",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "site-packages/nc_time_axis-1.4.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "3264f6d5c1e14dbfd151fbc1d154ae10a63677763ea474ac72fed6198bdb5ca4",
+        "sha256_in_prefix": "3264f6d5c1e14dbfd151fbc1d154ae10a63677763ea474ac72fed6198bdb5ca4",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "site-packages/nc_time_axis/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "12bec58cc5f1303725833b3d1c4ebeeffc8b555d1274f4cafe14ed0c4eac52c0",
+        "sha256_in_prefix": "12bec58cc5f1303725833b3d1c4ebeeffc8b555d1274f4cafe14ed0c4eac52c0",
+        "size_in_bytes": 23206
+      },
+      {
+        "_path": "site-packages/nc_time_axis/_matplotlib_compatibility.py",
+        "path_type": "hardlink",
+        "sha256": "79c4516b31814a63251dc0fadb0d174669f4d86fe06f2ebd5587c5a4e2723fdf",
+        "sha256_in_prefix": "79c4516b31814a63251dc0fadb0d174669f4d86fe06f2ebd5587c5a4e2723fdf",
+        "size_in_bytes": 732
+      },
+      {
+        "_path": "site-packages/nc_time_axis/_version.py",
+        "path_type": "hardlink",
+        "sha256": "fb3017c05bfa911f4eca983130a4edb85472989bd3d73a93e1799da4c03b1f55",
+        "sha256_in_prefix": "fb3017c05bfa911f4eca983130a4edb85472989bd3d73a93e1799da4c03b1f55",
+        "size_in_bytes": 142
+      },
+      {
+        "_path": "site-packages/nc_time_axis/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/nc_time_axis/tests/integration/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6955cf8378562b7c72f5b09dcdf1f54fa8a3c85ac06f65c4f3667fb09756700a",
+        "sha256_in_prefix": "6955cf8378562b7c72f5b09dcdf1f54fa8a3c85ac06f65c4f3667fb09756700a",
+        "size_in_bytes": 61
+      },
+      {
+        "_path": "site-packages/nc_time_axis/tests/integration/test_plot.py",
+        "path_type": "hardlink",
+        "sha256": "fa38369eaf2fd0199afd980b1883cfa972919be780f6d92eb8763a9bd828ce70",
+        "sha256_in_prefix": "fa38369eaf2fd0199afd980b1883cfa972919be780f6d92eb8763a9bd828ce70",
+        "size_in_bytes": 5549
+      },
+      {
+        "_path": "site-packages/nc_time_axis/tests/unit/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "11725dbaab44bcbdf1111117fe8f67bb76893021ed49c9afb838629b8724a009",
+        "sha256_in_prefix": "11725dbaab44bcbdf1111117fe8f67bb76893021ed49c9afb838629b8724a009",
+        "size_in_bytes": 54
+      },
+      {
+        "_path": "site-packages/nc_time_axis/tests/unit/test_AutoCFTimeFormatter.py",
+        "path_type": "hardlink",
+        "sha256": "f3ca172499f879bcc2f423adead9b2ca981d1beeb9d81811bbf225be79f550bd",
+        "sha256_in_prefix": "f3ca172499f879bcc2f423adead9b2ca981d1beeb9d81811bbf225be79f550bd",
+        "size_in_bytes": 1292
+      },
+      {
+        "_path": "site-packages/nc_time_axis/tests/unit/test_CFTimeFormatter.py",
+        "path_type": "hardlink",
+        "sha256": "3e73e0205441f5da4e3a20ccf1c5ef6ab5506a71e358243c05b5e8228cda75f2",
+        "sha256_in_prefix": "3e73e0205441f5da4e3a20ccf1c5ef6ab5506a71e358243c05b5e8228cda75f2",
+        "size_in_bytes": 568
+      },
+      {
+        "_path": "site-packages/nc_time_axis/tests/unit/test_CalendarDateTime.py",
+        "path_type": "hardlink",
+        "sha256": "e7a5c6874905e27621359ccc72b60f79f74b3d994c2756b5a09bab30dbd99dc8",
+        "sha256_in_prefix": "e7a5c6874905e27621359ccc72b60f79f74b3d994c2756b5a09bab30dbd99dc8",
+        "size_in_bytes": 1910
+      },
+      {
+        "_path": "site-packages/nc_time_axis/tests/unit/test_NetCDFTimeConverter.py",
+        "path_type": "hardlink",
+        "sha256": "eb4e28a2512a1d6530f7bcd7cec5e22b6036755b933b5f339c0a96e42b702d75",
+        "sha256_in_prefix": "eb4e28a2512a1d6530f7bcd7cec5e22b6036755b933b5f339c0a96e42b702d75",
+        "size_in_bytes": 9880
+      },
+      {
+        "_path": "site-packages/nc_time_axis/tests/unit/test_NetCDFTimeDateLocator.py",
+        "path_type": "hardlink",
+        "sha256": "d674c90ffb6a6f35713ee88726dbe5846d21c71ef4b2e1306e012cf6b4ccc9ad",
+        "sha256_in_prefix": "d674c90ffb6a6f35713ee88726dbe5846d21c71ef4b2e1306e012cf6b4ccc9ad",
+        "size_in_bytes": 6199
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nc_time_axis/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nc_time_axis/__pycache__/_matplotlib_compatibility.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nc_time_axis/__pycache__/_version.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nc_time_axis/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nc_time_axis/tests/integration/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nc_time_axis/tests/integration/__pycache__/test_plot.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nc_time_axis/tests/unit/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nc_time_axis/tests/unit/__pycache__/test_AutoCFTimeFormatter.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nc_time_axis/tests/unit/__pycache__/test_CFTimeFormatter.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nc_time_axis/tests/unit/__pycache__/test_CalendarDateTime.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nc_time_axis/tests/unit/__pycache__/test_NetCDFTimeConverter.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/nc_time_axis/tests/unit/__pycache__/test_NetCDFTimeDateLocator.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "nc-time-axis",
+  "sha256": "345d51b39f603a6717e43a998adaac35764467a4cf2bfec8f1963b9a7ced2a36",
+  "size": 18555,
+  "subdir": "noarch",
+  "timestamp": 1650472902858,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/nc-time-axis-1.4.1-pyhd8ed1ab_0.tar.bz2",
+  "version": "1.4.1"
+}

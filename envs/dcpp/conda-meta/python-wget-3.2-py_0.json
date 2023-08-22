@@ -1,0 +1,105 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "/home/acrnrpg/anaconda3/pkgs/python-wget-3.2-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/wget-3.2.dist-info/DESCRIPTION.rst",
+    "lib/python3.9/site-packages/wget-3.2.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/wget-3.2.dist-info/METADATA",
+    "lib/python3.9/site-packages/wget-3.2.dist-info/RECORD",
+    "lib/python3.9/site-packages/wget-3.2.dist-info/WHEEL",
+    "lib/python3.9/site-packages/wget-3.2.dist-info/metadata.json",
+    "lib/python3.9/site-packages/wget-3.2.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/wget.py",
+    "lib/python3.9/site-packages/__pycache__/wget.cpython-39.pyc"
+  ],
+  "fn": "python-wget-3.2-py_0.tar.bz2",
+  "license": "Public Domain",
+  "link": {
+    "source": "/home/acrnrpg/anaconda3/pkgs/python-wget-3.2-py_0",
+    "type": 1
+  },
+  "md5": "fa3a96642ac9f0cf746cf0825a95bcf9",
+  "name": "python-wget",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/acrnrpg/anaconda3/pkgs/python-wget-3.2-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/wget-3.2.dist-info/DESCRIPTION.rst",
+        "path_type": "hardlink",
+        "sha256": "91b9244828c8b906008e92ece7eff09305af5f7d41a5f83776c686fab5eab61b",
+        "sha256_in_prefix": "91b9244828c8b906008e92ece7eff09305af5f7d41a5f83776c686fab5eab61b",
+        "size_in_bytes": 2488
+      },
+      {
+        "_path": "site-packages/wget-3.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "site-packages/wget-3.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "a817329c502b3c306c0a1db8eb0562d17d19403bf7cbd690d8401c1711967195",
+        "sha256_in_prefix": "a817329c502b3c306c0a1db8eb0562d17d19403bf7cbd690d8401c1711967195",
+        "size_in_bytes": 3134
+      },
+      {
+        "_path": "site-packages/wget-3.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "fc6b789fff6d9d766b04a25fad20061a6de2d985f29f2e694044cc68d7ede94e",
+        "sha256_in_prefix": "fc6b789fff6d9d766b04a25fad20061a6de2d985f29f2e694044cc68d7ede94e",
+        "size_in_bytes": 646
+      },
+      {
+        "_path": "site-packages/wget-3.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "d263bbf9a28ce8af421de511739343619c8b587e65991fabe13b4f8a71f1cfb6",
+        "sha256_in_prefix": "d263bbf9a28ce8af421de511739343619c8b587e65991fabe13b4f8a71f1cfb6",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/wget-3.2.dist-info/metadata.json",
+        "path_type": "hardlink",
+        "sha256": "73daf5773fd2c640f6aa3e4567d1ba6c4e9187c43e94895d263012d30c8661b3",
+        "sha256_in_prefix": "73daf5773fd2c640f6aa3e4567d1ba6c4e9187c43e94895d263012d30c8661b3",
+        "size_in_bytes": 762
+      },
+      {
+        "_path": "site-packages/wget-3.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "6a4e7482e238c630e04476a50a1ece108e07bb99cf1a5e9f3168a18f1808bc2d",
+        "sha256_in_prefix": "6a4e7482e238c630e04476a50a1ece108e07bb99cf1a5e9f3168a18f1808bc2d",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/wget.py",
+        "path_type": "hardlink",
+        "sha256": "17e1e138d89005e6d0c487878f0489f9ec60d7f0c632135627e4efb26a0c115f",
+        "sha256_in_prefix": "17e1e138d89005e6d0c487878f0489f9ec60d7f0c632135627e4efb26a0c115f",
+        "size_in_bytes": 22355
+      },
+      {
+        "_path": "lib/python3.9/site-packages/__pycache__/wget.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "python-wget",
+  "sha256": "25795e337c6dba30ced4b698bb22f3903b3c55b798a297bc23b81d23a8c37217",
+  "size": 12811,
+  "subdir": "noarch",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/python-wget-3.2-py_0.tar.bz2",
+  "version": "3.2"
+}

@@ -323,3 +323,115 @@
 +conda-forge/noarch::intake-esm-2022.9.18-pyhd8ed1ab_0
 +conda-forge/noarch::zarr-2.13.3-pyhd8ed1ab_0
 # update specs: ['intake-esm']
+==> 2023-01-18 11:40:00 <==
+# cmd: /home/acrnrpg/anaconda3/condabin/conda install -c conda-forge nc-time-axis --y
+# conda version: 22.9.0
++conda-forge/noarch::nc-time-axis-1.4.1-pyhd8ed1ab_0
+# update specs: ['nc-time-axis']
+==> 2023-01-18 12:44:46 <==
+# cmd: /home/acrnrpg/anaconda3/condabin/conda install -c anaconda wget --y
+# conda version: 22.9.0
+-conda-forge/linux-64::ca-certificates-2022.12.7-ha878542_0
+-conda-forge/noarch::certifi-2022.12.7-pyhd8ed1ab_0
++anaconda/linux-64::ca-certificates-2022.07.19-h06a4308_0
++anaconda/linux-64::certifi-2022.6.15-py39h06a4308_0
++anaconda/linux-64::libidn2-2.3.2-h7f8727e_0
++anaconda/linux-64::libunistring-0.9.10-h27cfd23_0
++anaconda/linux-64::wget-1.21.3-h0b77cf5_0
+# update specs: ['wget']
+==> 2023-01-18 12:52:50 <==
+# cmd: /home/acrnrpg/anaconda3/condabin/conda install -c conda-forge python-wget --y
+# conda version: 22.9.0
+-anaconda/linux-64::ca-certificates-2022.07.19-h06a4308_0
+-anaconda/linux-64::certifi-2022.6.15-py39h06a4308_0
++conda-forge/linux-64::ca-certificates-2022.12.7-ha878542_0
++conda-forge/noarch::certifi-2022.12.7-pyhd8ed1ab_0
++conda-forge/noarch::python-wget-3.2-py_0
+# update specs: ['python-wget']
+==> 2023-01-19 11:46:51 <==
+# cmd: /home/acrnrpg/anaconda3/condabin/conda install -c conda-forge statsmodels --y
+# conda version: 22.9.0
++conda-forge/linux-64::statsmodels-0.13.5-py39h2ae25f5_2
++conda-forge/noarch::patsy-0.5.3-pyhd8ed1ab_0
+# update specs: ['statsmodels']
+==> 2023-01-19 14:48:09 <==
+# cmd: /home/acrnrpg/anaconda3/bin/conda install --prefix /home/acrnrpg/anaconda3/envs/dcpp -c conda-forge aiohttp --y
+# conda version: 22.9.0
++conda-forge/linux-64::aiohttp-3.8.3-py39hb9d737c_1
++conda-forge/linux-64::frozenlist-1.3.3-py39hb9d737c_0
++conda-forge/linux-64::multidict-6.0.4-py39h72bdee0_0
++conda-forge/linux-64::yarl-1.8.2-py39hb9d737c_0
++conda-forge/noarch::aiosignal-1.3.1-pyhd8ed1ab_0
++conda-forge/noarch::async-timeout-4.0.2-pyhd8ed1ab_0
+# update specs: ['aiohttp']
+==> 2023-01-25 11:45:54 <==
+# cmd: /home/acrnrpg/anaconda3/condabin/conda install -c conda-forge gcsfs --y
+# conda version: 22.9.0
++conda-forge/linux-64::google-crc32c-1.1.2-py39h8db88ab_4
++conda-forge/linux-64::grpcio-1.51.1-py39h712372c_0
++conda-forge/linux-64::libabseil-20220623.0-cxx17_h05df665_6
++conda-forge/linux-64::libcrc32c-1.1.2-h9c3ff4c_0
++conda-forge/linux-64::libgrpc-1.51.1-h05bd8bd_0
++conda-forge/linux-64::libprotobuf-3.21.12-h3eb15da_0
++conda-forge/linux-64::protobuf-4.21.12-py39h227be39_0
++conda-forge/linux-64::re2-2022.06.01-h27087fc_1
++conda-forge/noarch::blinker-1.5-pyhd8ed1ab_0
++conda-forge/noarch::cachetools-5.3.0-pyhd8ed1ab_0
++conda-forge/noarch::gcsfs-2022.11.0-pyhd8ed1ab_0
++conda-forge/noarch::google-api-core-2.11.0-pyhd8ed1ab_0
++conda-forge/noarch::google-auth-2.16.0-pyh1a96a4e_1
++conda-forge/noarch::google-auth-oauthlib-0.8.0-pyhd8ed1ab_0
++conda-forge/noarch::google-cloud-core-2.3.2-pyhd8ed1ab_0
++conda-forge/noarch::google-cloud-storage-2.7.0-pyh1a96a4e_0
++conda-forge/noarch::google-resumable-media-2.4.1-pyhd8ed1ab_0
++conda-forge/noarch::googleapis-common-protos-1.57.1-pyhd8ed1ab_0
++conda-forge/noarch::oauthlib-3.2.2-pyhd8ed1ab_0
++conda-forge/noarch::pyasn1-0.4.8-py_0
++conda-forge/noarch::pyasn1-modules-0.2.7-py_0
++conda-forge/noarch::pyjwt-2.6.0-pyhd8ed1ab_0
++conda-forge/noarch::pyu2f-0.1.5-pyhd8ed1ab_0
++conda-forge/noarch::requests-oauthlib-1.3.1-pyhd8ed1ab_0
++conda-forge/noarch::rsa-4.9-pyhd8ed1ab_0
+# update specs: ['gcsfs']
+==> 2023-01-26 13:46:30 <==
+# cmd: /home/acrnrpg/anaconda3/condabin/conda install -c conda-forge tqdm --y
+# conda version: 22.9.0
++conda-forge/noarch::colorama-0.4.6-pyhd8ed1ab_0
++conda-forge/noarch::tqdm-4.64.1-pyhd8ed1ab_0
+# update specs: ['tqdm']
+==> 2023-03-28 12:52:33 <==
+# cmd: /home/acrnrpg/anaconda3/condabin/conda install -c conda-forge gzip --y
+# conda version: 22.9.0
+-conda-forge/linux-64::openssl-1.1.1s-h0b41bf4_1
++conda-forge/linux-64::gzip-1.12-h166bdaf_0
++conda-forge/linux-64::openssl-1.1.1t-h0b41bf4_0
+# update specs: ['gzip']
+==> 2023-04-13 12:27:02 <==
+# cmd: /home/acrnrpg/anaconda3/condabin/conda install -c anaconda seaborn --y
+# conda version: 22.9.0
+-conda-forge/linux-64::ca-certificates-2022.12.7-ha878542_0
+-conda-forge/linux-64::openssl-1.1.1t-h0b41bf4_0
+-conda-forge/noarch::certifi-2022.12.7-pyhd8ed1ab_0
++anaconda/linux-64::ca-certificates-2023.01.10-h06a4308_0
++anaconda/linux-64::certifi-2022.12.7-py39h06a4308_0
++anaconda/linux-64::openssl-1.1.1s-h7f8727e_0
++anaconda/linux-64::seaborn-0.12.2-py39h06a4308_0
+# update specs: ['seaborn']
+==> 2023-05-09 11:53:11 <==
+# cmd: /home/acrnrpg/anaconda3/condabin/conda install -c anaconda scikit-learn --y
+# conda version: 22.9.0
++anaconda/linux-64::joblib-1.1.1-py39h06a4308_0
++anaconda/linux-64::scikit-learn-1.2.0-py39h6a678d5_0
++anaconda/noarch::threadpoolctl-2.2.0-pyh0d69192_0
+# update specs: ['scikit-learn']
+==> 2023-06-21 11:04:21 <==
+# cmd: /home/acrnrpg/anaconda3/condabin/conda install -c conda-forge zip --y
+# conda version: 22.9.0
+-anaconda/linux-64::ca-certificates-2023.01.10-h06a4308_0
+-anaconda/linux-64::certifi-2022.12.7-py39h06a4308_0
+-anaconda/linux-64::openssl-1.1.1s-h7f8727e_0
++conda-forge/linux-64::ca-certificates-2023.5.7-hbcca054_0
++conda-forge/linux-64::openssl-1.1.1u-hd590300_0
++conda-forge/linux-64::zip-3.0-h7f98852_1
++conda-forge/noarch::certifi-2023.5.7-pyhd8ed1ab_0
+# update specs: ['zip']

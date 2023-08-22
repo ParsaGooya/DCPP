@@ -1,0 +1,343 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [
+    "requests >=2.18.0,<3.0.0dev",
+    "aiohttp >=3.6.2,<4.0.0dev"
+  ],
+  "depends": [
+    "google-crc32c >=1.0,<2.0.0dev",
+    "python >=3.7"
+  ],
+  "extracted_package_dir": "/home/acrnrpg/anaconda3/pkgs/google-resumable-media-2.4.1-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/google/_async_resumable_media/__init__.py",
+    "lib/python3.9/site-packages/google/_async_resumable_media/_download.py",
+    "lib/python3.9/site-packages/google/_async_resumable_media/_helpers.py",
+    "lib/python3.9/site-packages/google/_async_resumable_media/_upload.py",
+    "lib/python3.9/site-packages/google/_async_resumable_media/requests/__init__.py",
+    "lib/python3.9/site-packages/google/_async_resumable_media/requests/_request_helpers.py",
+    "lib/python3.9/site-packages/google/_async_resumable_media/requests/download.py",
+    "lib/python3.9/site-packages/google/_async_resumable_media/requests/upload.py",
+    "lib/python3.9/site-packages/google/resumable_media/__init__.py",
+    "lib/python3.9/site-packages/google/resumable_media/_download.py",
+    "lib/python3.9/site-packages/google/resumable_media/_helpers.py",
+    "lib/python3.9/site-packages/google/resumable_media/_upload.py",
+    "lib/python3.9/site-packages/google/resumable_media/common.py",
+    "lib/python3.9/site-packages/google/resumable_media/requests/__init__.py",
+    "lib/python3.9/site-packages/google/resumable_media/requests/_request_helpers.py",
+    "lib/python3.9/site-packages/google/resumable_media/requests/download.py",
+    "lib/python3.9/site-packages/google/resumable_media/requests/upload.py",
+    "lib/python3.9/site-packages/google_resumable_media-2.4.1-py3.11-nspkg.pth",
+    "lib/python3.9/site-packages/google_resumable_media-2.4.1.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/google_resumable_media-2.4.1.dist-info/LICENSE",
+    "lib/python3.9/site-packages/google_resumable_media-2.4.1.dist-info/METADATA",
+    "lib/python3.9/site-packages/google_resumable_media-2.4.1.dist-info/RECORD",
+    "lib/python3.9/site-packages/google_resumable_media-2.4.1.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/google_resumable_media-2.4.1.dist-info/WHEEL",
+    "lib/python3.9/site-packages/google_resumable_media-2.4.1.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/google_resumable_media-2.4.1.dist-info/namespace_packages.txt",
+    "lib/python3.9/site-packages/google_resumable_media-2.4.1.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/google/_async_resumable_media/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/google/_async_resumable_media/__pycache__/_download.cpython-39.pyc",
+    "lib/python3.9/site-packages/google/_async_resumable_media/__pycache__/_helpers.cpython-39.pyc",
+    "lib/python3.9/site-packages/google/_async_resumable_media/__pycache__/_upload.cpython-39.pyc",
+    "lib/python3.9/site-packages/google/_async_resumable_media/requests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/google/_async_resumable_media/requests/__pycache__/_request_helpers.cpython-39.pyc",
+    "lib/python3.9/site-packages/google/_async_resumable_media/requests/__pycache__/download.cpython-39.pyc",
+    "lib/python3.9/site-packages/google/_async_resumable_media/requests/__pycache__/upload.cpython-39.pyc",
+    "lib/python3.9/site-packages/google/resumable_media/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/google/resumable_media/__pycache__/_download.cpython-39.pyc",
+    "lib/python3.9/site-packages/google/resumable_media/__pycache__/_helpers.cpython-39.pyc",
+    "lib/python3.9/site-packages/google/resumable_media/__pycache__/_upload.cpython-39.pyc",
+    "lib/python3.9/site-packages/google/resumable_media/__pycache__/common.cpython-39.pyc",
+    "lib/python3.9/site-packages/google/resumable_media/requests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/google/resumable_media/requests/__pycache__/_request_helpers.cpython-39.pyc",
+    "lib/python3.9/site-packages/google/resumable_media/requests/__pycache__/download.cpython-39.pyc",
+    "lib/python3.9/site-packages/google/resumable_media/requests/__pycache__/upload.cpython-39.pyc"
+  ],
+  "fn": "google-resumable-media-2.4.1-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "link": {
+    "source": "/home/acrnrpg/anaconda3/pkgs/google-resumable-media-2.4.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "a0d4c902824b3188a61df18c1e8bbf5e",
+  "name": "google-resumable-media",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/acrnrpg/anaconda3/pkgs/google-resumable-media-2.4.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/google/_async_resumable_media/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "81f2e00f20c370a57c7df18268c825b4b8f7df084b9e0f8cc67094866bec8e3b",
+        "sha256_in_prefix": "81f2e00f20c370a57c7df18268c825b4b8f7df084b9e0f8cc67094866bec8e3b",
+        "size_in_bytes": 1736
+      },
+      {
+        "_path": "site-packages/google/_async_resumable_media/_download.py",
+        "path_type": "hardlink",
+        "sha256": "e8744bb168f3fdd7d4a280462e817195fee576fc72f41e911a5c7772fa89cab6",
+        "sha256_in_prefix": "e8744bb168f3fdd7d4a280462e817195fee576fc72f41e911a5c7772fa89cab6",
+        "size_in_bytes": 20354
+      },
+      {
+        "_path": "site-packages/google/_async_resumable_media/_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "11547d4e917327b0f9fc836a2e35f928eabebb805709a7d90a6976398852362b",
+        "sha256_in_prefix": "11547d4e917327b0f9fc836a2e35f928eabebb805709a7d90a6976398852362b",
+        "size_in_bytes": 6572
+      },
+      {
+        "_path": "site-packages/google/_async_resumable_media/_upload.py",
+        "path_type": "hardlink",
+        "sha256": "e128a500b5ba2a81c25695ae3a1926290b72c9d94d7a8877abcefeba03373904",
+        "sha256_in_prefix": "e128a500b5ba2a81c25695ae3a1926290b72c9d94d7a8877abcefeba03373904",
+        "size_in_bytes": 37337
+      },
+      {
+        "_path": "site-packages/google/_async_resumable_media/requests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a803696297a913edb04d58c90bb7223ea9809527d5bd0ce0868792d2e0bb060f",
+        "sha256_in_prefix": "a803696297a913edb04d58c90bb7223ea9809527d5bd0ce0868792d2e0bb060f",
+        "size_in_bytes": 21652
+      },
+      {
+        "_path": "site-packages/google/_async_resumable_media/requests/_request_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "3cfc02f58d08b56ad35a061e7049b833e1afdbdb8ec85a8030d368bf8d11cf87",
+        "sha256_in_prefix": "3cfc02f58d08b56ad35a061e7049b833e1afdbdb8ec85a8030d368bf8d11cf87",
+        "size_in_bytes": 5117
+      },
+      {
+        "_path": "site-packages/google/_async_resumable_media/requests/download.py",
+        "path_type": "hardlink",
+        "sha256": "e715e29a58a0f53096d5eac3a13a437b50738414b8fec016df78c13aa7e0e2f8",
+        "sha256_in_prefix": "e715e29a58a0f53096d5eac3a13a437b50738414b8fec016df78c13aa7e0e2f8",
+        "size_in_bytes": 18751
+      },
+      {
+        "_path": "site-packages/google/_async_resumable_media/requests/upload.py",
+        "path_type": "hardlink",
+        "sha256": "a9e095d7b5ac82c1c98e9f76230e81f1651772e16eb85b0ca0627bcabfec712a",
+        "sha256_in_prefix": "a9e095d7b5ac82c1c98e9f76230e81f1651772e16eb85b0ca0627bcabfec712a",
+        "size_in_bytes": 19252
+      },
+      {
+        "_path": "site-packages/google/resumable_media/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "81f2e00f20c370a57c7df18268c825b4b8f7df084b9e0f8cc67094866bec8e3b",
+        "sha256_in_prefix": "81f2e00f20c370a57c7df18268c825b4b8f7df084b9e0f8cc67094866bec8e3b",
+        "size_in_bytes": 1736
+      },
+      {
+        "_path": "site-packages/google/resumable_media/_download.py",
+        "path_type": "hardlink",
+        "sha256": "bcd40d89dbb7de6f998faf698c25009657752f4f5965030ba505d6d6e60299dc",
+        "sha256_in_prefix": "bcd40d89dbb7de6f998faf698c25009657752f4f5965030ba505d6d6e60299dc",
+        "size_in_bytes": 20656
+      },
+      {
+        "_path": "site-packages/google/resumable_media/_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "6ea530b5b111ac3d9db7408044f9f2da1d72f16d7f046e0db55d32db42e74b7c",
+        "sha256_in_prefix": "6ea530b5b111ac3d9db7408044f9f2da1d72f16d7f046e0db55d32db42e74b7c",
+        "size_in_bytes": 13439
+      },
+      {
+        "_path": "site-packages/google/resumable_media/_upload.py",
+        "path_type": "hardlink",
+        "sha256": "c141d1e85940b9f788131adc3ddd4d3ec249f2337c72cf6ed520a674c7589e7b",
+        "sha256_in_prefix": "c141d1e85940b9f788131adc3ddd4d3ec249f2337c72cf6ed520a674c7589e7b",
+        "size_in_bytes": 39465
+      },
+      {
+        "_path": "site-packages/google/resumable_media/common.py",
+        "path_type": "hardlink",
+        "sha256": "c03e71ec8b232ffa84ab4ed509eac5cc8eb236f78008bfbc9edefa07d33ed664",
+        "sha256_in_prefix": "c03e71ec8b232ffa84ab4ed509eac5cc8eb236f78008bfbc9edefa07d33ed664",
+        "size_in_bytes": 6191
+      },
+      {
+        "_path": "site-packages/google/resumable_media/requests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ef3f037ab4c90bb18e5f6fd36d35cf9fce8aaf8b31312efa7a9026c4a9a34b55",
+        "sha256_in_prefix": "ef3f037ab4c90bb18e5f6fd36d35cf9fce8aaf8b31312efa7a9026c4a9a34b55",
+        "size_in_bytes": 21603
+      },
+      {
+        "_path": "site-packages/google/resumable_media/requests/_request_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "7b6b137712e917e9c81210d47ee6c9f286466372be1a3c1a9341beb29fcdc065",
+        "sha256_in_prefix": "7b6b137712e917e9c81210d47ee6c9f286466372be1a3c1a9341beb29fcdc065",
+        "size_in_bytes": 6151
+      },
+      {
+        "_path": "site-packages/google/resumable_media/requests/download.py",
+        "path_type": "hardlink",
+        "sha256": "e5b72f49820b0366196a8cda802b282fd0b758348982e3a3170426c2000c9d20",
+        "sha256_in_prefix": "e5b72f49820b0366196a8cda802b282fd0b758348982e3a3170426c2000c9d20",
+        "size_in_bytes": 26433
+      },
+      {
+        "_path": "site-packages/google/resumable_media/requests/upload.py",
+        "path_type": "hardlink",
+        "sha256": "e584ca18e26f96c9182c44eb38c5721ede5d1f152e25121649ff81b3b14e33f3",
+        "sha256_in_prefix": "e584ca18e26f96c9182c44eb38c5721ede5d1f152e25121649ff81b3b14e33f3",
+        "size_in_bytes": 20858
+      },
+      {
+        "_path": "site-packages/google_resumable_media-2.4.1-py3.11-nspkg.pth",
+        "path_type": "hardlink",
+        "sha256": "c47e604f1738522a583f7aab6cffb80821cd18157dede051e10aa185e0af065e",
+        "sha256_in_prefix": "c47e604f1738522a583f7aab6cffb80821cd18157dede051e10aa185e0af065e",
+        "size_in_bytes": 539
+      },
+      {
+        "_path": "site-packages/google_resumable_media-2.4.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/google_resumable_media-2.4.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "sha256_in_prefix": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size_in_bytes": 11358
+      },
+      {
+        "_path": "site-packages/google_resumable_media-2.4.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "0fb14273bbd8e6359418ee954743b845dd6afa15258bbf2e84c540fabfb2a816",
+        "sha256_in_prefix": "0fb14273bbd8e6359418ee954743b845dd6afa15258bbf2e84c540fabfb2a816",
+        "size_in_bytes": 2060
+      },
+      {
+        "_path": "site-packages/google_resumable_media-2.4.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "582f990704f0866a43527826758570498bdf972737c025ba824cab88671ed243",
+        "sha256_in_prefix": "582f990704f0866a43527826758570498bdf972737c025ba824cab88671ed243",
+        "size_in_bytes": 3924
+      },
+      {
+        "_path": "site-packages/google_resumable_media-2.4.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/google_resumable_media-2.4.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "6dbd8eb7db1c7251ca30e2c310763a076b227163a0ba08c529a26c4fbbf0310a",
+        "sha256_in_prefix": "6dbd8eb7db1c7251ca30e2c310763a076b227163a0ba08c529a26c4fbbf0310a",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/google_resumable_media-2.4.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "9d96cc36b65d6c4b31193cc09115eddb9b528f4bca3ee4f0096940fe0e3efb9f",
+        "sha256_in_prefix": "9d96cc36b65d6c4b31193cc09115eddb9b528f4bca3ee4f0096940fe0e3efb9f",
+        "size_in_bytes": 118
+      },
+      {
+        "_path": "site-packages/google_resumable_media-2.4.1.dist-info/namespace_packages.txt",
+        "path_type": "hardlink",
+        "sha256": "ff542f48922114019fc5befd0fa0e107b494c365fa4f8af09f3fcb2eb6dc0f77",
+        "sha256_in_prefix": "ff542f48922114019fc5befd0fa0e107b494c365fa4f8af09f3fcb2eb6dc0f77",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "site-packages/google_resumable_media-2.4.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ff542f48922114019fc5befd0fa0e107b494c365fa4f8af09f3fcb2eb6dc0f77",
+        "sha256_in_prefix": "ff542f48922114019fc5befd0fa0e107b494c365fa4f8af09f3fcb2eb6dc0f77",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.9/site-packages/google/_async_resumable_media/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/google/_async_resumable_media/__pycache__/_download.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/google/_async_resumable_media/__pycache__/_helpers.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/google/_async_resumable_media/__pycache__/_upload.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/google/_async_resumable_media/requests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/google/_async_resumable_media/requests/__pycache__/_request_helpers.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/google/_async_resumable_media/requests/__pycache__/download.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/google/_async_resumable_media/requests/__pycache__/upload.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/google/resumable_media/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/google/resumable_media/__pycache__/_download.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/google/resumable_media/__pycache__/_helpers.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/google/resumable_media/__pycache__/_upload.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/google/resumable_media/__pycache__/common.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/google/resumable_media/requests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/google/resumable_media/requests/__pycache__/_request_helpers.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/google/resumable_media/requests/__pycache__/download.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/google/resumable_media/requests/__pycache__/upload.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d997737f75ff1132374f791b267e8a4322652a6b172da885abfc1d4bff18e883",
+  "size": 43529,
+  "subdir": "noarch",
+  "timestamp": 1674205069152,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/google-resumable-media-2.4.1-pyhd8ed1ab_0.conda",
+  "version": "2.4.1"
+}

@@ -1,0 +1,141 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.7"
+  ],
+  "extracted_package_dir": "/home/acrnrpg/anaconda3/pkgs/cachetools-5.3.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/cachetools-5.3.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/cachetools-5.3.0.dist-info/LICENSE",
+    "lib/python3.9/site-packages/cachetools-5.3.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/cachetools-5.3.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/cachetools-5.3.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/cachetools-5.3.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/cachetools-5.3.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/cachetools-5.3.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/cachetools/__init__.py",
+    "lib/python3.9/site-packages/cachetools/func.py",
+    "lib/python3.9/site-packages/cachetools/keys.py",
+    "lib/python3.9/site-packages/cachetools/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/cachetools/__pycache__/func.cpython-39.pyc",
+    "lib/python3.9/site-packages/cachetools/__pycache__/keys.cpython-39.pyc"
+  ],
+  "fn": "cachetools-5.3.0-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/acrnrpg/anaconda3/pkgs/cachetools-5.3.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "fd006afc4115740d8d52887ee813f262",
+  "name": "cachetools",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/acrnrpg/anaconda3/pkgs/cachetools-5.3.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/cachetools-5.3.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/cachetools-5.3.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "76260c1370a7d41d5fac71a27d781f3add5d7249adfbbfa930846d2d9e47dbd5",
+        "sha256_in_prefix": "76260c1370a7d41d5fac71a27d781f3add5d7249adfbbfa930846d2d9e47dbd5",
+        "size_in_bytes": 1085
+      },
+      {
+        "_path": "site-packages/cachetools-5.3.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "32238616a60e3a2e81e9d70c099ae57511f9eb76f0808ebb65ba3ab764b1d086",
+        "sha256_in_prefix": "32238616a60e3a2e81e9d70c099ae57511f9eb76f0808ebb65ba3ab764b1d086",
+        "size_in_bytes": 5187
+      },
+      {
+        "_path": "site-packages/cachetools-5.3.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "59d58fdf0559ac5f13b70dcfa8167a4f1713f3e8455bd8bc0b98d879400a9191",
+        "sha256_in_prefix": "59d58fdf0559ac5f13b70dcfa8167a4f1713f3e8455bd8bc0b98d879400a9191",
+        "size_in_bytes": 1065
+      },
+      {
+        "_path": "site-packages/cachetools-5.3.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/cachetools-5.3.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "sha256_in_prefix": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/cachetools-5.3.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "878ca0104863bbe8372a026c3d0f66f5105da3baefb4510f4f379557c195c4a7",
+        "sha256_in_prefix": "878ca0104863bbe8372a026c3d0f66f5105da3baefb4510f4f379557c195c4a7",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "site-packages/cachetools-5.3.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "6a2d851fbf131b0a017028157e8a9bce4e48402b670ee91d4ace332ae54fbc3b",
+        "sha256_in_prefix": "6a2d851fbf131b0a017028157e8a9bce4e48402b670ee91d4ace332ae54fbc3b",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/cachetools/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "aacb1f1557c82373bb6812ee86aa60501ffc61732c42ed9a3a7203f7c7763426",
+        "sha256_in_prefix": "aacb1f1557c82373bb6812ee86aa60501ffc61732c42ed9a3a7203f7c7763426",
+        "size_in_bytes": 24981
+      },
+      {
+        "_path": "site-packages/cachetools/func.py",
+        "path_type": "hardlink",
+        "sha256": "2b10b0eda921c3e5a496dbec7e0ce42f85c51b1779e2caeaae82b357764fd8e3",
+        "sha256_in_prefix": "2b10b0eda921c3e5a496dbec7e0ce42f85c51b1779e2caeaae82b357764fd8e3",
+        "size_in_bytes": 3616
+      },
+      {
+        "_path": "site-packages/cachetools/keys.py",
+        "path_type": "hardlink",
+        "sha256": "77e7295b6e7613fb95e74c92970d7721ebdd3509d273431f88c562226424b512",
+        "sha256_in_prefix": "77e7295b6e7613fb95e74c92970d7721ebdd3509d273431f88c562226424b512",
+        "size_in_bytes": 1613
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cachetools/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cachetools/__pycache__/func.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/cachetools/__pycache__/keys.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d17f6b5ae744e64a337c9dbad21b8d501916eaf0e55564dc81c78c492783d73a",
+  "size": 14292,
+  "subdir": "noarch",
+  "timestamp": 1674482299714,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/cachetools-5.3.0-pyhd8ed1ab_0.conda",
+  "version": "5.3.0"
+}
