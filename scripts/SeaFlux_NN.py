@@ -4,8 +4,8 @@
 ###################################################################
 
 # This script trains a NN at biome scale with annual resolutions 
-# using SeaFlux products as predictants and a combination of five predictors:
-# SST, SSS, CHL, SfcWind, xCO2atm.
+# using SeaFlux products as predictants and five predictors:
+# SST, SSS, log(CHL), SfcWind squared, xCO2atm.
 # The script trains and saves the models for future predictions.
 
 ######################### Load Packages ############################
@@ -31,7 +31,7 @@ def deseason(ds):
     return ds - ds2
         
 
-### edit xesmf regridded data set coordinates to time x lat x lon :
+### edit xesmf regridded dataset coordinates to time x lat x lon :
 
 def coords_edit(ds):
     
@@ -61,8 +61,8 @@ def mode(obj, dim = None):
                           input_core_dims=[[dim]],
                           kwargs={'axis': axis})
 
-#### Unstack 3-dimentional predictants and predictors into large 1-D matrix. biome referes to the number of
-#### the biome in which training is done. 
+#### Unstack 3-dimentional predictants and predictors into large 1-D arrays. "biome" referes to the
+#### biome number in which training is done. 
 
 
 def unstack(predictors, predictant, biome, chl = True):
@@ -109,15 +109,15 @@ import tensorflow as tf
 import traceback
 from sklearn.model_selection import train_test_split
 
-#### The predictor are concatenated together into a large num_samples x num_predictors matrix. returns predictor and predictant matrices.
+#### The predictor are concatenated together into a large num_samples x num_predictors matrix. The function returns predictor and predictant matrices.
 
 def prepare_data(pred,target,biome, CHL = True):
     
-    x, y = unstack(pred, target, biome, CHL)
+    x, y = unstack(pred, target, biome, CHL) # unstack predictors into 1D arrays
     if CHL:
         
-        x = np.c_[x.atm_anom.values,  x.chl_anom.values,  x.sss_anom.values , x.sst_anom.values, x.wind_anom.values]
-        y = (y.values).reshape(-1,1)
+        x = np.c_[x.atm_anom.values,  x.chl_anom.values,  x.sss_anom.values , x.sst_anom.values, x.wind_anom.values] # put predictors into columns of a large matrix.
+        y = (y.values).reshape(-1,1) # 1D predictant array.
         
     else:
         
@@ -143,7 +143,7 @@ def train_model( network_id, CHL):
         input_dim = x.shape[1]
         output_dim = 1
 
-        ### define the dense one layer keras model with 15 neurons (acquired after testing with different number of neurons)
+        ### define the dense one layer keras model with 15 neurons (acquired after testing with different number of neurons and comparing to the Linear model)
         x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.1, random_state=42)
         model = tf.keras.Sequential([
         tf.keras.layers.Dense(units= 15, activation='sigmoid', input_dim=input_dim),
@@ -204,7 +204,7 @@ def train_model( network_id, CHL):
 
 def pool_map(arguments):
     
-    results = pool.starmap(train_model, arguments)
+    results = pool.starmap(train_model, arguments) ## ask the pool to run train_model function for every argument set in arguments
     pool.close()
     pool.join()
     return results
@@ -212,12 +212,12 @@ def pool_map(arguments):
 
 ########################################### load data #####################################################
 ### Load biomes
-biomes = xr.open_dataset('/fs/ccchome/acrnrpg/DCPP-local/Linear_regression/SOM_4_4_biomes.nc').biomes
+biomes = xr.open_dataset('~/Linear_regression/SOM_4_4_biomes.nc').biomes
 biomes = mode(biomes, dim = 'time')
 ### Obseravational predictors
-atm = xr.open_dataset('/fs/ccchome/acrnrpg/DCPP-local/atm_historical_obs_1972-2020.nc').rename({'__xarray_dataarray_variable__' : 'xCO2atm'}).xCO2atm.sel(time = slice(f'{1990}',f'{2019}'))
-obs = xr.open_dataset('/fs/ccchome/acrnrpg/DCPP-local/Linear_regression/obs_predictors.nc').drop('mld').sel(time = slice(f'{1990}',f'{2019}'))
-wind = xr.open_dataset('/fs/ccchome/acrnrpg/DCPP-local/wind/wind_obs_1982-2020.nc').wind.sel(time = slice(f'{1990}',f'{2019}'))
+atm = xr.open_dataset('~/atm_historical_obs_1972-2020.nc').rename({'__xarray_dataarray_variable__' : 'xCO2atm'}).xCO2atm.sel(time = slice(f'{1990}',f'{2019}'))
+obs = xr.open_dataset('~/Linear_regression/obs_predictors.nc').drop('mld').sel(time = slice(f'{1990}',f'{2019}'))
+wind = xr.open_dataset('~/wind_obs_1982-2020.nc').wind.sel(time = slice(f'{1990}',f'{2019}'))
 obs = xr.combine_by_coords([obs, wind, deseason(wind).to_dataset(name = 'wind_anom')])
 obs['atm_anom'] = deseason(obs.atm)
 obs['sst_anom'] = deseason(obs.sst)
@@ -226,15 +226,15 @@ obs['chl_anom'] = deseason(obs.chl)
 
 
 ##################### Load SeaFlux observation based product for ocean carbon flux as predictant ##############
-sink =  xr.open_dataset('SeaFlux_v2021.04_fgco2_all_winds_products.nc?download=1', engine = 'netcdf4').sel(wind = 'ERA5').fgco2
+sink =  xr.open_dataset('~/SeaFlux_v2021.04_fgco2_all_winds_products.nc?download=1', engine = 'netcdf4').sel(wind = 'ERA5').fgco2
 sink['time'] = obs['time']
 
 ###############################################################################################################
 
-
+# For each of the products below, set ds and run the script. 
 # ['JENA_MLS', 'MPI_SOMFFN', 'CMEMS_FFNN', 'CSIR_ML6', 'JMA_MLR',  'NIES_FNN', 'Mean']
 
-ds = "Mean"  ### Choose ds from the list above
+ds = "Mean"  # change with the products above.
 print(f'training for {ds}')
 
 
@@ -258,11 +258,11 @@ print("End Time Map:", (datetime.now() - start).total_seconds())
 for i in range(16):
 
     try:
-        results[i][1].save(f"NN_models/SeaFlux/{ds}/{ds}_annual_SOMFFN_sigmoid15_biome{i+1}_chl.h5") 
+        results[i][1].save(f"~/NN_models/SeaFlux/{ds}/models/{ds}_annual_SOMFFN_sigmoid15_biome{i+1}_chl.h5") 
     except:
         print(f'biome {i+1} with CHL is empty')
     try:
-        results[i+16][1].save(f"NN_models/SeaFlux/{ds}/{ds}_annual_SOMFFN_sigmoid15_biome{i+1}_no_chl.h5")
+        results[i+16][1].save(f"~/NN_models/SeaFlux/{ds}/models/{ds}_annual_SOMFFN_sigmoid15_biome{i+1}_no_chl.h5")
     except:
         print(f'biome {i+1} without CHL is empty')
 

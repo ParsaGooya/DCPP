@@ -33,7 +33,7 @@ def coords_edit(ds):
 
 
 
-### Load data from internal sources: change the dirr to the path where your data is stored and adjust the time period as required
+### Load data from internal sources: change the "dirr" to the path where your data is stored and adjust the time period as required
 
 realm = {'sfcWind' : 'Amon', 'siconc' : 'SImon'}
 
@@ -167,7 +167,7 @@ def grab_data(var, run, realizations):
 
 
 
-### findng the linear trend over a fixed period of time (1980 - 2020 here).
+### findng the linear fit over a fixed period of time (1980 - 2020 here).
 ### note: the model data you use might extend beyond 2020. However, the obseravational data used for bias correction only carries over to 2020. 
 ### So we calculate the trend and mean over the same period where we have observations and extend the trend to the same time length of the model data. 
 
@@ -222,7 +222,7 @@ def bias_correction(model, obs):
     
     return temp, extended_trend + obs.mean('time')
 
-### define bias correction for CHL. The bias correction is applied on log(CHL) and only for adjusting the mean and not trend.
+### define bias correction for CHL. The bias correction is applied on log(CHL) and only for adjusting the mean and not the trend.
 ### Note: observational CHL data only extends back to 1998. For estimates prior to that date, Landschutzer et al (2016)
 ### uses a repeating seasonal cycle over the period where data is available and extends it back from 1998 to 1982. Since this obsearvational data is used for training
 ### the NN model, we apply the same procedure to the model data for consistency with what the model is used to seing and acquiring better fits over the historical period.
@@ -291,8 +291,8 @@ xr.combine_by_coords(ls).to_netcdf(f'CanESM5_historical_predictors_EM_1980_2020.
 
 ######################## Bias correction #####################
 ## Load observational data based on which you want to apply bias correction
-obs = xr.open_dataset('/fs/ccchome/acrnrpg/DCPP-local/obs_predictors.nc')
-wind_obs = xr.open_dataset('/fs/ccchome/acrnrpg/DCPP-local/wind/wind_obs_1982-2020.nc').wind
+obs = xr.open_dataset('~/obs_predictors.nc')
+wind_obs = xr.open_dataset('~/wind_obs_1982-2020.nc').wind
 
 ## Load hindcast predictors
 predictors_hindcast = {}
