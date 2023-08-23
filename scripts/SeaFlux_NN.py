@@ -4,8 +4,8 @@
 ###################################################################
 
 # This script trains a NN at biome scale with annual resolutions 
-# using SeaFlux products as predictants and a combination of five predictors:
-# SST, SSS, CHL, SfcWind, xCO2atm.
+# using SeaFlux products as predictants and five predictors:
+# SST, SSS, log(CHL), SfcWind squared, xCO2atm.
 # The script trains and saves the models for future predictions.
 
 ######################### Load Packages ############################
