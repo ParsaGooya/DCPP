@@ -42,7 +42,8 @@ def grab_data(var, run, realizations):
         ds_out = xe.util.grid_global(1, 1)
         if run == 'assim': 
             
-            if var in ['sfcWind', 'siconc']:  ## my SfcWind and ice concentration data is stores in a different place than the other predictors
+            if var in ['sfcWind', 'siconc']:  ## my SfcWind and ice concentration data are stores in a different place than the other predictors. You can remove this
+                                              ## if/else clause if you only have one directory.
                 
                 dirr = '/home/acrnrpg/CMIP6/DCPP/CCCma/CanESM5/dcppA-assim'               
             
@@ -146,7 +147,7 @@ def grab_data(var, run, realizations):
                     except:
                         print(r,year)
                 try:        
-                    hindcast_dict[year] = xr.concat([ds for key, ds in dsets.items()], dim = 'member').assign_coords(member = list(dsets.keys()) ).mean('member') # remove .mean('member') if you need large ensemble instead of means
+                    hindcast_dict[year] = xr.concat([ds for key, ds in dsets.items()], dim = 'member').assign_coords(member = list(dsets.keys()) ).mean('member') # remove .mean('member') if you need large ensemble instead of ensemble means
                 except:
                     pass
             
@@ -256,7 +257,7 @@ def chl_edit(ds, obs):
     return  chl
 
 
-########################### Load CanESM5 data ########################
+########################### Load CanESM5 predictor data ########################
 
 realization = [f'r{i}i1p2f1' for i in range(1,21)]  ## we use 20 ensemble memners for historical and hindcast runs
 
@@ -350,3 +351,4 @@ ls = [sst,sst_anom,sss,sss_anom, chl, chl_anom, wind] ## combine the data
 xr.combine_by_coords(ls).to_netcdf(f'CanESM5_historical_predictors_EM_1980_2020_bias_corrected.nc')
 
 ### NOTE: Assimilation predictors are not bias corrected. However, CHL predictors should be unit corrected.
+### NOTE: You can load fgco2 and bias correct them to your obsearvational benchmark of choice by adjusting the code above using same functions.
