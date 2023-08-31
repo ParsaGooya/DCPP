@@ -216,7 +216,7 @@ biomes = xr.open_dataset('~/Linear_regression/SOM_4_4_biomes.nc').biomes
 biomes = mode(biomes, dim = 'time')
 ### Obseravational predictors
 atm = xr.open_dataset('~/atm_historical_obs_1972-2020.nc').rename({'__xarray_dataarray_variable__' : 'xCO2atm'}).xCO2atm.sel(time = slice(f'{1990}',f'{2019}'))
-obs = xr.open_dataset('~/Linear_regression/obs_predictors.nc').drop('mld').sel(time = slice(f'{1990}',f'{2019}'))
+obs = xr.open_dataset('~/obs_predictors.nc').drop('mld').sel(time = slice(f'{1990}',f'{2019}'))
 wind = xr.open_dataset('~/wind_obs_1982-2020.nc').wind.sel(time = slice(f'{1990}',f'{2019}'))
 obs = xr.combine_by_coords([obs, wind, deseason(wind).to_dataset(name = 'wind_anom')])
 obs['atm_anom'] = deseason(obs.atm)

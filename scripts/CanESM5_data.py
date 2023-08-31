@@ -1,3 +1,7 @@
+## NOTE: all data are downloaded from ESGF using the search_esgf package:
+## https://gitlab.com/JamesAnstey/search_esgf
+
+
 # supress warnings
 import warnings
 warnings.filterwarnings('ignore') # don't output warnings
@@ -18,7 +22,7 @@ import glob
 from tqdm import tqdm
 
 
-### edit xesmf regridded data set coordinates to time x lat x lon :
+### edit xesmf regridded dataset coordinates to time x lat x lon :
 def coords_edit(ds):
     
     lat = ds.lat.values[:,0]
